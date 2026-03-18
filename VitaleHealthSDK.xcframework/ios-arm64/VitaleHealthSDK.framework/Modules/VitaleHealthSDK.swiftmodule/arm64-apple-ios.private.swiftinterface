@@ -1,0 +1,74 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name VitaleHealthSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import DeveloperToolsSupport
+import Foundation
+import Network
+import NutritionIASDK
+import Swift
+import SwiftUI
+import TrainingSDK
+import UIKit
+@_exported import VitaleHealthSDK
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.log
+import os
+@_hasMissingDesignatedInitializers public class VitaleSDK {
+  public static let shared: VitaleHealthSDK.VitaleSDK
+  weak public var vitaleSDKDelegate: (any VitaleHealthSDK.VitaleSDKDelegate)?
+  public func setDelegate(_ delegate: any VitaleHealthSDK.VitaleSDKDelegate)
+  public func startSDKWith(appID: Swift.String, password: Swift.String, userID: Swift.String, url: Swift.String? = nil, userCenter: Swift.String? = nil)
+  public func setMainColor(color: Swift.String)
+  public func setPrimaryButtonColor(_ color: Swift.String)
+  public func setUserCenter(_ center: Swift.String)
+  public func setNavigationBarColor(color: Swift.String)
+  public func setNavigationTintColor(color: Swift.String)
+  public func showVitale()
+  public func showNutrition()
+  public func showTraining()
+  public func setNutritionCountry(country: Swift.Int)
+  public func showTodaytraining()
+  public func showLibrary()
+  public func showCustomWorkouts()
+  public func showTimeBasedWorkouts()
+  public func showProfile()
+  public func showSettings()
+  public func setSmallLogo(_ logo: UIKit.UIImage?)
+  public func updatePersonalProfile(firstName: Swift.String? = nil, lastName: Swift.String? = nil, gender: VitaleHealthSDK.UserGender? = nil, height: Swift.Int? = nil, weight: Swift.Double? = nil, birthDate: Foundation.Date? = nil)
+  public func setPathologies(_ pathologies: [TrainingSDK.Pathologies])
+  public func getProfile(_ completion: @escaping (VitaleHealthSDK.UserProfile?) -> ())
+  @objc deinit
+}
+public protocol VitaleSDKDelegate : AnyObject {
+  func newEvent(_ eventName: Swift.String)
+}
+public enum UserGender : Swift.Int, Swift.Codable {
+  case unknow, male, female
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct UserProfile : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension UIKit.UIImage {
+  public enum ImageFormat {
+    case png
+    case jpeg(CoreFoundation.CGFloat)
+  }
+  public func base64(format: UIKit.UIImage.ImageFormat) -> Swift.String?
+}
+extension Foundation.URL {
+  public var queryParameters: [Swift.String : Swift.String]? {
+    get
+  }
+}
+extension VitaleHealthSDK.UserGender : Swift.Equatable {}
+extension VitaleHealthSDK.UserGender : Swift.Hashable {}
+extension VitaleHealthSDK.UserGender : Swift.RawRepresentable {}

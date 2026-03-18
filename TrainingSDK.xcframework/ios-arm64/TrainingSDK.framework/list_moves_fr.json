@@ -1,0 +1,47 @@
+[
+    {
+        "codigo": "1",
+        "lang": "fr",
+        "title": "Pousser"
+    },
+    {
+        "codigo": "2",
+        "lang": "fr",
+        "title": "Stabiliser"
+    },
+    {
+        "codigo": "3",
+        "lang": "fr",
+        "title": "Rotation"
+    },
+    {
+        "codigo": "4",
+        "lang": "fr",
+        "title": "Atteindre"
+    },
+    {
+        "codigo": "5",
+        "lang": "fr",
+        "title": "Lève-toi"
+    },
+    {
+        "codigo": "6",
+        "lang": "fr",
+        "title": "Tirer sur"
+    },
+    {
+        "codigo": "7",
+        "lang": "fr",
+        "title": "Locomotion"
+    },
+    {
+        "codigo": "8",
+        "lang": "fr",
+        "title": "Crouch"
+    },
+    {
+        "codigo": "9",
+        "lang": "fr",
+        "title": "Poumons"
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "codigo": "1",
+        "lang": "es",
+        "title": "Empujar"
+    },
+    {
+        "codigo": "2",
+        "lang": "es",
+        "title": "Estabilizar"
+    },
+    {
+        "codigo": "3",
+        "lang": "es",
+        "title": "Rotar"
+    },
+    {
+        "codigo": "4",
+        "lang": "es",
+        "title": "Alcanzar"
+    },
+    {
+        "codigo": "5",
+        "lang": "es",
+        "title": "Levantarse"
+    },
+    {
+        "codigo": "6",
+        "lang": "es",
+        "title": "Tirar"
+    },
+    {
+        "codigo": "7",
+        "lang": "es",
+        "title": "Locomoción"
+    },
+    {
+        "codigo": "8",
+        "lang": "es",
+        "title": "Agacharse"
+    },
+    {
+        "codigo": "9",
+        "lang": "es",
+        "title": "Lunge"
+    }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "codigo": "0",
+    "lang": "es",
+    "title": "Calentamiento",
+    "type": "0",
+    "pond": "0.50"
+  },
+  {
+    "codigo": "1",
+    "lang": "es",
+    "title": "Iniciación",
+    "type": "0",
+    "pond": "0.80"
+  },
+  {
+    "codigo": "2",
+    "lang": "es",
+    "title": "Intermedio",
+    "type": "0",
+    "pond": "0.90"
+  },
+  {
+    "codigo": "3",
+    "lang": "es",
+    "title": "Avanzado",
+    "type": "0",
+    "pond": "1.00"
+  },
+  {
+    "codigo": "4",
+    "lang": "es",
+    "title": "Salud",
+    "type": "0",
+    "pond": "0.8"
+  },
+    {
+    "codigo": "5",
+    "lang": "es",
+    "title": "Senior",
+    "type": "0",
+    "pond": "0.8"
+  }
+]

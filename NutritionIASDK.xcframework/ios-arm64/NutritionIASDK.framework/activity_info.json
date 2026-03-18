@@ -1,0 +1,22 @@
+[
+	{
+		"title": "VERY_LIGHT_TITLE",
+		"text": "VERY_LIGHT_TEXT"
+	},
+	{
+		"title": "LIGHT_TITLE",
+		"text": "LIGHT_TEXT"
+	},
+	{
+		"title": "MEDIUM_TITLE",
+		"text": "MEDIUM_TEXT"
+	},
+	{
+		"title": "INTENSE_TITLE",
+		"text": "INTENSE_TEXT"
+	},
+	{
+		"title": "VERY_INTENSE_TITLE",
+		"text": "VERY_INTENSE_TEXT"
+	}
+]

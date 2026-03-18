@@ -1,0 +1,3703 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "VitaleHealthSDK",
+    "printedName": "VitaleHealthSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "TrainingSDK",
+        "printedName": "TrainingSDK",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NutritionIASDK",
+        "printedName": "NutritionIASDK",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "TrainingSDK",
+        "printedName": "TrainingSDK",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VitaleSDK",
+        "printedName": "VitaleSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VitaleSDK",
+                "printedName": "VitaleHealthSDK.VitaleSDK",
+                "usr": "s:15VitaleHealthSDK0aC0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15VitaleHealthSDK0aC0C6sharedACvpZ",
+            "mangledName": "$s15VitaleHealthSDK0aC0C6sharedACvpZ",
+            "moduleName": "VitaleHealthSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VitaleSDK",
+                    "printedName": "VitaleHealthSDK.VitaleSDK",
+                    "usr": "s:15VitaleHealthSDK0aC0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15VitaleHealthSDK0aC0C6sharedACvgZ",
+                "mangledName": "$s15VitaleHealthSDK0aC0C6sharedACvgZ",
+                "moduleName": "VitaleHealthSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "vitaleSDKDelegate",
+            "printedName": "vitaleSDKDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any VitaleHealthSDK.VitaleSDKDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15VitaleHealthSDK0aC0C17vitaleSDKDelegateAA0aE0_pSgvp",
+            "mangledName": "$s15VitaleHealthSDK0aC0C17vitaleSDKDelegateAA0aE0_pSgvp",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any VitaleHealthSDK.VitaleSDKDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VitaleSDKDelegate",
+                        "printedName": "any VitaleHealthSDK.VitaleSDKDelegate",
+                        "usr": "s:15VitaleHealthSDK0A11SDKDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15VitaleHealthSDK0aC0C17vitaleSDKDelegateAA0aE0_pSgvg",
+                "mangledName": "$s15VitaleHealthSDK0aC0C17vitaleSDKDelegateAA0aE0_pSgvg",
+                "moduleName": "VitaleHealthSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any VitaleHealthSDK.VitaleSDKDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VitaleSDKDelegate",
+                        "printedName": "any VitaleHealthSDK.VitaleSDKDelegate",
+                        "usr": "s:15VitaleHealthSDK0A11SDKDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15VitaleHealthSDK0aC0C17vitaleSDKDelegateAA0aE0_pSgvs",
+                "mangledName": "$s15VitaleHealthSDK0aC0C17vitaleSDKDelegateAA0aE0_pSgvs",
+                "moduleName": "VitaleHealthSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15VitaleHealthSDK0aC0C17vitaleSDKDelegateAA0aE0_pSgvM",
+                "mangledName": "$s15VitaleHealthSDK0aC0C17vitaleSDKDelegateAA0aE0_pSgvM",
+                "moduleName": "VitaleHealthSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setDelegate",
+            "printedName": "setDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VitaleSDKDelegate",
+                "printedName": "any VitaleHealthSDK.VitaleSDKDelegate",
+                "usr": "s:15VitaleHealthSDK0A11SDKDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C11setDelegateyyAA0A11SDKDelegate_pF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C11setDelegateyyAA0A11SDKDelegate_pF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startSDKWith",
+            "printedName": "startSDKWith(appID:password:userID:url:userCenter:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C12startSDKWith5appID8password04userG03url0I6CenterySS_S3SSgAJtF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C12startSDKWith5appID8password04userG03url0I6CenterySS_S3SSgAJtF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMainColor",
+            "printedName": "setMainColor(color:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C12setMainColor5colorySS_tF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C12setMainColor5colorySS_tF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPrimaryButtonColor",
+            "printedName": "setPrimaryButtonColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C21setPrimaryButtonColoryySSF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C21setPrimaryButtonColoryySSF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserCenter",
+            "printedName": "setUserCenter(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C13setUserCenteryySSF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C13setUserCenteryySSF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNavigationBarColor",
+            "printedName": "setNavigationBarColor(color:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C21setNavigationBarColor5colorySS_tF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C21setNavigationBarColor5colorySS_tF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNavigationTintColor",
+            "printedName": "setNavigationTintColor(color:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C22setNavigationTintColor5colorySS_tF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C22setNavigationTintColor5colorySS_tF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showVitale",
+            "printedName": "showVitale()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C04showA0yyF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C04showA0yyF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showNutrition",
+            "printedName": "showNutrition()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C13showNutritionyyF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C13showNutritionyyF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showTraining",
+            "printedName": "showTraining()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C12showTrainingyyF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C12showTrainingyyF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNutritionCountry",
+            "printedName": "setNutritionCountry(country:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C19setNutritionCountry7countryySi_tF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C19setNutritionCountry7countryySi_tF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showTodaytraining",
+            "printedName": "showTodaytraining()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C17showTodaytrainingyyF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C17showTodaytrainingyyF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showLibrary",
+            "printedName": "showLibrary()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C11showLibraryyyF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C11showLibraryyyF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showCustomWorkouts",
+            "printedName": "showCustomWorkouts()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C18showCustomWorkoutsyyF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C18showCustomWorkoutsyyF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showTimeBasedWorkouts",
+            "printedName": "showTimeBasedWorkouts()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C21showTimeBasedWorkoutsyyF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C21showTimeBasedWorkoutsyyF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showProfile",
+            "printedName": "showProfile()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C11showProfileyyF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C11showProfileyyF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showSettings",
+            "printedName": "showSettings()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C12showSettingsyyF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C12showSettingsyyF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSmallLogo",
+            "printedName": "setSmallLogo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C12setSmallLogoyySo7UIImageCSgF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C12setSmallLogoyySo7UIImageCSgF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updatePersonalProfile",
+            "printedName": "updatePersonalProfile(firstName:lastName:gender:height:weight:birthDate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VitaleHealthSDK.UserGender?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserGender",
+                    "printedName": "VitaleHealthSDK.UserGender",
+                    "usr": "s:15VitaleHealthSDK10UserGenderO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C21updatePersonalProfile9firstName04lastH06gender6height6weight9birthDateySSSg_AkA10UserGenderOSgSiSgSdSg10Foundation0N0VSgtF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C21updatePersonalProfile9firstName04lastH06gender6height6weight9birthDateySSSg_AkA10UserGenderOSgSiSgSdSg10Foundation0N0VSgtF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPathologies",
+            "printedName": "setPathologies(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[TrainingSDK.Pathologies]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Pathologies",
+                    "printedName": "TrainingSDK.Pathologies",
+                    "usr": "s:11TrainingSDK11PathologiesO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C14setPathologiesyySay08TrainingC00E0OGF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C14setPathologiesyySay08TrainingC00E0OGF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getProfile",
+            "printedName": "getProfile(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VitaleHealthSDK.UserProfile?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VitaleHealthSDK.UserProfile?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserProfile",
+                        "printedName": "VitaleHealthSDK.UserProfile",
+                        "usr": "s:15VitaleHealthSDK11UserProfileV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C10getProfileyyyAA04UserE0VSgcF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C10getProfileyyyAA04UserE0VSgcF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15VitaleHealthSDK0aC0C",
+        "mangledName": "$s15VitaleHealthSDK0aC0C",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VitaleSDKDelegate",
+        "printedName": "VitaleSDKDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "newEvent",
+            "printedName": "newEvent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0A11SDKDelegateP8newEventyySSF",
+            "mangledName": "$s15VitaleHealthSDK0A11SDKDelegateP8newEventyySSF",
+            "moduleName": "VitaleHealthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : VitaleHealthSDK.VitaleSDKDelegate>",
+            "sugared_genericSig": "<Self where Self : VitaleHealthSDK.VitaleSDKDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15VitaleHealthSDK0A11SDKDelegateP",
+        "mangledName": "$s15VitaleHealthSDK0A11SDKDelegateP",
+        "moduleName": "VitaleHealthSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NutritionIASDK",
+        "printedName": "NutritionIASDK",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "TrainingSDK",
+        "printedName": "TrainingSDK",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TrainingSDK",
+        "printedName": "TrainingSDK",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserGender",
+        "printedName": "UserGender",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknow",
+            "printedName": "unknow",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VitaleHealthSDK.UserGender.Type) -> VitaleHealthSDK.UserGender",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserGender",
+                    "printedName": "VitaleHealthSDK.UserGender",
+                    "usr": "s:15VitaleHealthSDK10UserGenderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VitaleHealthSDK.UserGender.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserGender",
+                        "printedName": "VitaleHealthSDK.UserGender",
+                        "usr": "s:15VitaleHealthSDK10UserGenderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15VitaleHealthSDK10UserGenderO6unknowyA2CmF",
+            "mangledName": "$s15VitaleHealthSDK10UserGenderO6unknowyA2CmF",
+            "moduleName": "VitaleHealthSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "male",
+            "printedName": "male",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VitaleHealthSDK.UserGender.Type) -> VitaleHealthSDK.UserGender",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserGender",
+                    "printedName": "VitaleHealthSDK.UserGender",
+                    "usr": "s:15VitaleHealthSDK10UserGenderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VitaleHealthSDK.UserGender.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserGender",
+                        "printedName": "VitaleHealthSDK.UserGender",
+                        "usr": "s:15VitaleHealthSDK10UserGenderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15VitaleHealthSDK10UserGenderO4maleyA2CmF",
+            "mangledName": "$s15VitaleHealthSDK10UserGenderO4maleyA2CmF",
+            "moduleName": "VitaleHealthSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "female",
+            "printedName": "female",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VitaleHealthSDK.UserGender.Type) -> VitaleHealthSDK.UserGender",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserGender",
+                    "printedName": "VitaleHealthSDK.UserGender",
+                    "usr": "s:15VitaleHealthSDK10UserGenderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VitaleHealthSDK.UserGender.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserGender",
+                        "printedName": "VitaleHealthSDK.UserGender",
+                        "usr": "s:15VitaleHealthSDK10UserGenderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15VitaleHealthSDK10UserGenderO6femaleyA2CmF",
+            "mangledName": "$s15VitaleHealthSDK10UserGenderO6femaleyA2CmF",
+            "moduleName": "VitaleHealthSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VitaleHealthSDK.UserGender?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserGender",
+                    "printedName": "VitaleHealthSDK.UserGender",
+                    "usr": "s:15VitaleHealthSDK10UserGenderO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15VitaleHealthSDK10UserGenderO8rawValueACSgSi_tcfc",
+            "mangledName": "$s15VitaleHealthSDK10UserGenderO8rawValueACSgSi_tcfc",
+            "moduleName": "VitaleHealthSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15VitaleHealthSDK10UserGenderO8rawValueSivp",
+            "mangledName": "$s15VitaleHealthSDK10UserGenderO8rawValueSivp",
+            "moduleName": "VitaleHealthSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15VitaleHealthSDK10UserGenderO8rawValueSivg",
+                "mangledName": "$s15VitaleHealthSDK10UserGenderO8rawValueSivg",
+                "moduleName": "VitaleHealthSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15VitaleHealthSDK10UserGenderO",
+        "mangledName": "$s15VitaleHealthSDK10UserGenderO",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserProfile",
+        "printedName": "UserProfile",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserProfile",
+                "printedName": "VitaleHealthSDK.UserProfile",
+                "usr": "s:15VitaleHealthSDK11UserProfileV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15VitaleHealthSDK11UserProfileV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15VitaleHealthSDK11UserProfileV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "VitaleHealthSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK11UserProfileV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15VitaleHealthSDK11UserProfileV6encode2toys7Encoder_p_tKF",
+            "moduleName": "VitaleHealthSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15VitaleHealthSDK11UserProfileV",
+        "mangledName": "$s15VitaleHealthSDK11UserProfileV",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "TrainingSDK",
+        "printedName": "TrainingSDK",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NutritionIASDK",
+        "printedName": "NutritionIASDK",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "TrainingSDK",
+        "printedName": "TrainingSDK",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "NutritionIASDK",
+        "printedName": "NutritionIASDK",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "TrainingSDK",
+        "printedName": "TrainingSDK",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "VitaleHealthSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "String",
+        "printedName": "String",
+        "declKind": "Struct",
+        "usr": "s:SS",
+        "mangledName": "$sSS",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "EagerMove",
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStream",
+            "printedName": "TextOutputStream",
+            "usr": "s:s16TextOutputStreamP",
+            "mangledName": "$ss16TextOutputStreamP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinStringLiteral",
+            "printedName": "_ExpressibleByBuiltinStringLiteral",
+            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StringProtocol",
+            "printedName": "StringProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UTF8View",
+                "printedName": "UTF8View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF8View",
+                    "printedName": "Swift.String.UTF8View",
+                    "usr": "s:SS8UTF8ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UTF16View",
+                "printedName": "UTF16View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF16View",
+                    "printedName": "Swift.String.UTF16View",
+                    "usr": "s:SS9UTF16ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarView",
+                "printedName": "UnicodeScalarView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnicodeScalarView",
+                    "printedName": "Swift.String.UnicodeScalarView",
+                    "usr": "s:SS17UnicodeScalarViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sy",
+            "mangledName": "$sSy"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringInterpolation",
+            "printedName": "ExpressibleByStringInterpolation",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringInterpolation",
+                "printedName": "StringInterpolation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultStringInterpolation",
+                    "printedName": "Swift.DefaultStringInterpolation",
+                    "usr": "s:s26DefaultStringInterpolationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s32ExpressibleByStringInterpolationP",
+            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "ImageFormat",
+            "printedName": "ImageFormat",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "png",
+                "printedName": "png",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage.ImageFormat.Type) -> UIKit.UIImage.ImageFormat",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageFormat",
+                        "printedName": "UIKit.UIImage.ImageFormat",
+                        "usr": "s:So7UIImageC15VitaleHealthSDKE11ImageFormatO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UIKit.UIImage.ImageFormat.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ImageFormat",
+                            "printedName": "UIKit.UIImage.ImageFormat",
+                            "usr": "s:So7UIImageC15VitaleHealthSDKE11ImageFormatO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So7UIImageC15VitaleHealthSDKE11ImageFormatO3pngyA2EmF",
+                "mangledName": "$sSo7UIImageC15VitaleHealthSDKE11ImageFormatO3pngyA2EmF",
+                "moduleName": "VitaleHealthSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "jpeg",
+                "printedName": "jpeg",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage.ImageFormat.Type) -> (CoreGraphics.CGFloat) -> UIKit.UIImage.ImageFormat",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CoreGraphics.CGFloat) -> UIKit.UIImage.ImageFormat",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ImageFormat",
+                            "printedName": "UIKit.UIImage.ImageFormat",
+                            "usr": "s:So7UIImageC15VitaleHealthSDKE11ImageFormatO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGFloat",
+                            "printedName": "CoreGraphics.CGFloat",
+                            "usr": "s:14CoreFoundation7CGFloatV"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UIKit.UIImage.ImageFormat.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ImageFormat",
+                            "printedName": "UIKit.UIImage.ImageFormat",
+                            "usr": "s:So7UIImageC15VitaleHealthSDKE11ImageFormatO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So7UIImageC15VitaleHealthSDKE11ImageFormatO4jpegyAE14CoreFoundation7CGFloatVcAEmF",
+                "mangledName": "$sSo7UIImageC15VitaleHealthSDKE11ImageFormatO4jpegyAE12CoreGraphics7CGFloatVcAEmF",
+                "moduleName": "VitaleHealthSDK"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:So7UIImageC15VitaleHealthSDKE11ImageFormatO",
+            "mangledName": "$sSo7UIImageC15VitaleHealthSDKE11ImageFormatO",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "base64",
+            "printedName": "base64(format:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageFormat",
+                "printedName": "UIKit.UIImage.ImageFormat",
+                "usr": "s:So7UIImageC15VitaleHealthSDKE11ImageFormatO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC15VitaleHealthSDKE6base646formatSSSgAbCE11ImageFormatO_tF",
+            "mangledName": "$sSo7UIImageC15VitaleHealthSDKE6base646formatSSSgAbCE11ImageFormatO_tF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URL",
+        "printedName": "URL",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "queryParameters",
+            "printedName": "queryParameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Foundation3URLV15VitaleHealthSDKE15queryParametersSDyS2SGSgvp",
+            "mangledName": "$s10Foundation3URLV15VitaleHealthSDKE15queryParametersSDyS2SGSgvp",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Foundation3URLV15VitaleHealthSDKE15queryParametersSDyS2SGSgvg",
+                "mangledName": "$s10Foundation3URLV15VitaleHealthSDKE15queryParametersSDyS2SGSgvg",
+                "moduleName": "VitaleHealthSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Foundation3URLV",
+        "mangledName": "$s10Foundation3URLV",
+        "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURL",
+                    "printedName": "Foundation.NSURL",
+                    "usr": "c:objc(cs)NSURL"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURL",
+                    "printedName": "Foundation.NSURL",
+                    "usr": "c:objc(cs)NSURL"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByFileReferenceLiteral",
+            "printedName": "_ExpressibleByFileReferenceLiteral",
+            "usr": "s:s34_ExpressibleByFileReferenceLiteralP",
+            "mangledName": "$ss34_ExpressibleByFileReferenceLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UILabel",
+        "printedName": "UILabel",
+        "declKind": "Class",
+        "usr": "c:objc(cs)UILabel",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UILabel",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIButton",
+        "printedName": "UIButton",
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIButton",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIButton",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIControl",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIControl",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/HalfSection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1576,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 16,
+      "value": "\"NetworkMonitor\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Utils.swift",
+      "kind": "Array",
+      "offset": 343,
+      "length": 12,
+      "value": "[\"es\", \"pt\"]"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Utils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 401,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitalePieChartView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 212,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitalePieChartView.swift",
+      "kind": "FloatLiteral",
+      "offset": 306,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitalePieChartView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 409,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitalePieChartView.swift",
+      "kind": "FloatLiteral",
+      "offset": 445,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 154,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 160,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1500,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 2249,
+      "length": 15,
+      "value": "\"timezone_type\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 2585,
+      "length": 28,
+      "value": "\"yyyy-MM-dd HH:mm:ss.SSSSSS\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 2660,
+      "length": 13,
+      "value": "\"en_US_POSIX\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/StatSection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 117,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/Controllers\/SettingsViewController.swift",
+      "kind": "Array",
+      "offset": 571,
+      "length": 19,
+      "value": "[\"Perfil personal\"]"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7251,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7268,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7283,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7299,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7317,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7335,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8064,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8081,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8096,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8112,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8130,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8148,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "kind": "StringLiteral",
+      "offset": 206,
+      "length": 8,
+      "value": "\"29cc81\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "kind": "StringLiteral",
+      "offset": 249,
+      "length": 8,
+      "value": "\"29cc81\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "kind": "StringLiteral",
+      "offset": 361,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 34,
+      "value": "\"https:\/\/back-xplor.myvitale.com\/\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "kind": "StringLiteral",
+      "offset": 454,
+      "length": 54,
+      "value": "\"4_43uq8rgou3y88ckkk0sgg8c408w4gwsssg8owg0ow4wcocgw0w\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "kind": "StringLiteral",
+      "offset": 540,
+      "length": 52,
+      "value": "\"1uiljdab2misc4owsc0kg0cw0kgw0k0gkgk0k8k488w8sskk4s\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "kind": "StringLiteral",
+      "offset": 619,
+      "length": 8,
+      "value": "\"cumaca\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "kind": "StringLiteral",
+      "offset": 661,
+      "length": 8,
+      "value": "\"Cumaca\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "kind": "StringLiteral",
+      "offset": 699,
+      "length": 21,
+      "value": "\"com.myvitale.Cumaca\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "kind": "StringLiteral",
+      "offset": 754,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "kind": "StringLiteral",
+      "offset": 783,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "kind": "StringLiteral",
+      "offset": 816,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitaleUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 289,
+      "length": 10,
+      "value": "\"workouts\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitaleUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 325,
+      "length": 16,
+      "value": "\"staticWorkouts\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitaleUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 11,
+      "value": "\"wearables\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitaleUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 400,
+      "length": 15,
+      "value": "\"customization\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitaleUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 433,
+      "length": 7,
+      "value": "\"vimeo\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitaleUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 8,
+      "value": "\"avatar\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/WorkoutSection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 75,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/CustomToggleButtonGroup.swift",
+      "kind": "StringLiteral",
+      "offset": 427,
+      "length": 5,
+      "value": "\"Sí\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/CustomToggleButtonGroup.swift",
+      "kind": "StringLiteral",
+      "offset": 464,
+      "length": 4,
+      "value": "\"No\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitaleSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 364,
+      "length": 8,
+      "value": "\"60729B\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitaleSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 424,
+      "length": 8,
+      "value": "\"60729B\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitaleSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 460,
+      "length": 28,
+      "value": "\"https:\/\/back.myvitale.com\/\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/Controllers\/HomeModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1404,
+      "length": 8,
+      "value": "\"app_id\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/Controllers\/HomeModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2442,
+      "length": 11,
+      "value": "\"channelId\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/Controllers\/HomeModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2541,
+      "length": 9,
+      "value": "\"vimeoId\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 625,
+      "length": 13,
+      "value": "\"AccentColor\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 768,
+      "length": 12,
+      "value": "\"AccentText\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1021,
+      "length": 15,
+      "value": "\"StatsDistance\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1164,
+      "length": 11,
+      "value": "\"StatsKcal\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1301,
+      "length": 10,
+      "value": "\"StatsMin\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1441,
+      "length": 12,
+      "value": "\"StatsSteps\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1575,
+      "length": 8,
+      "value": "\"arrow1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1705,
+      "length": 8,
+      "value": "\"arrow2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1835,
+      "length": 8,
+      "value": "\"arrow3\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1965,
+      "length": 8,
+      "value": "\"arrow4\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2104,
+      "length": 13,
+      "value": "\"back-receta\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2242,
+      "length": 10,
+      "value": "\"bk-login\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2381,
+      "length": 12,
+      "value": "\"bt-profile\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2524,
+      "length": 13,
+      "value": "\"cumaca-logo\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2664,
+      "length": 11,
+      "value": "\"logo-home\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2804,
+      "length": 12,
+      "value": "\"logo-login\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2941,
+      "length": 10,
+      "value": "\"nav-logo\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3083,
+      "length": 13,
+      "value": "\"onboarding1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3214,
+      "length": 6,
+      "value": "\"play\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3351,
+      "length": 13,
+      "value": "\"play-button\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3499,
+      "length": 15,
+      "value": "\"record-button\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3645,
+      "length": 13,
+      "value": "\"record-icon\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3789,
+      "length": 13,
+      "value": "\"save-button\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3933,
+      "length": 13,
+      "value": "\"stop-button\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4081,
+      "length": 15,
+      "value": "\"thrash-button\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphoneos\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4233,
+      "length": 16,
+      "value": "\"wearables-icon\""
+    }
+  ]
+}

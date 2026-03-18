@@ -1,0 +1,45 @@
+[
+    {
+        "name": "SUGAR_INCREASE_NAME",
+        "timeInfo": "SUGAR_INCREASE_TIMEINFO",
+        "image": "aumento",
+        "hour": 0,
+        "helpText": "SUGAR_INCREASE_HELPTEXT"
+    },
+    {
+        "name": "SUGAR_DECREASE_NAME",
+        "timeInfo": "SUGAR_DECREASE_TIMEINFO",
+        "image": "disminucion",
+        "hour": 3,
+        "helpText": "SUGAR_DECREASE_HELPTEXT"
+    },
+    {
+        "name": "SUGAR_STABILIZATION_NAME",
+        "timeInfo": "SUGAR_STABILIZATION_TIMEINFO",
+        "image": "estabilizacion",
+        "hour": 9,
+        "helpText": "SUGAR_STABILIZATION_HELPTEXT"
+    },
+    {
+        "name": "FAT_BURNING_NAME",
+        "timeInfo": "FAT_BURNING_TIMEINFO",
+        "image": "quema",
+        "hour": 11,
+        "helpText": "FAT_BURNING_HELPTEXT"
+    },
+    {
+        "name": "KETOSIS_NAME",
+        "timeInfo": "KETOSIS_TIMEINFO",
+        "image": "cetosis",
+        "hour": 14,
+        "helpText": "KETOSIS_HELPTEXT"
+    },
+    {
+        "name": "AUTOPHAGY_NAME",
+        "timeInfo": "AUTOPHAGY_TIMEINFO",
+        "image": "autofagia",
+        "hour": 16,
+        "helpText": "AUTOPHAGY_HELPTEXT"
+    }
+
+]

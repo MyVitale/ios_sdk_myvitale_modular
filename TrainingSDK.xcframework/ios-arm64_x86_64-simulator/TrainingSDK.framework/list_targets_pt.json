@@ -1,0 +1,87 @@
+[
+    {
+        "codigo": "1",
+        "lang": "pt",
+        "title": "Core"
+    },
+    {
+        "codigo": "2",
+        "lang": "pt",
+        "title": "Ombro"
+    },
+    {
+        "codigo": "3",
+        "lang": "pt",
+        "title": "Flexores Anca"
+    },
+    {
+        "codigo": "4",
+        "lang": "pt",
+        "title": "Aductor"
+    },
+    {
+        "codigo": "5",
+        "lang": "pt",
+        "title": "Aductores"
+    },
+    {
+        "codigo": "6",
+        "lang": "pt",
+        "title": "Peitoral"
+    },
+    {
+        "codigo": "7",
+        "lang": "pt",
+        "title": "Tríceps"
+    },
+    {
+        "codigo": "8",
+        "lang": "pt",
+        "title": "Quadríceps"
+    },
+    {
+        "codigo": "9",
+        "lang": "pt",
+        "title": "Glúteo"
+    },
+    {
+        "codigo": "10",
+        "lang": "pt",
+        "title": "Lombar"
+    },
+    {
+        "codigo": "11",
+        "lang": "pt",
+        "title": "Costas"
+    },
+    {
+        "codigo": "12",
+        "lang": "pt",
+        "title": "Bíceps"
+    },
+    {
+        "codigo": "13",
+        "lang": "pt",
+        "title": "Gémeo/Solear"
+    },
+    {
+        "codigo": "14",
+        "lang": "pt",
+        "title": "Isquiotibiais"
+    },
+    {
+        "codigo": "15",
+        "lang": "pt",
+        "title": "Flexores Anca"
+    },
+    {
+        "codigo": "16",
+        "lang": "pt",
+        "title": "Dorsal"
+    },
+    {
+        "codigo": "17",
+        "lang": "pt",
+        "title": "Solear"
+    }
+]

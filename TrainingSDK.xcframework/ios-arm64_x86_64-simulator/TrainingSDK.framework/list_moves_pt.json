@@ -1,0 +1,47 @@
+[
+    {
+        "codigo": "1",
+        "lang": "pt",
+        "title": "Empurrar"
+    },
+    {
+        "codigo": "2",
+        "lang": "pt",
+        "title": "Estabilizar"
+    },
+    {
+        "codigo": "3",
+        "lang": "pt",
+        "title": "Rodar"
+    },
+    {
+        "codigo": "4",
+        "lang": "pt",
+        "title": "Alcançar"
+    },
+    {
+        "codigo": "5",
+        "lang": "pt",
+        "title": "Levantar"
+    },
+    {
+        "codigo": "6",
+        "lang": "pt",
+        "title": "Atirar"
+    },
+    {
+        "codigo": "7",
+        "lang": "pt",
+        "title": "Locomoção"
+    },
+    {
+        "codigo": "8",
+        "lang": "pt",
+        "title": "Agachar"
+    },
+    {
+        "codigo": "9",
+        "lang": "pt",
+        "title": "Afundo"
+    }
+]

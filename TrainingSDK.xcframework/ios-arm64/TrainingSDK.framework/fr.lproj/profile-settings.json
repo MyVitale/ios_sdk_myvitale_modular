@@ -1,0 +1,64 @@
+[{
+    "page": 0,
+    "panels": [{
+        "questions": [
+            {
+                "title": "Quel est votre objectif ?",
+                "type": "list",
+                "identifier": "goal",
+                "info": "Nous pouvons vous proposer des programmes pour perdre du poids, augmenter votre masse musculaire, améliorer vos performances lors d'un marathon… Dites-nous quel est votre objectif et nous vous aiderons à l'atteindre.",
+                "isMultipleSelection": false
+            },
+            {
+                "title": "Avez-vous des problèmes de santé ?",
+                "identifier": "healthProblems",
+                "type": "list",
+                "info": "Indiquez-nous si vous souffrez de l'un de ces problèmes afin que nous puissions adapter votre programme d'exercices et vous aider à améliorer votre forme physique et votre qualité de vie.",
+                "isMultipleSelection": true
+            },
+            {
+                "title": "État de forme actuel",
+                "type": "list",
+                "info": "Dites-nous quel est votre état de forme actuel, afin que nous puissions adapter votre programme à vos capacités réelles.",
+                "identifier": "trainingLevel",
+                "isMultipleSelection": false
+            },
+            {
+                "title": "Niveau de difficulté des exercices souhaité",
+                "type": "list",
+                "info": "Nous pouvons vous proposer des exercices plus faciles ou plus difficiles à exécuter, en fonction de vos préférences. Dites-nous quelle est votre option préférée.",
+                "identifier": "exerciseDifficulty",
+                "isMultipleSelection": false
+            },
+            {
+                "title": "Où souhaitez-vous vous entraîner ?",
+                "identifier": "trainingPlace",
+                "type": "list",
+                "info": "Vous allez vous entraîner dans un espace fermé, comme une salle de sport ou chez vous, ou bien vous pouvez faire de l'exercice en plein air ? Si vous choisissez cette dernière option, nous vous proposerons parfois des exercices nécessitant plus d'espace.",
+                "isMultipleSelection": false
+            },
+            {
+                "title": "Disposez-vous de matériel d'entraînement ?",
+                "type": "list",
+                "identifier": "equipment",
+                "info": "Indiquez-nous le matériel dont vous disposez, afin que nous puissions suggérer des exercices utilisant uniquement ce matériel. Si vous n'avez aucun équipement, pas de souci. Ne sélectionnez aucune option et nous vous proposerons des exercices qui ne nécessitent aucun matériel, utilisant uniquement le poids de votre corps.",
+                "isMultipleSelection": true
+            },
+            {
+                "title": "Durée d'entraînement souhaitée",
+                "type": "list",
+                "identifier": "trainingDuration",
+                "info": "Indiquez-nous la durée d'entraînement que vous souhaitez, afin que nous puissions vous proposer des exercices adaptés à ce créneau de temps.",
+                "isMultipleSelection": false
+            },
+            {
+                "title": "Jours d'entraînement",
+                "type": "list",
+                "size": "medium",
+                "info": "Indiquez quels jours de la semaine vous souhaitez vous entraîner.",
+                "identifier": "trainingDays",
+                "isMultipleSelection": true
+            }
+        ]
+    }]
+}]

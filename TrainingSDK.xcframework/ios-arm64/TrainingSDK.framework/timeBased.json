@@ -1,0 +1,243 @@
+{
+    "id": 29,
+    "timeBased": true,
+    "summary": {
+        "duration": "26'",
+        "exercises": 1,
+        "stretch": 5
+    },
+    "exercises": [
+        {
+            "name": "Outdoor running",
+            "superSeries": 0,
+            "image": "https://sdk.myvitale.com/imgejercicio/2102.jpg",
+            "remainingDuration": "28'",
+            "alternatives": [
+                {
+                    "name": "Outdoor walking",
+                    "img": "https://sdk.myvitale.com/imgejercicio/2101.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "_RkmDr3kDXA"
+                    }
+                }
+            ],
+            "video": {
+                "provider": "youtube",
+                "url": "e0PrgNFJGug"
+            },
+            "exerciseId": 215,
+            "detailId": 432,
+            "instructions": [
+                {
+                    "name": "duracion",
+                    "icono": "icon-cronometer",
+                    "iconUnicode": "e90a",
+                    "value": "23'"
+                },
+                {
+                    "name": "recuperacion",
+                    "icono": "icon-corazon",
+                    "iconUnicode": "e968",
+                    "units": "hpm",
+                    "value": " < 137"
+                }
+            ]
+        },
+        {
+            "name": "Stretches",
+            "superSeries": 0,
+            "image": "https://sdk.myvitale.com/imgejercicio/estiramientos.jpg",
+            "remainingDuration": "5'",
+            "circuit": [
+                {
+                    "name": "Adductors",
+                    "superSeries": 0,
+                    "image": "https://sdk.myvitale.com/imgejercicio/160.jpg",
+                    "remainingDuration": "5'",
+                    "alternatives": [],
+                    "video": {
+                        "provider": "youtube",
+                        "url": "G8fOA6WKXe0"
+                    },
+                    "exerciseId": 26,
+                    "detailId": 433,
+                    "instructions": [
+                        {
+                            "name": "series",
+                            "icono": "icon-rotate",
+                            "iconUnicode": "e925",
+                            "units": "",
+                            "value": "2"
+                        },
+                        {
+                            "name": "recuperacion",
+                            "icono": "icon-user-seated",
+                            "iconUnicode": "e928",
+                            "units": "",
+                            "value": "10\""
+                        },
+                        {
+                            "name": "duracion",
+                            "icono": "icon-cronometer",
+                            "iconUnicode": "e90a",
+                            "units": "",
+                            "value": "8\""
+                        }
+                    ]
+                },
+                {
+                    "name": "Quadriceps",
+                    "superSeries": 0,
+                    "image": "https://sdk.myvitale.com/imgejercicio/157.jpg",
+                    "remainingDuration": "4'",
+                    "alternatives": [],
+                    "video": {
+                        "provider": "youtube",
+                        "url": "f8moTjKuCxA"
+                    },
+                    "exerciseId": 23,
+                    "detailId": 434,
+                    "instructions": [
+                        {
+                            "name": "series",
+                            "icono": "icon-rotate",
+                            "iconUnicode": "e925",
+                            "units": "",
+                            "value": "2"
+                        },
+                        {
+                            "name": "recuperacion",
+                            "icono": "icon-user-seated",
+                            "iconUnicode": "e928",
+                            "units": "",
+                            "value": "10\""
+                        },
+                        {
+                            "name": "duracion",
+                            "icono": "icon-cronometer",
+                            "iconUnicode": "e90a",
+                            "units": "",
+                            "value": "8\""
+                        }
+                    ]
+                },
+                {
+                    "name": "Soleus",
+                    "superSeries": 0,
+                    "image": "https://sdk.myvitale.com/imgejercicio/155.jpg",
+                    "remainingDuration": "3'",
+                    "alternatives": [],
+                    "video": {
+                        "provider": "youtube",
+                        "url": "U-N_2gFiMIA"
+                    },
+                    "exerciseId": 168,
+                    "detailId": 435,
+                    "instructions": [
+                        {
+                            "name": "series",
+                            "icono": "icon-rotate",
+                            "iconUnicode": "e925",
+                            "units": "",
+                            "value": "2"
+                        },
+                        {
+                            "name": "recuperacion",
+                            "icono": "icon-user-seated",
+                            "iconUnicode": "e928",
+                            "units": "",
+                            "value": "10\""
+                        },
+                        {
+                            "name": "duracion",
+                            "icono": "icon-cronometer",
+                            "iconUnicode": "e90a",
+                            "units": "",
+                            "value": "8\""
+                        }
+                    ]
+                },
+                {
+                    "name": "Gastrocnemius",
+                    "superSeries": 0,
+                    "image": "https://sdk.myvitale.com/imgejercicio/156.jpg",
+                    "remainingDuration": "2'",
+                    "alternatives": [],
+                    "video": {
+                        "provider": "youtube",
+                        "url": "8-H_tSAmw50"
+                    },
+                    "exerciseId": 22,
+                    "detailId": 436,
+                    "instructions": [
+                        {
+                            "name": "series",
+                            "icono": "icon-rotate",
+                            "iconUnicode": "e925",
+                            "units": "",
+                            "value": "2"
+                        },
+                        {
+                            "name": "recuperacion",
+                            "icono": "icon-user-seated",
+                            "iconUnicode": "e928",
+                            "units": "",
+                            "value": "10\""
+                        },
+                        {
+                            "name": "duracion",
+                            "icono": "icon-cronometer",
+                            "iconUnicode": "e90a",
+                            "units": "",
+                            "value": "8\""
+                        }
+                    ]
+                },
+                {
+                    "name": "Psoas Stretch",
+                    "superSeries": 0,
+                    "image": "https://sdk.myvitale.com/imgejercicio/730.jpg",
+                    "remainingDuration": "1'",
+                    "alternatives": [],
+                    "video": {
+                        "provider": "youtube",
+                        "url": "nykE-PgpM5I"
+                    },
+                    "exerciseId": 730,
+                    "detailId": 437,
+                    "instructions": [
+                        {
+                            "name": "series",
+                            "icono": "icon-rotate",
+                            "iconUnicode": "e925",
+                            "units": "",
+                            "value": "2"
+                        },
+                        {
+                            "name": "recuperacion",
+                            "icono": "icon-user-seated",
+                            "iconUnicode": "e928",
+                            "units": "",
+                            "value": "10\""
+                        },
+                        {
+                            "name": "duracion",
+                            "icono": "icon-cronometer",
+                            "iconUnicode": "e90a",
+                            "units": "",
+                            "value": "8\""
+                        }
+                    ]
+                }
+            ],
+            "instructions": [
+                {
+                    "name": "repeticiones",
+                    "units": "Stretches",
+                    "value": 5
+                }
+            ]
+        }
+    ]
+}

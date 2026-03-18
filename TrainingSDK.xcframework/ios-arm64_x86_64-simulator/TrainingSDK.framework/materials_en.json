@@ -1,0 +1,238 @@
+{"materials":[{
+    "id": 1,
+    "nombre": "Barbells and plates",
+    "slug": "discos-barras",
+    "url_logo": "https://www.myvitale.com/recursos/vitale/img/materiales/discos-barras.png",
+    "icono": "",
+    "exterior_principal": false,
+    "exterior_extra": true
+},
+{
+    "id": 2,
+    "nombre": "Strength equipment",
+    "slug": "maquinas-musculacion",
+    "url_logo": "https://www.myvitale.com/recursos/vitale/img/materiales/maquinas-musculacion.png",
+    "icono": "",
+    "exterior_principal": false,
+    "exterior_extra": true
+},
+{
+    "id": 3,
+    "nombre": "Resistance bands",
+    "slug": "bandas-elasticas",
+    "url_logo": "https://www.myvitale.com/recursos/vitale/img/materiales/bandas-elasticas.png",
+    "icono": "",
+    "exterior_principal": true,
+    "exterior_extra": false
+},
+{
+    "id": 5,
+    "nombre": "Bosu ball",
+    "slug": "bosu",
+    "url_logo": "https://www.myvitale.com/recursos/vitale/img/materiales/bosu.png",
+    "icono": "",
+    "exterior_principal": false,
+    "exterior_extra": true
+},
+{
+    "id": 6,
+    "nombre": "Swiss ball",
+    "slug": "fitball",
+    "url_logo": "https://www.myvitale.com/recursos/vitale/img/materiales/fitball.png",
+    "icono": "",
+    "exterior_principal": false,
+    "exterior_extra": true
+},
+{
+    "id": 7,
+    "nombre": "Vibrating platform",
+    "slug": "vibratoria",
+    "url_logo": "https://www.myvitale.com/recursos/vitale/img/materiales/vibratoria.png",
+    "icono": "",
+    "exterior_principal": false,
+    "exterior_extra": false
+},
+{
+    "id": 8,
+    "nombre": "Swimming pool",
+    "slug": "piscina",
+    "url_logo": "https://www.myvitale.com/recursos/vitale/img/materiales/piscina.png",
+    "icono": "",
+    "exterior_principal": true,
+    "exterior_extra": false
+},
+{
+    "id": 9,
+    "nombre": "TRX",
+    "slug": "trx",
+    "url_logo": "https://www.myvitale.com/recursos/vitale/img/materiales/trx.png",
+    "icono": "",
+    "exterior_principal": true,
+    "exterior_extra": false
+},
+{
+    "id": 10,
+    "nombre": "Bike",
+    "slug": "bicicleta-outdoor",
+    "url_logo": "https://www.myvitale.com/recursos/vitale/img/materiales/bicicleta-outdoor.png",
+    "icono": "",
+    "exterior_principal": false,
+    "exterior_extra": false
+},
+{
+    "id": 11,
+    "nombre": "Treadmill",
+    "slug": "tapiz-rodante",
+    "url_logo": "https://www.myvitale.com/recursos/vitale/img/materiales/tapiz-rodante.png",
+    "icono": "",
+    "exterior_principal": false,
+    "exterior_extra": false
+},
+{
+    "id": 12,
+    "nombre": "Step",
+    "slug": "step",
+    "url_logo": "https://www.myvitale.com/recursos/vitale/img/materiales/step.png",
+    "icono": "",
+    "exterior_principal": false,
+    "exterior_extra": false
+},
+{
+    "id": 13,
+    "nombre": "Rower",
+    "slug": "remo",
+    "url_logo": "https://www.myvitale.com/recursos/vitale/img/materiales/remo.png",
+    "icono": "",
+    "exterior_principal": false,
+    "exterior_extra": false
+},
+{
+    "id": 15,
+    "nombre": "Cross trainer",
+    "slug": "eliptica",
+    "url_logo": "https://www.myvitale.com/recursos/vitale/img/materiales/eliptica.png",
+    "icono": "",
+    "exterior_principal": false,
+    "exterior_extra": false
+},
+{
+    "id": 16,
+    "nombre": "Stationary bike",
+    "slug": "bicicleta-estatica",
+    "url_logo": "https://www.myvitale.com/recursos/vitale/img/materiales/bicicleta-estatica.png",
+    "icono": "",
+    "exterior_principal": false,
+    "exterior_extra": false
+},
+{
+    "id": 22,
+    "nombre": "Polea funcional",
+    "slug": "polea-funcional",
+    "icono": "B",
+    "exterior_principal": false,
+    "exterior_extra": true
+},
+{
+    "id": 23,
+    "nombre": "Botellas",
+    "slug": "botellas",
+    "icono": "s",
+    "exterior_principal": true,
+    "exterior_extra": false
+},
+{
+    "id": 24,
+    "nombre": "Escalera agilidad",
+    "slug": "escalera-agilidad",
+    "icono": "v",
+    "exterior_principal": true,
+    "exterior_extra": false
+},
+{
+    "id": 25,
+    "nombre": "Mancuernas",
+    "slug": "mancuernas",
+    "icono": "y",
+    "exterior_principal": false,
+    "exterior_extra": true
+},
+{
+    "id": 26,
+    "nombre": "Polea",
+    "slug": "polea",
+    "icono": "B",
+    "exterior_principal": false,
+    "exterior_extra": true
+},
+{
+    "id": 27,
+    "nombre": "Smith",
+    "slug": "smith",
+    "icono": "H",
+    "exterior_principal": false,
+    "exterior_extra": true
+},
+{
+    "id": 28,
+    "nombre": "Cuerda pesada",
+    "slug": "cuerda-pesada",
+    "icono": "u",
+    "exterior_principal": false,
+    "exterior_extra": true
+},
+{
+    "id": 29,
+    "nombre": "Kettlebell",
+    "slug": "kettlebell",
+    "icono": "x",
+    "exterior_principal": false,
+    "exterior_extra": true
+},
+{
+    "id": 30,
+    "nombre": "Power pivot",
+    "slug": "power-pivot",
+    "icono": "F",
+    "exterior_principal": false,
+    "exterior_extra": true
+},
+{
+    "id": 31,
+    "nombre": "Balón funcional",
+    "slug": "balon-funcional",
+    "icono": "q",
+    "exterior_principal": true,
+    "exterior_extra": false
+},
+{
+    "id": 32,
+    "nombre": "Power bag",
+    "slug": "power-bag",
+    "icono": "D",
+    "exterior_principal": false,
+    "exterior_extra": true
+},
+{
+    "id": 33,
+    "nombre": "Roller",
+    "slug": "roller",
+    "icono": "G",
+    "exterior_principal": false,
+    "exterior_extra": true
+},
+{
+    "id": 36,
+    "nombre": "Plyo Box",
+    "slug": "plyo-box",
+    "icono": "A",
+    "exterior_principal": true,
+    "exterior_extra": false
+},
+{
+    "id": 37,
+    "nombre": "RIP (Barra y elástico)",
+    "slug": "rip-barra-elastico",
+    "icono": "C",
+    "exterior_principal": false,
+    "exterior_extra": false
+}]}

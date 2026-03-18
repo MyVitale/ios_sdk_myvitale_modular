@@ -1,0 +1,133 @@
+{
+    "objectives": {
+        "Funcional": {
+            "id": 1,
+            "subobjectives": [
+                {
+                    "id": 19,
+                    "title": "Treino Total"
+                },
+                {
+                    "id": 18,
+                    "title": "Cross training"
+                },
+                {
+                    "id": 16,
+                    "title": "Cardio saudável"
+                },
+                {
+                    "id": 5,
+                    "title": "Costas saudáveis"
+                },
+                {
+                    "id": 3,
+                    "title": "Resistência geral"
+                }
+            ]
+        },
+        "Muscular": {
+            "id": 5,
+            "subobjectives": [
+                {
+                    "id": 15,
+                    "title": "Musculação"
+                },
+                {
+                    "id": 41,
+                    "title": "Tonificar"
+                },
+                {
+                    "id": 20,
+                    "title": "GAP"
+                },
+                {
+                    "id": 17,
+                    "title": "Abdominais"
+                }
+            ]
+        },
+        "Perda de peso": {
+            "id": 4,
+            "subobjectives": [
+                {
+                    "id": 1,
+                    "title": "Só Emagrecer"
+                },
+                {
+                    "id": 2,
+                    "title": "Emagrecer e definir"
+                }
+            ]
+        },
+        "Cycling/running": {
+            "id": 2,
+            "subobjectives": [
+                {
+                    "id": 7,
+                    "title": "Ciclismo"
+                },
+                {
+                    "id": 42,
+                    "title": "Ciclismo longa distância"
+                },
+                {
+                    "id": 24,
+                    "title": "Meia maratona"
+                },
+                {
+                    "id": 43,
+                    "title": "Maratona"
+                },
+                {
+                    "id": 44,
+                    "title": "Mountain bike"
+                },
+                {
+                    "id": 45,
+                    "title": "Duatlón 10-40-5"
+                }
+            ]
+        },
+        "Saúde": {
+            "id": 3,
+            "subobjectives": [
+                {
+                    "id": 10,
+                    "title": "Hipertensão arterial"
+                },
+                {
+                    "id": 11,
+                    "title": "Osteoporose"
+                },
+                {
+                    "id": 12,
+                    "title": "Diabetes tipo II"
+                },
+                {
+                    "id": 14,
+                    "title": "EPOC"
+                },
+                {
+                    "id": 34,
+                    "title": "Excesso de colesterol e triglicéridos"
+                },
+                {
+                    "id": 35,
+                    "title": "Dores de costas"
+                },
+                {
+                    "id": 37,
+                    "title": "Síndroma metabólico"
+                },
+                {
+                    "id": 38,
+                    "title": "Esclerose múltipla"
+                },
+                {
+                    "id": 39,
+                    "title": "Fibromialgia"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,78 @@
+[{
+        "page": 0,
+        "panels": [
+            {
+                "questions": [{
+                    "title": "YOUR_LEVEL_OF_PHYSICAL_ACTIVITY_TITLE",
+                    "identifier": "physicalIntensityID",
+                    "type": "list",
+                    "info": "activity_info",
+                    "isMultipleSelection": false
+                },
+                    {
+                    "title": "WHAT_IS_YOUR_GOAL_TITLE",
+                    "identifier": "desiredBalanceID",
+                    "type": "list",
+                    "isMultipleSelection": false
+                }]
+            },
+            {
+                "questions": [{
+                    "title": "ANY_SPECIAL_NUTRITIONAL_PREFERENCES_TITLE",
+                    "type": "list",
+                    "identifier": "preferences",
+                    "isMultipleSelection": true
+                }]
+            },
+            {
+                "questions": [{
+                    "title": "ANY_ALLERGY_OR_INTOLERANCE_TITLE",
+                    "type": "list",
+                    "identifier": "intollerance",
+                    "isMultipleSelection": true,
+                }]
+            },
+            {
+                "questions": [{
+                    "title": "HOW_MANY_MEALS_DO_YOU_WANT_PER_DAY_TITLE",
+                    "identifier": "selectedIntakes",
+                    "fixed": [3,5],
+                    "type": "list",
+                    "isMultipleSelection": true
+
+                }]
+            },
+            {
+                "questions": [
+                    {
+                        "title": "HOW_MANY_COURSES_DO_YOU_WANT_AT_LUNCH_TITLE",
+                        "identifier": "lunchDishes",
+                        "isMultipleSelection": true,
+                        "type": "list"
+                    },
+                    {
+                        "title": "HOW_MANY_COURSES_DO_YOU_WANT_FOR_DINNER_TITLE",
+                        "identifier": "dinnerDishes",
+                        "isMultipleSelection": true,
+                        "type": "list"
+                    }]
+            },
+            {
+                "questions": [
+                    {
+                        "title": "DIFFICULTY_OF_THE_RECIPES_TITLE",
+                        "type": "list",
+                        "identifier": "difficulty",
+                        "isMultipleSelection": false,
+                    },
+                    {
+                    "title": "DO_YOU_WANT_TO_DO_INTERMITTENT_FASTING_TITLE",
+                    "type": "list",
+                    "identifier": "intermittentFastingID",
+                    "isMultipleSelection": false,
+                }
+                ]
+            }
+        ]
+    }
+]

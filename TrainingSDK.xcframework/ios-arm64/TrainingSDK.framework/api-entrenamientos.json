@@ -1,0 +1,727 @@
+{
+    "id": 2478956,
+    "summary": {
+        "duration": "28'",
+        "exercises": 5,
+        "stretch": 9
+    },
+    "exercises": [
+        {
+            "name": "Seated row machine",
+            "superSeries": 0,
+            "image": "http://myvitale.test/imgejercicio/4.jpg",
+            "remainingDuration": 27.55,
+            "alternatives": [
+                {
+                    "name": "Pull ups underhand grip",
+                    "img": "http://myvitale.test/imgejercicio/48.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "3A1X7iD_ubY"
+                    }
+                },
+                {
+                    "name": "Pull ups neutral grip",
+                    "img": "http://myvitale.test/imgejercicio/47.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "4bYruSxx0u8"
+                    }
+                },
+                {
+                    "name": "Pull ups",
+                    "img": "http://myvitale.test/imgejercicio/46.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "bGBBfsp5ZpA"
+                    }
+                },
+                {
+                    "name": "Bent over row",
+                    "img": "http://myvitale.test/imgejercicio/69.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "jWWox5B_Wxs"
+                    }
+                }
+            ],
+            "video": {
+                "provider": "youtube",
+                "url": "lb3rHWpMygQ"
+            },
+            "exerciseId": 4,
+            "instructions": [
+                {
+                    "name": "series",
+                    "icono": "icon-rotate",
+                    "text": "Sets",
+                    "value": 3
+                },
+                {
+                    "name": "repeticiones",
+                    "icono": "icon-repeat",
+                    "text": "Reps",
+                    "value": "8"
+                },
+                {
+                    "name": "recuperacion",
+                    "icono": "icon-user-seated",
+                    "text": "Cool down",
+                    "value": "1'"
+                },
+                {
+                    "name": "velocidad",
+                    "icono": "icon-speed",
+                    "value": "Free"
+                },
+                {
+                    "name": "intensidad",
+                    "icono": "icon-level",
+                    "text": "Intensity",
+                    "units": "%",
+                    "value": "60"
+                },
+                {
+                    "name": "calculo_peso",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "Biceps curl",
+            "superSeries": 0,
+            "image": "http://myvitale.test/imgejercicio/76.jpg",
+            "remainingDuration": 24.35,
+            "alternatives": [
+                {
+                    "name": "Hammer curl",
+                    "img": "http://myvitale.test/imgejercicio/81.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "LsSCFOKTFi0"
+                    }
+                },
+                {
+                    "name": "Dumbbell curl",
+                    "img": "http://myvitale.test/imgejercicio/77.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "y1R4VxJnk3c"
+                    }
+                },
+                {
+                    "name": "Biceps curl machine",
+                    "img": "http://myvitale.test/imgejercicio/5.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "tXjypiI400E"
+                    }
+                }
+            ],
+            "video": {
+                "provider": "youtube",
+                "url": "xUFl482BXMk"
+            },
+            "exerciseId": 94,
+            "instructions": [
+                {
+                    "name": "series",
+                    "icono": "icon-rotate",
+                    "text": "Sets",
+                    "value": 3
+                },
+                {
+                    "name": "repeticiones",
+                    "icono": "icon-repeat",
+                    "text": "Reps",
+                    "value": "8"
+                },
+                {
+                    "name": "recuperacion",
+                    "icono": "icon-user-seated",
+                    "text": "Cool down",
+                    "value": "1'"
+                },
+                {
+                    "name": "velocidad",
+                    "icono": "icon-speed",
+                    "value": "Free"
+                },
+                {
+                    "name": "intensidad",
+                    "icono": "icon-level",
+                    "text": "Intensity",
+                    "units": "%",
+                    "value": "40"
+                },
+                {
+                    "name": "calculo_peso",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "Dead lift",
+            "superSeries": 0,
+            "image": "http://myvitale.test/imgejercicio/125.jpg",
+            "remainingDuration": 21.15,
+            "alternatives": [
+                {
+                    "name": "Squat",
+                    "img": "http://myvitale.test/imgejercicio/116.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "NnmTTpvyAoI"
+                    }
+                },
+                {
+                    "name": "Dumbbell sumo squat",
+                    "img": "http://myvitale.test/imgejercicio/120.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "Gch6pKGkBTU"
+                    }
+                },
+                {
+                    "name": "Leg press",
+                    "img": "http://myvitale.test/imgejercicio/8.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "U7Vp7GJknLE"
+                    }
+                }
+            ],
+            "video": {
+                "provider": "youtube",
+                "url": "QxPv_VhpE8g"
+            },
+            "exerciseId": 139,
+            "instructions": [
+                {
+                    "name": "series",
+                    "icono": "icon-rotate",
+                    "text": "Sets",
+                    "value": 3
+                },
+                {
+                    "name": "repeticiones",
+                    "icono": "icon-repeat",
+                    "text": "Reps",
+                    "value": "As many as you can"
+                },
+                {
+                    "name": "recuperacion",
+                    "icono": "icon-user-seated",
+                    "text": "Cool down",
+                    "value": "1'"
+                },
+                {
+                    "name": "velocidad",
+                    "icono": "icon-speed",
+                    "value": "Free"
+                },
+                {
+                    "name": "intensidad",
+                    "icono": "icon-level",
+                    "text": "Intensity",
+                    "units": "%",
+                    "value": "50"
+                },
+                {
+                    "name": "calculo_peso",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "Extended legs sit ups",
+            "superSeries": 0,
+            "image": "http://myvitale.test/imgejercicio/89.jpg",
+            "remainingDuration": 16.4,
+            "alternatives": [
+                {
+                    "name": "Sit ups",
+                    "img": "http://myvitale.test/imgejercicio/88.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "MQRm4YIt9XE"
+                    }
+                },
+                {
+                    "name": "Crunch",
+                    "img": "http://myvitale.test/imgejercicio/92.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "lH9kOJKp-Vw"
+                    }
+                },
+                {
+                    "name": "Extended arms sit ups",
+                    "img": "http://myvitale.test/imgejercicio/90.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "nUyDD_IEC7Q"
+                    }
+                },
+                {
+                    "name": "Double crunch",
+                    "img": "http://myvitale.test/imgejercicio/95.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "Ci_hVuDEu14"
+                    }
+                },
+                {
+                    "name": "Leg flexion",
+                    "img": "http://myvitale.test/imgejercicio/94.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "Hwk-PbnQwiQ"
+                    }
+                }
+            ],
+            "video": {
+                "provider": "youtube",
+                "url": "e-WaJwocULw"
+            },
+            "exerciseId": 103,
+            "instructions": [
+                {
+                    "name": "series",
+                    "icono": "icon-rotate",
+                    "text": "Sets",
+                    "value": 3
+                },
+                {
+                    "name": "repeticiones",
+                    "icono": "icon-repeat",
+                    "text": "Reps",
+                    "value": "8"
+                },
+                {
+                    "name": "recuperacion",
+                    "icono": "icon-user-seated",
+                    "text": "Cool down",
+                    "value": "1'"
+                },
+                {
+                    "name": "velocidad",
+                    "icono": "icon-speed",
+                    "value": "Free"
+                },
+                {
+                    "name": "intensidad",
+                    "icono": "icon-level",
+                    "value": "Body weight exercises without added weight."
+                }
+            ]
+        },
+        {
+            "name": "Crunch",
+            "superSeries": 0,
+            "image": "http://myvitale.test/imgejercicio/92.jpg",
+            "remainingDuration": 12.7,
+            "alternatives": [
+                {
+                    "name": "Extended legs sit ups",
+                    "img": "http://myvitale.test/imgejercicio/89.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "e-WaJwocULw"
+                    }
+                },
+                {
+                    "name": "Sit ups",
+                    "img": "http://myvitale.test/imgejercicio/88.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "MQRm4YIt9XE"
+                    }
+                },
+                {
+                    "name": "Extended arms sit ups",
+                    "img": "http://myvitale.test/imgejercicio/90.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "nUyDD_IEC7Q"
+                    }
+                },
+                {
+                    "name": "Double crunch",
+                    "img": "http://myvitale.test/imgejercicio/95.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "Ci_hVuDEu14"
+                    }
+                },
+                {
+                    "name": "Leg flexion",
+                    "img": "http://myvitale.test/imgejercicio/94.jpg",
+                    "video": {
+                        "provider": "youtube",
+                        "url": "Hwk-PbnQwiQ"
+                    }
+                }
+            ],
+            "video": {
+                "provider": "youtube",
+                "url": "lH9kOJKp-Vw"
+            },
+            "exerciseId": 106,
+            "instructions": [
+                {
+                    "name": "series",
+                    "icono": "icon-rotate",
+                    "text": "Sets",
+                    "value": 3
+                },
+                {
+                    "name": "repeticiones",
+                    "icono": "icon-repeat",
+                    "text": "Reps",
+                    "value": "8"
+                },
+                {
+                    "name": "recuperacion",
+                    "icono": "icon-user-seated",
+                    "text": "Cool down",
+                    "value": "1'"
+                },
+                {
+                    "name": "velocidad",
+                    "icono": "icon-speed",
+                    "value": "Free"
+                },
+                {
+                    "name": "intensidad",
+                    "icono": "icon-level",
+                    "value": "Body weight exercises without added weight."
+                }
+            ]
+        },
+        {
+            "name": "Stretches",
+            "superSeries": 0,
+            "image": "http://myvitale.test/imgejercicio/estiramientos.jpg",
+            "remainingDuration": 9,
+            "alternatives": [],
+            "circuit": [
+                {
+                    "name": "Chest",
+                    "superSeries": 0,
+                    "image": "http://myvitale.test/imgejercicio/170.jpg",
+                    "remainingDuration": 9,
+                    "alternatives": [],
+                    "video": {
+                        "provider": "youtube",
+                        "url": "kNZNGc3fcfE"
+                    },
+                    "exerciseId": 30,
+                    "instructions": [
+                        {
+                            "name": "series",
+                            "icono": "icon-rotate",
+                            "text": "Sets",
+                            "units": "",
+                            "value": "2"
+                        },
+                        {
+                            "name": "recuperacion",
+                            "icono": "icon-user-seated",
+                            "text": "Cool down",
+                            "units": "",
+                            "value": "10\""
+                        },
+                        {
+                            "name": "duracion",
+                            "icono": "icon-cronometer",
+                            "text": "",
+                            "units": "",
+                            "value": "8\""
+                        }
+                    ]
+                },
+                {
+                    "name": "Hip rotation",
+                    "superSeries": 0,
+                    "image": "http://myvitale.test/imgejercicio/166.jpg",
+                    "remainingDuration": 8,
+                    "alternatives": [],
+                    "video": {
+                        "provider": "youtube",
+                        "url": "zP__TBeDWjs"
+                    },
+                    "exerciseId": 28,
+                    "instructions": [
+                        {
+                            "name": "series",
+                            "icono": "icon-rotate",
+                            "text": "Sets",
+                            "units": "",
+                            "value": "2"
+                        },
+                        {
+                            "name": "recuperacion",
+                            "icono": "icon-user-seated",
+                            "text": "Cool down",
+                            "units": "",
+                            "value": "10\""
+                        },
+                        {
+                            "name": "duracion",
+                            "icono": "icon-cronometer",
+                            "text": "",
+                            "units": "",
+                            "value": "8\""
+                        }
+                    ]
+                },
+                {
+                    "name": "Glute",
+                    "superSeries": 0,
+                    "image": "http://myvitale.test/imgejercicio/159.jpg",
+                    "remainingDuration": 7,
+                    "alternatives": [],
+                    "video": {
+                        "provider": "youtube",
+                        "url": "2dwufbjQXhk"
+                    },
+                    "exerciseId": 25,
+                    "instructions": [
+                        {
+                            "name": "series",
+                            "icono": "icon-rotate",
+                            "text": "Sets",
+                            "units": "",
+                            "value": "2"
+                        },
+                        {
+                            "name": "recuperacion",
+                            "icono": "icon-user-seated",
+                            "text": "Cool down",
+                            "units": "",
+                            "value": "10\""
+                        },
+                        {
+                            "name": "duracion",
+                            "icono": "icon-cronometer",
+                            "text": "",
+                            "units": "",
+                            "value": "8\""
+                        }
+                    ]
+                },
+                {
+                    "name": "Arm extension",
+                    "superSeries": 0,
+                    "image": "http://myvitale.test/imgejercicio/168.jpg",
+                    "remainingDuration": 6,
+                    "alternatives": [],
+                    "video": {
+                        "provider": "youtube",
+                        "url": "4uu2LmJ0U28"
+                    },
+                    "exerciseId": 29,
+                    "instructions": [
+                        {
+                            "name": "series",
+                            "icono": "icon-rotate",
+                            "text": "Sets",
+                            "units": "",
+                            "value": "2"
+                        },
+                        {
+                            "name": "recuperacion",
+                            "icono": "icon-user-seated",
+                            "text": "Cool down",
+                            "units": "",
+                            "value": "10\""
+                        },
+                        {
+                            "name": "duracion",
+                            "icono": "icon-cronometer",
+                            "text": "",
+                            "units": "",
+                            "value": "8\""
+                        }
+                    ]
+                },
+                {
+                    "name": "Quadriceps",
+                    "superSeries": 0,
+                    "image": "http://myvitale.test/imgejercicio/157.jpg",
+                    "remainingDuration": 5,
+                    "alternatives": [],
+                    "video": {
+                        "provider": "youtube",
+                        "url": "f8moTjKuCxA"
+                    },
+                    "exerciseId": 23,
+                    "instructions": [
+                        {
+                            "name": "series",
+                            "icono": "icon-rotate",
+                            "text": "Sets",
+                            "units": "",
+                            "value": "2"
+                        },
+                        {
+                            "name": "recuperacion",
+                            "icono": "icon-user-seated",
+                            "text": "Cool down",
+                            "units": "",
+                            "value": "10\""
+                        },
+                        {
+                            "name": "duracion",
+                            "icono": "icon-cronometer",
+                            "text": "",
+                            "units": "",
+                            "value": "8\""
+                        }
+                    ]
+                },
+                {
+                    "name": "Lower back",
+                    "superSeries": 0,
+                    "image": "http://myvitale.test/imgejercicio/164.jpg",
+                    "remainingDuration": 4,
+                    "alternatives": [],
+                    "video": {
+                        "provider": "youtube",
+                        "url": "xKHvmQeR1ew"
+                    },
+                    "exerciseId": 27,
+                    "instructions": [
+                        {
+                            "name": "series",
+                            "icono": "icon-rotate",
+                            "text": "Sets",
+                            "units": "",
+                            "value": "2"
+                        },
+                        {
+                            "name": "recuperacion",
+                            "icono": "icon-user-seated",
+                            "text": "Cool down",
+                            "units": "",
+                            "value": "10\""
+                        },
+                        {
+                            "name": "duracion",
+                            "icono": "icon-cronometer",
+                            "text": "",
+                            "units": "",
+                            "value": "8\""
+                        }
+                    ]
+                },
+                {
+                    "name": "Gastrocnemius",
+                    "superSeries": 0,
+                    "image": "http://myvitale.test/imgejercicio/156.jpg",
+                    "remainingDuration": 3,
+                    "alternatives": [],
+                    "video": {
+                        "provider": "youtube",
+                        "url": "8-H_tSAmw50"
+                    },
+                    "exerciseId": 22,
+                    "instructions": [
+                        {
+                            "name": "series",
+                            "icono": "icon-rotate",
+                            "text": "Sets",
+                            "units": "",
+                            "value": "2"
+                        },
+                        {
+                            "name": "recuperacion",
+                            "icono": "icon-user-seated",
+                            "text": "Cool down",
+                            "units": "",
+                            "value": "10\""
+                        },
+                        {
+                            "name": "duracion",
+                            "icono": "icon-cronometer",
+                            "text": "",
+                            "units": "",
+                            "value": "8\""
+                        }
+                    ]
+                },
+                {
+                    "name": "Hamstrings",
+                    "superSeries": 0,
+                    "image": "http://myvitale.test/imgejercicio/158.jpg",
+                    "remainingDuration": 2,
+                    "alternatives": [],
+                    "video": {
+                        "provider": "youtube",
+                        "url": "12avxPq9Nv0"
+                    },
+                    "exerciseId": 24,
+                    "instructions": [
+                        {
+                            "name": "series",
+                            "icono": "icon-rotate",
+                            "text": "Sets",
+                            "units": "",
+                            "value": "2"
+                        },
+                        {
+                            "name": "recuperacion",
+                            "icono": "icon-user-seated",
+                            "text": "Cool down",
+                            "units": "",
+                            "value": "10\""
+                        },
+                        {
+                            "name": "duracion",
+                            "icono": "icon-cronometer",
+                            "text": "",
+                            "units": "",
+                            "value": "8\""
+                        }
+                    ]
+                },
+                {
+                    "name": "Adductors",
+                    "superSeries": 0,
+                    "image": "http://myvitale.test/imgejercicio/160.jpg",
+                    "remainingDuration": 1,
+                    "alternatives": [],
+                    "video": {
+                        "provider": "youtube",
+                        "url": "G8fOA6WKXe0"
+                    },
+                    "exerciseId": 26,
+                    "instructions": [
+                        {
+                            "name": "series",
+                            "icono": "icon-rotate",
+                            "text": "Sets",
+                            "units": "",
+                            "value": "2"
+                        },
+                        {
+                            "name": "recuperacion",
+                            "icono": "icon-user-seated",
+                            "text": "Cool down",
+                            "units": "",
+                            "value": "10\""
+                        },
+                        {
+                            "name": "duracion",
+                            "icono": "icon-cronometer",
+                            "text": "",
+                            "units": "",
+                            "value": "8\""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

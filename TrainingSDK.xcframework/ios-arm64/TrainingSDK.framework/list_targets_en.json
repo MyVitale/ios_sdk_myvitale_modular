@@ -1,0 +1,87 @@
+[
+    {
+        "codigo": "1",
+        "lang": "en",
+        "title": "Core"
+    },
+    {
+        "codigo": "2",
+        "lang": "en",
+        "title": "Shoulder"
+    },
+    {
+        "codigo": "3",
+        "lang": "en",
+        "title": "Hip flexors"
+    },
+    {
+        "codigo": "4",
+        "lang": "en",
+        "title": "Adductor"
+    },
+    {
+        "codigo": "5",
+        "lang": "en",
+        "title": "Adductors"
+    },
+    {
+        "codigo": "6",
+        "lang": "en",
+        "title": "Chest"
+    },
+    {
+        "codigo": "7",
+        "lang": "en",
+        "title": "Triceps"
+    },
+    {
+        "codigo": "8",
+        "lang": "en",
+        "title": "Quads"
+    },
+    {
+        "codigo": "9",
+        "lang": "en",
+        "title": "Glute"
+    },
+    {
+        "codigo": "10",
+        "lang": "en",
+        "title": "Lower back"
+    },
+    {
+        "codigo": "11",
+        "lang": "en",
+        "title": "Back"
+    },
+    {
+        "codigo": "12",
+        "lang": "en",
+        "title": "Biceps"
+    },
+    {
+        "codigo": "13",
+        "lang": "en",
+        "title": "Calves / Soleus"
+    },
+    {
+        "codigo": "14",
+        "lang": "en",
+        "title": "Hamstrings"
+    },
+    {
+        "codigo": "15",
+        "lang": "en",
+        "title": "Hip flexors"
+    },
+    {
+        "codigo": "16",
+        "lang": "en",
+        "title": "Dorsal"
+    },
+    {
+        "codigo": "17",
+        "lang": "en",
+        "title": "Soleus"
+    }
+]

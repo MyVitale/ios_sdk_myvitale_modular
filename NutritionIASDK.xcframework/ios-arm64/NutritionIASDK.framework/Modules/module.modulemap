@@ -1,0 +1,4 @@
+framework module NutritionIASDK {
+  header "NutritionIASDK-Swift.h"
+  requires objc
+}

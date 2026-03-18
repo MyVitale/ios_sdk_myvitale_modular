@@ -1,0 +1,319 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TrainingSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AVFoundation
+import AVKit
+import CoreMIDI
+import DeveloperToolsSupport
+import Foundation
+import HealthKit
+import MediaPlayer
+import SafariServices
+import Social
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_hasMissingDesignatedInitializers public class HCVimeoVideoExtractor : ObjectiveC.NSObject {
+  public static func fetchVideoURLFrom(url: Foundation.URL, completion: @escaping (_ video: TrainingSDK.HCVimeoVideo?, _ error: (any Swift.Error)?) -> Swift.Void)
+  public static func fetchVideoURLFrom(id: Swift.String, completion: @escaping (_ video: TrainingSDK.HCVimeoVideo?, _ error: (any Swift.Error)?) -> Swift.Void)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class TrainingEvents {
+  public static let shared: TrainingSDK.TrainingEvents
+  weak public var eventsDelegate: (any TrainingSDK.TrainingEventsDelegate)?
+  @objc deinit
+}
+public protocol TrainingEventsDelegate : AnyObject {
+  func sendEvent(_ event: TrainingSDK.TrainingEvent)
+}
+public enum HCVimeoThumbnailQuality : Swift.String {
+  case quality640
+  case quality960
+  case quality1280
+  case qualityBase
+  case qualityUnknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum HCVimeoVideoQuality : Swift.String {
+  case quality360p
+  case quality540p
+  case quality640p
+  case quality720p
+  case quality960p
+  case quality1080p
+  case qualityUnknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class HCVimeoVideo : ObjectiveC.NSObject {
+  public var title: Swift.String
+  public var thumbnailURL: [TrainingSDK.HCVimeoThumbnailQuality : Foundation.URL]
+  public var videoURL: [TrainingSDK.HCVimeoVideoQuality : Foundation.URL]
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WorkoutSDK {
+  public static let sharedInstance: TrainingSDK.WorkoutSDK
+  weak public var delegate: (any TrainingSDK.TrainingSDKDelegate)?
+  public var enableAIChatbot: Swift.Bool
+  public func start(with user: Swift.String, clientId: Swift.String, clientSecret: Swift.String)
+  public func logout()
+  public func setURL(url: Swift.String)
+  public func setMainColor(color: Swift.String)
+  public func setPrimaryButtonColor(_ color: Swift.String)
+  public func setNavigationBarColor(color: Swift.String)
+  public func setNavigationTintColor(color: Swift.String)
+  public func isProfileFilled() -> Swift.Bool
+  public func showVirtualPT()
+  public func updateProfile(sex: TrainingSDK.TrainingGender?, height: Swift.Int?, weigth: Swift.Int?, birthDate: Foundation.Date?, level: Swift.Int? = nil, basalMetabolism: Swift.Int? = nil, operationDate: Foundation.Date? = nil, activityLevel: Swift.Int? = nil, generateProfile: Swift.Bool = false)
+  public func updateProfile(name: Swift.String? = nil, lastName: Swift.String? = nil, sex: TrainingSDK.TrainingGender?, height: Swift.Int?, weigth: Swift.Int?, birthDate: Foundation.Date?)
+  public func getProfile() -> TrainingSDK.PublicProfile?
+  public func setPathologies(pathologies: [TrainingSDK.Pathologies])
+  public func showWorkoutPlan(_ title: Swift.String? = nil)
+  public func getWorkoutPlan(_ completion: @escaping ((UIKit.UIViewController) -> ()))
+  public func showEcareController()
+  public func getEcareController() -> UIKit.UIViewController
+  public func launchWorkout(workout: [Swift.String : Any])
+  public func getStatsViewController(_ completion: @escaping ((UIKit.UIViewController) -> ()))
+  public func getTodayStats(_ completion: @escaping ((TrainingSDK.Stat?) -> ()))
+  public func getTrainingProfile(_ completion: @escaping ((UIKit.UIViewController?) -> ()))
+  public func getTodayWorkout(_ completion: @escaping ((TrainingSDK.WorkoutSummary?) -> ()))
+  public func showTodaytraining()
+  public func showLibrary(_ title: Swift.String? = nil)
+  public func showCustomWorkouts(_ title: Swift.String? = nil)
+  public func showTimeBasedWorkouts(_ title: Swift.String? = nil)
+  public func getStatsBetween(startDate: Foundation.Date, endDate: Foundation.Date, _ completion: @escaping (([TrainingSDK.Stat]?) -> ()))
+  public func showWefitter(_ completion: @escaping ((UIKit.UIViewController) -> ()))
+  @objc deinit
+}
+public protocol TrainingSDKDelegate : AnyObject {
+  func trainingSDKDidRequestAIChatbot()
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class VitaleViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension UIKit.UIFont {
+  public static func jbs_registerFont(withFilenameString filenameString: Swift.String, bundle: Foundation.Bundle)
+}
+open class Sound {
+  public static var playersPerSound: Swift.Int {
+    get
+    set
+  }
+  public static var enabled: Swift.Bool {
+    get
+    set
+  }
+  public init?(url: Foundation.URL)
+  @discardableResult
+  public func play(numberOfLoops: Swift.Int = 0) -> Swift.Bool
+  public func stop()
+  @discardableResult
+  public static func play(file: Swift.String, fileExtension: Swift.String? = nil, numberOfLoops: Swift.Int = 0) -> Swift.Bool
+  @discardableResult
+  public static func play(url: Foundation.URL, numberOfLoops: Swift.Int = 0) -> Swift.Bool
+  public static func stop(for url: Foundation.URL)
+  public static func stop(file: Swift.String, fileExtension: Swift.String? = nil)
+  public static func stopAll()
+  @objc deinit
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor @preconcurrency public static let modelName: Swift.String
+}
+public struct TrainingEvent : Swift.Codable {
+  public var eventName: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct TrainingDevice : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public class Stat : Swift.Codable {
+  public var cal: Swift.Int?
+  public var time: Swift.Int?
+  public var distance: Swift.Double?
+  public var steps: Swift.Int?
+  public var date: Foundation.Date?
+  public init()
+  public func statFromJson(_ json: Foundation.NSDictionary) -> TrainingSDK.Stat
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public struct PublicProfile : Swift.Codable {
+  public var name: Swift.String?
+  public var lastName: Swift.String?
+  public var height: Swift.Int?
+  public var weight: Swift.Int?
+  public var gender: TrainingSDK.TrainingGender?
+  public var birthDate: Foundation.Date?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum Pathologies : Swift.Int {
+  case arterialHypertension, osteoporosis, diabetes, obesity, highCholesterolOrTriglycerides, backPain, metabolicsyndrome, copd, multipleSclerosis, fibromyalgia, stroke, heartDisease
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum TrainingType : Swift.Codable {
+  case diabetes, bariatrico
+  public static func == (a: TrainingSDK.TrainingType, b: TrainingSDK.TrainingType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum TrainingGender : Swift.String, Swift.Codable {
+  case male, female
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum PlayerState : Swift.String {
+  case unstarted
+  case ended
+  case playing
+  case paused
+  case buffering
+  case queued
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum PlayerEvents : Swift.String {
+  case iframeAPIReady
+  case ready
+  case stateChange
+  case playbackQualityChange
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum PlaybackQuality : Swift.String {
+  case small
+  case medium
+  case large
+  case hd720
+  case hd1080
+  case highResolution
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol YouTubePlayerDelegate : AnyObject {
+  func playerReady(_ videoPlayer: TrainingSDK.YouTubePlayerView)
+  func playerStateChanged(_ videoPlayer: TrainingSDK.YouTubePlayerView, playerState: TrainingSDK.PlayerState)
+  func playerQualityChanged(_ videoPlayer: TrainingSDK.YouTubePlayerView, playbackQuality: TrainingSDK.PlaybackQuality)
+}
+extension TrainingSDK.YouTubePlayerDelegate {
+  public func playerReady(_ videoPlayer: TrainingSDK.YouTubePlayerView)
+  public func playerStateChanged(_ videoPlayer: TrainingSDK.YouTubePlayerView, playerState: TrainingSDK.PlayerState)
+  public func playerQualityChanged(_ videoPlayer: TrainingSDK.YouTubePlayerView, playbackQuality: TrainingSDK.PlaybackQuality)
+}
+public func videoIDFromYouTubeURL(_ videoURL: Foundation.URL) -> Swift.String?
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class YouTubePlayerView : UIKit.UIView, WebKit.WKNavigationDelegate {
+  public typealias YouTubePlayerParameters = [Swift.String : Swift.AnyObject]
+  @_Concurrency.MainActor @preconcurrency public var baseURL: Swift.String
+  @_Concurrency.MainActor @preconcurrency open var ready: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency open var playerState: TrainingSDK.PlayerState {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency open var playbackQuality: TrainingSDK.PlaybackQuality {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency open var playerVars: TrainingSDK.YouTubePlayerView.YouTubePlayerParameters
+  @_Concurrency.MainActor @preconcurrency weak open var delegate: (any TrainingSDK.YouTubePlayerDelegate)?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency open func loadVideoURL(_ videoURL: Foundation.URL)
+  @_Concurrency.MainActor @preconcurrency open func loadVideoID(_ videoID: Swift.String)
+  @_Concurrency.MainActor @preconcurrency open func loadPlaylistID(_ playlistID: Swift.String)
+  @_Concurrency.MainActor @preconcurrency open func mute()
+  @_Concurrency.MainActor @preconcurrency open func unMute()
+  @_Concurrency.MainActor @preconcurrency open func play()
+  @_Concurrency.MainActor @preconcurrency open func pause()
+  @_Concurrency.MainActor @preconcurrency open func stop()
+  @_Concurrency.MainActor @preconcurrency open func clear()
+  @_Concurrency.MainActor @preconcurrency open func seekTo(_ seconds: Swift.Float, seekAhead: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency open func getDuration(completion: ((Swift.Double?) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency open func getCurrentTime(completion: ((Swift.Double?) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency open func previousVideo()
+  @_Concurrency.MainActor @preconcurrency open func nextVideo()
+  @_Concurrency.MainActor @preconcurrency @objc open func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @objc deinit
+}
+public struct WorkoutSummary : Swift.Codable {
+  public var title: Swift.String?
+  public var classTitle: Swift.String?
+  public var image: Swift.String?
+  public var alternativeClassAvailable: Swift.Bool?
+  public var kcal: Swift.String?
+  public var descripcion: Swift.String?
+  public var duration: Swift.String?
+  public var url: Swift.String?
+  public var day: Swift.Int?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum StringOrInt : Swift.Codable {
+  case string(Swift.String)
+  case int(Swift.Int)
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension TrainingSDK.HCVimeoThumbnailQuality : Swift.Equatable {}
+extension TrainingSDK.HCVimeoThumbnailQuality : Swift.Hashable {}
+extension TrainingSDK.HCVimeoThumbnailQuality : Swift.RawRepresentable {}
+extension TrainingSDK.HCVimeoVideoQuality : Swift.Equatable {}
+extension TrainingSDK.HCVimeoVideoQuality : Swift.Hashable {}
+extension TrainingSDK.HCVimeoVideoQuality : Swift.RawRepresentable {}
+extension TrainingSDK.Pathologies : Swift.Equatable {}
+extension TrainingSDK.Pathologies : Swift.Hashable {}
+extension TrainingSDK.Pathologies : Swift.RawRepresentable {}
+extension TrainingSDK.TrainingType : Swift.Equatable {}
+extension TrainingSDK.TrainingType : Swift.Hashable {}
+extension TrainingSDK.TrainingGender : Swift.Equatable {}
+extension TrainingSDK.TrainingGender : Swift.Hashable {}
+extension TrainingSDK.TrainingGender : Swift.RawRepresentable {}
+extension TrainingSDK.PlayerState : Swift.Equatable {}
+extension TrainingSDK.PlayerState : Swift.Hashable {}
+extension TrainingSDK.PlayerState : Swift.RawRepresentable {}
+extension TrainingSDK.PlayerEvents : Swift.Equatable {}
+extension TrainingSDK.PlayerEvents : Swift.Hashable {}
+extension TrainingSDK.PlayerEvents : Swift.RawRepresentable {}
+extension TrainingSDK.PlaybackQuality : Swift.Equatable {}
+extension TrainingSDK.PlaybackQuality : Swift.Hashable {}
+extension TrainingSDK.PlaybackQuality : Swift.RawRepresentable {}

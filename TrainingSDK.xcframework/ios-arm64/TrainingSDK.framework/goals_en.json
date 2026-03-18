@@ -1,0 +1,102 @@
+{
+    "objectives": {
+        "Functional": {
+            "id": 1,
+            "subobjectives": [{
+                "id": 19,
+                "title": "Total Training"
+            }, {
+                "id": 18,
+                "title": "Cross training"
+            }, {
+                "id": 16,
+                "title": "Cardio training"
+            }, {
+                "id": 5,
+                "title": "Healthy back"
+            }, {
+                "id": 3,
+                "title": "Endurance"
+            }]
+        },
+        "Build muscle": {
+            "id": 5,
+            "subobjectives": [{
+                "id": 15,
+                "title": "Body building"
+            }, {
+                "id": 41,
+                "title": "Toning up"
+            }, {
+                "id": 20,
+                "title": "Glute-Abs-Legs"
+            }, {
+                "id": 17,
+                "title": "Abs"
+            }]
+        },
+        "Lose weight": {
+            "id": 4,
+            "subobjectives": [{
+                "id": 1,
+                "title": "Only weight loss"
+            }, {
+                "id": 2,
+                "title": "Weight loss and toning up"
+            }]
+        },
+        "Cycling/Running": {
+            "id": 2,
+            "subobjectives": [{
+                "id": 7,
+                "title": "Cycling"
+            }, {
+                "id": 42,
+                "title": "Long distance cycling"
+            }, {
+                "id": 24,
+                "title": "Half marathon"
+            }, {
+                "id": 43,
+                "title": "Marathon"
+            }, {
+                "id": 44,
+                "title": "Mountain bike"
+            }, {
+                "id": 45,
+                "title": "Duathlon 10-40-5"
+            }]
+        },
+        "Health": {
+            "id": 3,
+            "subobjectives": [{
+                "id": 10,
+                "title": "Arterial hypertension"
+            }, {
+                "id": 11,
+                "title": "Osteoporosis"
+            }, {
+                "id": 12,
+                "title": "Diabetes type II"
+            }, {
+                "id": 14,
+                "title": "Chronic obstructive Pulmonary disease"
+            }, {
+                "id": 34,
+                "title": "Cholesterol and\/or triglyceride excess"
+            }, {
+                "id": 35,
+                "title": "Back pain"
+            }, {
+                "id": 37,
+                "title": "Metabolic syndrome"
+            }, {
+                "id": 38,
+                "title": "Multiple sclerosis"
+            }, {
+                "id": 39,
+                "title": "Fibromyalgia"
+            }]
+        }
+    }
+}

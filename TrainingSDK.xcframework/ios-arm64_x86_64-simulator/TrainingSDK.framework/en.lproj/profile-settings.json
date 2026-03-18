@@ -1,0 +1,65 @@
+[{
+    "page": 0,
+    "panels": [{
+        "questions": [
+            {
+                "title": "What is your goal?",
+                "type": "list",
+                "identifier": "goal",
+                "info": "We offer you healthy life programs, weight loss, build muscle, prevent diseases, etc. Tell us what your goal is and we will help you achieve it",
+                "isMultipleSelection": false
+            },
+            {
+                "title": "Do you have any health problems?",
+                "identifier": "healthProblems",
+                "type": "list",
+                "info": "Let us know if you experience any of these health conditions and we'll take them into account to tailor your exercise program to help improve your fitness level and quality of life",
+                "isMultipleSelection": true
+            },
+            {
+                "title": "Current fitness level",
+                "type": "list",
+                "info": "Tell us what you think your current fitness level is, in order to better adapt your program to your actual capabilities.",
+                "identifier": "trainingLevel",
+                "isMultipleSelection": false
+            },
+            {
+                "title": "Preferred exercise difficulty",
+                "type": "list",
+                "info": "We can offer you exercises that are easier or more difficult to perform, depending on your preferences. Let us know what your chosen option is.",
+                "identifier": "exerciseDifficulty",
+                "isMultipleSelection": false
+            },
+            {
+                "title": "Where do you want to train?",
+                "identifier": "trainingPlace",
+                "type": "list",
+                "info": "Are you going to train indoors, like a gym or your home, or can you exercise outdoors? If you choose the latter option, we will sometimes suggest exercises that require more space to perform.",
+                "isMultipleSelection": false
+
+            },
+            {
+                "title": "Do you have any training equipment?",
+                "type": "list",
+                "identifier": "equipment",
+                "info": "Let us know the equipment you have available, so that we can suggest exercises using only that equipment. If you don't have any equipment, that's fine. Do not check any option and we will suggest exercises that do not require any equipment, since you will use your body weight",
+                "isMultipleSelection": true
+            },
+            {
+                "title": "Preferred training duration",
+                "type": "list",
+                "identifier": "trainingDuration",
+                "info": "Tell us how long you would ideally like to workout.",
+                "isMultipleSelection": false
+            },
+            {
+                "title": "Training days",
+                "type": "list",
+                "size": "medium",
+                "info": "Let us know which days of the week you want to workout",
+                "identifier": "trainingDays",
+                "isMultipleSelection": true
+            }
+        ]
+    }]
+}]
