@@ -20,11 +20,9 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.myvitale.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MyVitale' => 'miguel.munoz@myvitale.com' }
-  s.source           = { :git => 'https://github.com/MyVitale/ios_sdk_myvitale_modular.git', :tag => "1.0.36" }
+  s.source           = { :git => 'https://github.com/MyVitale/ios_sdk_myvitale_modular.git', :tag => "1.0.0" }
   s.ios.deployment_target = '13.0'
   s.vendored_frameworks = ['TrainingSDK.xcframework', 'VitaleHealthSDK.xcframework', 'NutritionIASDK.xcframework']
-  # s.dependency 'NutritionSDKXplor', '~> 1.0.0'
-  # s.dependency 'TrainingSDKXplor', '~> 1.0.0'
   s.swift_version = "5.0"
   s.swift_versions = ['4.0', '4.2', '5.0']
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }

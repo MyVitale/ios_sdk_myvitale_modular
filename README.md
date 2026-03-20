@@ -300,36 +300,6 @@ The delegate reference is `weak` — make sure the object conforming to the prot
 
 ---
 
-## Modules
-
-The SDK bundles three pre-compiled XCFrameworks:
-
-| Framework | Description |
-|-----------|-------------|
-| `TrainingSDK.xcframework` | Workout engine: today's training, library, custom and time-based workouts |
-| `VitaleHealthSDK.xcframework` | Core SDK: profile, settings, terms handling, theming |
-| `NutritionIASDK.xcframework` | AI-powered nutrition module with country-specific content |
-
----
-
-## Architecture Notes
-
-- **Entry point**: `VitaleSDK` is a singleton (`VitaleSDK.shared`) that acts as a facade over the three internal frameworks.
-- **Terms gate**: every `show*` call is wrapped by `checkTermsAndShowAlert`, which ensures the user has accepted the terms before any screen is presented.
-- **Internal bridging**: `SDKBridging.shared` handles cross-SDK configuration (credentials, country, pathologies, user center).
-- **Theming**: `VitaleSDKUtils.shared` manages all visual customization and coordinates UIKit presentation.
-- **`BUILD_LIBRARY_FOR_DISTRIBUTION`**: enabled via xcconfig to ensure ABI stability across Swift versions.
-
----
-
-## Known Limitations
-
-- **Apple Silicon Simulator**: `arm64` is excluded from simulator builds. Use a physical device or an Intel-based simulator for development.
-- **Minimum deployment target**: iOS 13.0. Features relying on newer OS APIs may degrade gracefully on older versions.
-- **Delegate retention**: `vitaleSDKDelegate` is a `weak` reference — ensure the delegate object has a strong owner.
-
----
-
 ## License
 
 MyvitaleSDKModular is available under the **MIT** license. See the [LICENSE](LICENSE) file for more details.
