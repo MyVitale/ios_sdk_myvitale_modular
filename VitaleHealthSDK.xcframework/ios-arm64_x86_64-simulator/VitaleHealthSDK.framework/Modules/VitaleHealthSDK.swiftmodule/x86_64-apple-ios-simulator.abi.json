@@ -274,7 +274,7 @@
           {
             "kind": "Function",
             "name": "startSDKWith",
-            "printedName": "startSDKWith(appID:password:userID:url:userCenter:)",
+            "printedName": "startSDKWith(appID:password:userID:url:userCenter:name:lastname:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -328,11 +328,41 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:15VitaleHealthSDK0aC0C12startSDKWith5appID8password04userG03url0I6CenterySS_S3SSgAJtF",
-            "mangledName": "$s15VitaleHealthSDK0aC0C12startSDKWith5appID8password04userG03url0I6CenterySS_S3SSgAJtF",
+            "usr": "s:15VitaleHealthSDK0aC0C12startSDKWith5appID8password04userG03url0I6Center4name8lastnameySS_S3SSgA3LtF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C12startSDKWith5appID8password04userG03url0I6Center4name8lastnameySS_S3SSgA3LtF",
             "moduleName": "VitaleHealthSDK",
             "declAttributes": [
               "AccessControl"

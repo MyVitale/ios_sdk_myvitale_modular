@@ -20,7 +20,7 @@ import os
   public static let shared: VitaleHealthSDK.VitaleSDK
   weak public var vitaleSDKDelegate: (any VitaleHealthSDK.VitaleSDKDelegate)?
   public func setDelegate(_ delegate: any VitaleHealthSDK.VitaleSDKDelegate)
-  public func startSDKWith(appID: Swift.String, password: Swift.String, userID: Swift.String, url: Swift.String? = nil, userCenter: Swift.String? = nil)
+  public func startSDKWith(appID: Swift.String, password: Swift.String, userID: Swift.String, url: Swift.String? = nil, userCenter: Swift.String? = nil, name: Swift.String? = nil, lastname: Swift.String? = nil)
   public func setMainColor(color: Swift.String)
   public func setPrimaryButtonColor(_ color: Swift.String)
   public func setUserCenter(_ center: Swift.String)

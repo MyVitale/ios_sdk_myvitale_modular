@@ -19,8 +19,8 @@ public class VitaleSDK{
         self.vitaleSDKDelegate = delegate
     }
     
-    public func startSDKWith(appID: String, password: String, userID: String, url: String? = nil, userCenter: String? = nil){
-        SDKBridging.shared.startSDKsWithConfig(appID: appID, password: password, userID: userID, url: url, userCenter: userCenter)
+    public func startSDKWith(appID: String, password: String, userID: String, url: String? = nil, userCenter: String? = nil, name: String? = nil, lastname: String? = nil){
+        SDKBridging.shared.startSDKsWithConfig(appID: appID, password: password, userID: userID, url: url, userCenter: userCenter, name: name, lastname: lastname)
         
     }
     

@@ -122,7 +122,7 @@ extension AppDelegate: VitaleSDKDelegate {
 
 ## Configuration
 
-### `startSDKWith(appID:password:userID:url:userCenter:)`
+### `startSDKWith(appID:password:userID:url:userCenter:name:lastname:)`
 
 Initializes all internal SDK modules. Must be called before any `show*` method.
 
@@ -133,6 +133,8 @@ Initializes all internal SDK modules. Must be called before any `show*` method.
 | `userID` | `String` | ✅ | Unique identifier for the current user |
 | `url` | `String?` | ❌ | Custom API base URL (uses default if `nil`) |
 | `userCenter` | `String?` | ❌ | Center/clinic identifier for multi-center setups |
+| `name` | `String?` | ❌ | User's first name — pre-populates the profile on first launch |
+| `lastname` | `String?` | ❌ | User's last name — pre-populates the profile on first launch |
 
 ---
 

@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/VitaleSDK.swift</key>
 		<data>
-		E6TgU+vSpgMuPvEI9yUg2tSVXok=
+		L4Iw/ol27YSD5gGiyPZbqkgXeFQ=
 		</data>
 		<key>HomeCollectionViewCell.nib</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		dv3nSmKnonCgq0yQe1fcrRpYX00=
+		/b8nt0z0zYfevIWRICW38vlbKsA=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ZjCpmScquQqzFBORIch7/5O/RGU=
+		SH1dW6zGS7n0bB30vn2kKbROjGY=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -90,19 +90,19 @@
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ZjCpmScquQqzFBORIch7/5O/RGU=
+		SH1dW6zGS7n0bB30vn2kKbROjGY=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UbXRa8fUS/eVvhf1lEiUtw0AuO4=
+		iTEy9d7Ku1662810jK52jTbDh8I=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dv3nSmKnonCgq0yQe1fcrRpYX00=
+		/b8nt0z0zYfevIWRICW38vlbKsA=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0ryswzAExNT+OyD9hrrU1fGgdD4=
+		nbSLCn6h2FW6O72PAQRMTatos30=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -110,11 +110,11 @@
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0ryswzAExNT+OyD9hrrU1fGgdD4=
+		nbSLCn6h2FW6O72PAQRMTatos30=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WTDqlj8ErGJ5WSRvg32DPSb8/0E=
+		Kf5XouChGapGR2kLR8Vz9zTHoig=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -319,7 +319,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EisxSYjjBKp84ldf1Ks8Do2ja8W4St6kPJk3AO2CvD8=
+			5MlcUvQ3Eh8onm7i5yeSYz1XEOVQfd3DQVtdDIT4ejg=
 			</data>
 		</dict>
 		<key>HomeCollectionViewCell.nib</key>
@@ -347,14 +347,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+EQzZyCybSTLsN7kX8g2AxYariZ2uk3YWuWiILWBqqA=
+			0PPLB63D27mnO+wwoUHFjmZHp35oRpF0rFIa/ENPX9s=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QhP+oZQK649Tpi0j5aS51JOuEHv7bXJI2qGdzz8vLUs=
+			PkReWeTJll8MSgg1iNaJxrq7QUGi2oeZu2Sow/GeqKA=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -368,28 +368,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QhP+oZQK649Tpi0j5aS51JOuEHv7bXJI2qGdzz8vLUs=
+			PkReWeTJll8MSgg1iNaJxrq7QUGi2oeZu2Sow/GeqKA=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l6I6fFVGXz5Wylyd8H9BZldlmWWAF9o9VXVQii5QEfs=
+			kGQyw0LF3wozCqIbZMawvOxpyE+7+9952Am5o7+NjvE=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+EQzZyCybSTLsN7kX8g2AxYariZ2uk3YWuWiILWBqqA=
+			0PPLB63D27mnO+wwoUHFjmZHp35oRpF0rFIa/ENPX9s=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+cSidZQJ/ie7FUVdDrUkrH4PW/7iVh8R7a0NJwCN/Ls=
+			TtB2c0+K9dcFGGrBx7UXMe7be1DGsHe7B12YQt73XLE=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -403,14 +403,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+cSidZQJ/ie7FUVdDrUkrH4PW/7iVh8R7a0NJwCN/Ls=
+			TtB2c0+K9dcFGGrBx7UXMe7be1DGsHe7B12YQt73XLE=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+4Apj8XxIaPypcZl+atHJMdUv3lj2Fyu6ZIdgVVeXK0=
+			NhrkVClsvXwixZyTW18SJFSsDFTKMK4t0RDMCzrNep4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
