@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyvitaleSDKModular'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Intelligent, automatic, comprehensive, adaptive Training System'
 
 # This description is used to generate tags and improve search results.
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.myvitale.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MyVitale' => 'miguel.munoz@myvitale.com' }
-  s.source           = { :git => 'https://github.com/MyVitale/ios_sdk_myvitale_modular.git', :tag => "1.0.0" }
+  s.source           = { :git => 'https://github.com/MyVitale/ios_sdk_myvitale_modular.git', :branch => "main" }
   s.ios.deployment_target = '13.0'
   s.vendored_frameworks = ['TrainingSDK.xcframework', 'VitaleHealthSDK.xcframework', 'NutritionIASDK.xcframework']
   s.swift_version = "5.0"

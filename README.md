@@ -51,7 +51,7 @@ MyvitaleSDKModular is a modular iOS SDK that integrates **training**, **nutritio
 Add the following to your `Podfile`:
 
 ```ruby
-pod 'MyvitaleSDKModular', :git => 'https://github.com/MyVitale/ios_sdk_myvitale_modular.git', :tag => '1.0.36'
+pod 'MyvitaleSDKModular', :git => 'https://github.com/MyVitale/ios_sdk_myvitale_modular.git', :branch => 'main'
 ```
 
 Then run:
@@ -83,7 +83,7 @@ end
 ### 1. Import the SDK
 
 ```swift
-import VitaleSDK
+import VitaleHealthSDK
 ```
 
 ### 2. Configure on app launch
