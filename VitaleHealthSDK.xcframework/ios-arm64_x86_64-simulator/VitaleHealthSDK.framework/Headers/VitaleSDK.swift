@@ -77,6 +77,12 @@ public class VitaleSDK{
             WorkoutSDK.sharedInstance.showLibrary()
         }
     }
+    
+    public func showPersonalTrainer(){
+        VitaleSDKUtils.shared.checkTermsAndShowAlert {
+            WorkoutSDK.sharedInstance.showPersonalWorkouts()
+        }
+    }
         
     public func showCustomWorkouts() {
         VitaleSDKUtils.shared.checkTermsAndShowAlert {

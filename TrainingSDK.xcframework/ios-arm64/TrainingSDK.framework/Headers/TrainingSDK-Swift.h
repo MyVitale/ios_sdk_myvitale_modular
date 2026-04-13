@@ -1562,6 +1562,27 @@ SWIFT_CLASS("_TtC11TrainingSDK8TintView")
 @end
 
 
+SWIFT_CLASS("_TtC11TrainingSDK29TrainerPlanningViewController")
+@interface TrainerPlanningViewController : VitaleViewController <UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified sumaryInfo;
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView * _Null_unspecified activity;
+@property (nonatomic, weak) IBOutlet PlanningHeaderView * _Null_unspecified planningHeader;
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)didTapCloseButton;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
 SWIFT_CLASS("_TtC11TrainingSDK30TrainingMenuCollectionViewCell")
 @interface TrainingMenuCollectionViewCell : UICollectionViewCell
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLabel;
@@ -2030,12 +2051,12 @@ SWIFT_CLASS("_TtC11TrainingSDK18WorkoutSummaryView")
 - (IBAction)switchWorkoutForClass;
 @end
 
-
 @class AVPlayerViewController;
 
 @interface WorkoutSummaryView (SWIFT_EXTENSION(TrainingSDK)) <AVPlayerViewControllerDelegate>
 - (void)playerViewController:(AVPlayerViewController * _Nonnull)playerViewController willEndFullScreenPresentationWithAnimationCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 @end
+
 
 
 SWIFT_CLASS("_TtC11TrainingSDK21WorkoutViewController")

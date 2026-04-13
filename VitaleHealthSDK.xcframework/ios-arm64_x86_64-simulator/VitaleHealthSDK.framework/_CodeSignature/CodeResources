@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/VitaleSDK.swift</key>
 		<data>
-		L4Iw/ol27YSD5gGiyPZbqkgXeFQ=
+		PCh3d88vnzL4sEfyL5gj6Zmp5Wo=
 		</data>
 		<key>HomeCollectionViewCell.nib</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		/b8nt0z0zYfevIWRICW38vlbKsA=
+		APrh7bs2c0ZR0qsKfjEAKr3co4A=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		SH1dW6zGS7n0bB30vn2kKbROjGY=
+		t/jLXWHlFEdZ7Y2pXy9xNsdlu6o=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -90,19 +90,19 @@
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		SH1dW6zGS7n0bB30vn2kKbROjGY=
+		t/jLXWHlFEdZ7Y2pXy9xNsdlu6o=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iTEy9d7Ku1662810jK52jTbDh8I=
+		NJeAI2Hr5s/IS5VSR0WvCGXUQzk=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/b8nt0z0zYfevIWRICW38vlbKsA=
+		APrh7bs2c0ZR0qsKfjEAKr3co4A=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		nbSLCn6h2FW6O72PAQRMTatos30=
+		AIpWrzLEVTxQLOT5hp5+2vbJa0Y=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -110,11 +110,11 @@
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nbSLCn6h2FW6O72PAQRMTatos30=
+		AIpWrzLEVTxQLOT5hp5+2vbJa0Y=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Kf5XouChGapGR2kLR8Vz9zTHoig=
+		fiz94FXlRQDCqDEo3ADm4UyVH/c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -319,7 +319,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5MlcUvQ3Eh8onm7i5yeSYz1XEOVQfd3DQVtdDIT4ejg=
+			lyCPaxvS8TBhhdH1aW3Z6pT7TTSVFHhkowwHRkcOtZo=
 			</data>
 		</dict>
 		<key>HomeCollectionViewCell.nib</key>
@@ -347,14 +347,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0PPLB63D27mnO+wwoUHFjmZHp35oRpF0rFIa/ENPX9s=
+			4PqlMl0FNSGsgCZBLfUbku6534H60PvBZeRkz5Fkt88=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PkReWeTJll8MSgg1iNaJxrq7QUGi2oeZu2Sow/GeqKA=
+			6YNsfhS2HMYUXBuZFeRyGrWMXMCri71uymaJSLOJDSQ=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -368,28 +368,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PkReWeTJll8MSgg1iNaJxrq7QUGi2oeZu2Sow/GeqKA=
+			6YNsfhS2HMYUXBuZFeRyGrWMXMCri71uymaJSLOJDSQ=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kGQyw0LF3wozCqIbZMawvOxpyE+7+9952Am5o7+NjvE=
+			LXU2vUWqezQLaR5i5NvUN6hE11xFqtXo5zY8DzMl2vM=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0PPLB63D27mnO+wwoUHFjmZHp35oRpF0rFIa/ENPX9s=
+			4PqlMl0FNSGsgCZBLfUbku6534H60PvBZeRkz5Fkt88=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TtB2c0+K9dcFGGrBx7UXMe7be1DGsHe7B12YQt73XLE=
+			gjqRRSn6hgkGusWgsZoj+PvGHL+nufqniNKG3b8RW/A=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -403,14 +403,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TtB2c0+K9dcFGGrBx7UXMe7be1DGsHe7B12YQt73XLE=
+			gjqRRSn6hgkGusWgsZoj+PvGHL+nufqniNKG3b8RW/A=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NhrkVClsvXwixZyTW18SJFSsDFTKMK4t0RDMCzrNep4=
+			SB5eOwTq29UsgWULsN3/Hfe0j1smV5X1srC9DPX8Tjo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

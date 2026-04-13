@@ -627,6 +627,26 @@
           },
           {
             "kind": "Function",
+            "name": "showPersonalTrainer",
+            "printedName": "showPersonalTrainer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C19showPersonalTraineryyF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C19showPersonalTraineryyF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "showCustomWorkouts",
             "printedName": "showCustomWorkouts()",
             "children": [
@@ -3228,21 +3248,21 @@
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 2249,
+      "offset": 2616,
       "length": 15,
       "value": "\"timezone_type\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 2585,
+      "offset": 2952,
       "length": 28,
       "value": "\"yyyy-MM-dd HH:mm:ss.SSSSSS\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 2660,
+      "offset": 3027,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
@@ -3529,21 +3549,21 @@
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/Controllers\/HomeModels.swift",
       "kind": "StringLiteral",
-      "offset": 1404,
+      "offset": 1448,
       "length": 8,
       "value": "\"app_id\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/Controllers\/HomeModels.swift",
       "kind": "StringLiteral",
-      "offset": 2442,
+      "offset": 2486,
       "length": 11,
       "value": "\"channelId\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/Controllers\/HomeModels.swift",
       "kind": "StringLiteral",
-      "offset": 2541,
+      "offset": 2585,
       "length": 9,
       "value": "\"vimeoId\""
     },

@@ -32,6 +32,7 @@ import os
   public func setNutritionCountry(country: Swift.Int)
   public func showTodaytraining()
   public func showLibrary()
+  public func showPersonalTrainer()
   public func showCustomWorkouts()
   public func showTimeBasedWorkouts()
   public func showProfile()

@@ -224,6 +224,12 @@ VitaleSDK.shared.showTodaytraining()
 VitaleSDK.shared.showLibrary()
 ```
 
+#### Personal trainer workouts
+
+```swift
+VitaleSDK.shared.showPersonalTrainer()
+```
+
 #### Custom workouts
 
 ```swift

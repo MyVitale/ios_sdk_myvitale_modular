@@ -7,7 +7,6 @@ import AVKit
 import CoreMIDI
 import DeveloperToolsSupport
 import Foundation
-import HealthKit
 import MediaPlayer
 import SafariServices
 import Social
@@ -68,7 +67,7 @@ public enum HCVimeoVideoQuality : Swift.String {
   public static let sharedInstance: TrainingSDK.WorkoutSDK
   weak public var delegate: (any TrainingSDK.TrainingSDKDelegate)?
   public var enableAIChatbot: Swift.Bool
-  public func start(with user: Swift.String, clientId: Swift.String, clientSecret: Swift.String)
+  public func start(with user: Swift.String, clientId: Swift.String, clientSecret: Swift.String, name: Swift.String? = nil, lastname: Swift.String? = nil)
   public func logout()
   public func setURL(url: Swift.String)
   public func setMainColor(color: Swift.String)
@@ -82,6 +81,7 @@ public enum HCVimeoVideoQuality : Swift.String {
   public func getProfile() -> TrainingSDK.PublicProfile?
   public func setPathologies(pathologies: [TrainingSDK.Pathologies])
   public func showWorkoutPlan(_ title: Swift.String? = nil)
+  public func showPersonalWorkouts()
   public func getWorkoutPlan(_ completion: @escaping ((UIKit.UIViewController) -> ()))
   public func showEcareController()
   public func getEcareController() -> UIKit.UIViewController
