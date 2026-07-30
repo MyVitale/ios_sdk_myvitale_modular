@@ -19,9 +19,14 @@ public class VitaleSDK{
         self.vitaleSDKDelegate = delegate
     }
     
-    public func startSDKWith(appID: String, password: String, userID: String, url: String? = nil, userCenter: String? = nil, name: String? = nil, lastname: String? = nil){
-        SDKBridging.shared.startSDKsWithConfig(appID: appID, password: password, userID: userID, url: url, userCenter: userCenter, name: name, lastname: lastname)
-        
+    public func startSDKWith(appID: String, password: String, userID: String, url: String? = nil, userCenter: String? = nil, name: String? = nil, lastname: String? = nil, gender: Int? = nil, weight: Double? = nil, height: Int? = nil, birthDate: Date? = nil){
+        SDKBridging.shared.startSDKsWithConfig(appID: appID, password: password, userID: userID, url: url, userCenter: userCenter, name: name, lastname: lastname, gender: gender, weight: weight, height: height, birthDate: birthDate)
+    }
+
+    public func startSDKAndWait(appID: String, password: String, userID: String, url: String? = nil, userCenter: String? = nil, name: String? = nil, lastname: String? = nil, gender: Int? = nil, weight: Double? = nil, height: Int? = nil, birthDate: Date? = nil, _ completion: @escaping((Bool)->())){
+        SDKBridging.shared.startSDKsWithConfigAndWait(appID: appID, password: password, userID: userID, url: url, userCenter: userCenter, name: name, lastname: lastname, gender: gender, weight: weight, height: height, birthDate: birthDate){ isSuccess in
+            completion(isSuccess)
+        }
     }
     
     public func setMainColor(color: String){
@@ -94,6 +99,10 @@ public class VitaleSDK{
         VitaleSDKUtils.shared.checkTermsAndShowAlert {
             WorkoutSDK.sharedInstance.showTimeBasedWorkouts()
         }
+    }
+    
+    public func setNavigationTitle(title: String){
+        VitaleSDKUtils.shared.setNavigationTitle(title: title)
     }
     
     public func showProfile(){

@@ -7,5 +7,4 @@ framework module VitaleHealthSDK {
 
 module VitaleHealthSDK.Swift {
   header "VitaleHealthSDK-Swift.h"
-  requires objc
 }

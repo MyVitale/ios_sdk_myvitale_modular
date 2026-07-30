@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		GlaJC2htOzIc8PBpI4KZEHSz9u4=
+		18RiS/1yUe0j6uGbYACot2EWXrk=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-rlF-4G-Sdm.nib</key>
 		<data>
-		PGo8iqN05dBnnmsc0QCddwYKVMI=
+		VEj30kFEBIz1cL7WOHSyf+BXZOM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/CumacaHomeViewController.nib</key>
 		<data>
-		vwN/wvzlc++ywTJaULcGIei193E=
+		mhXALOBJgkS853WVv0Bi//szUI8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/GridVC.nib</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Base.lproj/UserProfileViewController.nib</key>
 		<data>
-		/+7PEx34gDV+inT2aJS5vPBBf+Y=
+		1d+pAYQ6XO60N2W3vF1aJcrF288=
 		</data>
 		<key>GridViewController.nib</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/VitaleHealthSDK-Swift.h</key>
 		<data>
-		NcArCcn/dMb9sLJglP6xhbFc1T0=
+		MWvLqlpPyKYHO0p+FvuYNALDSt0=
 		</data>
 		<key>Headers/VitaleHealthSDK.h</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/VitaleSDK.swift</key>
 		<data>
-		PCh3d88vnzL4sEfyL5gj6Zmp5Wo=
+		8gcLhenBl3KgcKVF1WYeK4lU49M=
 		</data>
 		<key>HomeCollectionViewCell.nib</key>
 		<data>
@@ -70,59 +70,59 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		n9bG4K6pAzjVz0Ebo6OIHFoiKSA=
+		QBDzQSBhS6oUQ/8VM4IbkcZyZ4Q=
 		</data>
 		<key>LoginViewController.nib</key>
 		<data>
-		1U5RQ1Fu2Ksusj6mYsJIHxhCwOw=
+		95ag8N6+m6CO5DZ+/Fo9Eps7OkE=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		APrh7bs2c0ZR0qsKfjEAKr3co4A=
+		2ZbnVfz6mqdqzLjesjaK1zx7Mco=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		t/jLXWHlFEdZ7Y2pXy9xNsdlu6o=
+		YOwGlDvwIyIQp0E7Ile+YktQB6Y=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		anw/OIttChchx7OY+IWVH4jDAyU=
+		3z1m5NgKhR/8QUcoakvG3aWJCQM=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		t/jLXWHlFEdZ7Y2pXy9xNsdlu6o=
+		YOwGlDvwIyIQp0E7Ile+YktQB6Y=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NJeAI2Hr5s/IS5VSR0WvCGXUQzk=
+		YsWaAqPX+65dhsAxloKicVJcs5c=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		APrh7bs2c0ZR0qsKfjEAKr3co4A=
+		2ZbnVfz6mqdqzLjesjaK1zx7Mco=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		AIpWrzLEVTxQLOT5hp5+2vbJa0Y=
+		nqBJVKMW08qng3/rBVT4p4qZuiU=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		n/eQNu1qDWNqn3ya3n7UuhCnPO0=
+		eoDIrWkxN6q0uyFbL7F3pD/HciU=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		AIpWrzLEVTxQLOT5hp5+2vbJa0Y=
+		nqBJVKMW08qng3/rBVT4p4qZuiU=
 		</data>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fiz94FXlRQDCqDEo3ADm4UyVH/c=
+		o0KePy0D1tjk1NH2O8eaznd9N7Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		mwUnnOCYok5mjfaP9bZIUgazkDs=
+		Bx+PLuyigncwHH0sm7ChPZi+EvY=
 		</data>
 		<key>NutritionSectionCell.nib</key>
 		<data>
-		D1Ejycgf5ruYgpnn+KH3aeS3iEE=
+		PNoLA/YHdNlTfN5EtG5DsrcHwC4=
 		</data>
 		<key>PieChartView.nib</key>
 		<data>
@@ -228,7 +228,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hMRA2m2+s4yOJietOu2DqhPAU63PxIYNGHmkMtCmUVI=
+			QKA1p1HnQU2JaVkX0GABboopdpwlgnRrlClHPgPWUUA=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -256,14 +256,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OiuspR5ohMRLqKPJrib/Uy0A6OCTHhH4W4zYDeK+rrA=
+			eizmMuTwWlF1HhGhZawFY5Q4yhmSvDP8B6WCkDb6wyg=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/CumacaHomeViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xqbIZE8XDtjul52PeIkgC+YHS/OLxzaR++cISUkzLxM=
+			zXEAQzVKMcaZ5QdV5Ol8eobIn8ofAowjzN/UoQkTHKE=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/GridVC.nib</key>
@@ -291,7 +291,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L0l8Z42WhXJtKJTAuT9esO+L83WRJJKLwTeVmQhPMHE=
+			yoJTSJOOQc6aVdUpSIoqOx4f/xa1LMureSY9KU8B13c=
 			</data>
 		</dict>
 		<key>GridViewController.nib</key>
@@ -305,7 +305,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zdCLoQC2XF3OnnK1U40xORKkeAC2J88eoYUxWtT9RGw=
+			tj1Bgk7jrhUXDRwCPTb5552MB6q+YiotInJQH1MWGQk=
 			</data>
 		</dict>
 		<key>Headers/VitaleHealthSDK.h</key>
@@ -319,7 +319,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lyCPaxvS8TBhhdH1aW3Z6pT7TTSVFHhkowwHRkcOtZo=
+			697tXXoQimla+mn6AQT6oFEfHzw21CeA0/ITell7DpE=
 			</data>
 		</dict>
 		<key>HomeCollectionViewCell.nib</key>
@@ -340,91 +340,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LkHkj+f/hydOOoI61+d8xa1zHGhZ/VWusPIrBTkYNKY=
+			QYLKmvzHoRHugIy+fAzg8VYTRY185fjT4G7HGumjn18=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4PqlMl0FNSGsgCZBLfUbku6534H60PvBZeRkz5Fkt88=
+			ftKIe/e8zGFZBgyaeogSGcDEm0zviS78ByxfHc+ylDM=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6YNsfhS2HMYUXBuZFeRyGrWMXMCri71uymaJSLOJDSQ=
+			sZb1ffVIAxFqq1vZ/GPXaXLzqm6tfuIQoGbifYaQdTU=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TR7VgLwnoXOT+MPVH43DNB7JqZxvmDIc9/ATZflMyto=
+			qV8TfA2P6TzxnxSVqZzwsMdDo2ajAKpNeCBXB9B88KM=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6YNsfhS2HMYUXBuZFeRyGrWMXMCri71uymaJSLOJDSQ=
+			sZb1ffVIAxFqq1vZ/GPXaXLzqm6tfuIQoGbifYaQdTU=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LXU2vUWqezQLaR5i5NvUN6hE11xFqtXo5zY8DzMl2vM=
+			zZwLePYgADvxR3e/JNjaiCJmoVgNdBegs8pCbAq67Bo=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4PqlMl0FNSGsgCZBLfUbku6534H60PvBZeRkz5Fkt88=
+			ftKIe/e8zGFZBgyaeogSGcDEm0zviS78ByxfHc+ylDM=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gjqRRSn6hgkGusWgsZoj+PvGHL+nufqniNKG3b8RW/A=
+			YWc6OjPjOKoVFDzOurbyYBCNlaGQCtV9E+Fg6fmWp8U=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KmQkG8Al06ZbH9ifgXcJkBVxLrazdl3hmLxODrJHEYI=
+			s9tEOriezSiY0e8ZmtPGKf76qsBZU/HuvgI1bJe35i4=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gjqRRSn6hgkGusWgsZoj+PvGHL+nufqniNKG3b8RW/A=
+			YWc6OjPjOKoVFDzOurbyYBCNlaGQCtV9E+Fg6fmWp8U=
 			</data>
 		</dict>
 		<key>Modules/VitaleHealthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SB5eOwTq29UsgWULsN3/Hfe0j1smV5X1srC9DPX8Tjo=
+			SUvZvrXqOgjR5v0gCrD+I1lq6yjJZfBVJIg3pQ5W+zs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xj4MAOgfqWJAe8YBVPiO7t0Xp5K0caCy6cGgTS0BNSM=
+			SzX4A6NkQ9gY+Gzl+huagfOaCttuF6esVAhZcjNHbkw=
 			</data>
 		</dict>
 		<key>NutritionSectionCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QgP0HFBHjCLCSL4oTc7czV95Oj17XVFl3iHCJ0uvDsk=
+			59B9+0z0lnods4LbAbpX8OFseNEGi06FRbkFVze7I3A=
 			</data>
 		</dict>
 		<key>PieChartView.nib</key>

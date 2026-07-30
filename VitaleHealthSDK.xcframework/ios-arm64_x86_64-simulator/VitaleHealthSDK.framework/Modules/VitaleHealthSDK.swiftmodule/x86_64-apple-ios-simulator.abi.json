@@ -274,7 +274,7 @@
           {
             "kind": "Function",
             "name": "startSDKWith",
-            "printedName": "startSDKWith(appID:password:userID:url:userCenter:name:lastname:)",
+            "printedName": "startSDKWith(appID:password:userID:url:userCenter:name:lastname:gender:weight:height:birthDate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -358,11 +358,247 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:15VitaleHealthSDK0aC0C12startSDKWith5appID8password04userG03url0I6Center4name8lastnameySS_S3SSgA3LtF",
-            "mangledName": "$s15VitaleHealthSDK0aC0C12startSDKWith5appID8password04userG03url0I6Center4name8lastnameySS_S3SSgA3LtF",
+            "usr": "s:15VitaleHealthSDK0aC0C12startSDKWith5appID8password04userG03url0I6Center4name8lastname6gender6weight6height9birthDateySS_S3SSgA3PSiSgSdSgAQ10Foundation0R0VSgtF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C12startSDKWith5appID8password04userG03url0I6Center4name8lastname6gender6weight6height9birthDateySS_S3SSgA3PSiSgSdSgAQ10Foundation0R0VSgtF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startSDKAndWait",
+            "printedName": "startSDKAndWait(appID:password:userID:url:userCenter:name:lastname:gender:weight:height:birthDate:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C15startSDKAndWait5appID8password04userH03url0J6Center4name8lastname6gender6weight6height9birthDate_ySS_S3SSgA3PSiSgSdSgAQ10Foundation0S0VSgySbctF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C15startSDKAndWait5appID8password04userH03url0J6Center4name8lastname6gender6weight6height9birthDate_ySS_S3SSgA3PSiSgSdSgAQ10Foundation0S0VSgySbctF",
             "moduleName": "VitaleHealthSDK",
             "declAttributes": [
               "AccessControl"
@@ -679,6 +915,32 @@
             "declKind": "Func",
             "usr": "s:15VitaleHealthSDK0aC0C21showTimeBasedWorkoutsyyF",
             "mangledName": "$s15VitaleHealthSDK0aC0C21showTimeBasedWorkoutsyyF",
+            "moduleName": "VitaleHealthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNavigationTitle",
+            "printedName": "setNavigationTitle(title:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VitaleHealthSDK0aC0C18setNavigationTitle5titleySS_tF",
+            "mangledName": "$s15VitaleHealthSDK0aC0C18setNavigationTitle5titleySS_tF",
             "moduleName": "VitaleHealthSDK",
             "declAttributes": [
               "AccessControl"
@@ -1367,17 +1629,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1498,13 +1760,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -1516,6 +1771,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1855,188 +2117,32 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CodingKeyRepresentable",
-            "printedName": "CodingKeyRepresentable",
-            "usr": "s:s22CodingKeyRepresentableP",
-            "mangledName": "$ss22CodingKeyRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_HasContiguousBytes",
-            "printedName": "_HasContiguousBytes",
-            "usr": "s:s19_HasContiguousBytesP",
-            "mangledName": "$ss19_HasContiguousBytesP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_CustomPlaygroundQuickLookable",
-            "printedName": "_CustomPlaygroundQuickLookable",
-            "usr": "s:s30_CustomPlaygroundQuickLookableP",
-            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "TextOutputStream",
-            "printedName": "TextOutputStream",
-            "usr": "s:s16TextOutputStreamP",
-            "mangledName": "$ss16TextOutputStreamP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "TextOutputStreamable",
-            "printedName": "TextOutputStreamable",
-            "usr": "s:s20TextOutputStreamableP",
-            "mangledName": "$ss20TextOutputStreamableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
-            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
-            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
-            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
-            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
-            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
-            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByBuiltinStringLiteral",
-            "printedName": "_ExpressibleByBuiltinStringLiteral",
-            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
-            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ExpressibleByStringLiteral",
-            "printedName": "ExpressibleByStringLiteral",
+            "name": "Transferable",
+            "printedName": "Transferable",
             "children": [
               {
                 "kind": "TypeWitness",
-                "name": "StringLiteralType",
-                "printedName": "StringLiteralType",
+                "name": "Representation",
+                "printedName": "Representation",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
                   }
                 ]
               }
             ],
-            "usr": "s:s26ExpressibleByStringLiteralP",
-            "mangledName": "$ss26ExpressibleByStringLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
-            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ExtendedGraphemeClusterLiteralType",
-                "printedName": "ExtendedGraphemeClusterLiteralType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
-            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ExpressibleByUnicodeScalarLiteral",
-            "printedName": "ExpressibleByUnicodeScalarLiteral",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "UnicodeScalarLiteralType",
-                "printedName": "UnicodeScalarLiteralType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
-            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           },
           {
             "kind": "Conformance",
@@ -2106,6 +2212,20 @@
             ],
             "usr": "s:SK",
             "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
           },
           {
             "kind": "Conformance",
@@ -2191,6 +2311,214 @@
           },
           {
             "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringInterpolation",
+            "printedName": "ExpressibleByStringInterpolation",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringInterpolation",
+                "printedName": "StringInterpolation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultStringInterpolation",
+                    "printedName": "Swift.DefaultStringInterpolation",
+                    "usr": "s:s26DefaultStringInterpolationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s32ExpressibleByStringInterpolationP",
+            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sequence",
             "printedName": "Sequence",
             "children": [
@@ -2223,20 +2551,6 @@
             ],
             "usr": "s:ST",
             "mangledName": "$sST"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Comparable",
-            "printedName": "Comparable",
-            "usr": "s:SL",
-            "mangledName": "$sSL"
           },
           {
             "kind": "Conformance",
@@ -2301,61 +2615,52 @@
           },
           {
             "kind": "Conformance",
-            "name": "ExpressibleByStringInterpolation",
-            "printedName": "ExpressibleByStringInterpolation",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "StringInterpolation",
-                "printedName": "StringInterpolation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DefaultStringInterpolation",
-                    "printedName": "Swift.DefaultStringInterpolation",
-                    "usr": "s:s26DefaultStringInterpolationV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s32ExpressibleByStringInterpolationP",
-            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+            "name": "TextOutputStream",
+            "printedName": "TextOutputStream",
+            "usr": "s:s16TextOutputStreamP",
+            "mangledName": "$ss16TextOutputStreamP"
           },
           {
             "kind": "Conformance",
-            "name": "LosslessStringConvertible",
-            "printedName": "LosslessStringConvertible",
-            "usr": "s:s25LosslessStringConvertibleP",
-            "mangledName": "$ss25LosslessStringConvertibleP"
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
           },
           {
             "kind": "Conformance",
-            "name": "RangeReplaceableCollection",
-            "printedName": "RangeReplaceableCollection",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "SubSequence",
-                "printedName": "SubSequence",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Substring",
-                    "printedName": "Swift.Substring",
-                    "usr": "s:Ss"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sm",
-            "mangledName": "$sSm"
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
           },
           {
             "kind": "Conformance",
-            "name": "MirrorPath",
-            "printedName": "MirrorPath",
-            "usr": "s:s10MirrorPathP",
-            "mangledName": "$ss10MirrorPathP"
+            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinStringLiteral",
+            "printedName": "_ExpressibleByBuiltinStringLiteral",
+            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
           },
           {
             "kind": "Conformance",
@@ -2378,42 +2683,6 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Transferable",
-            "printedName": "Transferable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Representation",
-                "printedName": "Representation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some CoreTransferable.TransferRepresentation",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TransferRepresentation",
-                        "printedName": "CoreTransferable.TransferRepresentation",
-                        "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:16CoreTransferable0B0P",
-            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       },
@@ -2600,45 +2869,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -2649,17 +2883,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -2670,10 +2904,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ExpressibleByImageLiteral",
             "printedName": "_ExpressibleByImageLiteral",
             "usr": "s:s26_ExpressibleByImageLiteralP",
             "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2787,127 +3063,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ReferenceConvertible",
-            "printedName": "ReferenceConvertible",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ReferenceType",
-                "printedName": "ReferenceType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSURL",
-                    "printedName": "Foundation.NSURL",
-                    "usr": "c:objc(cs)NSURL"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation20ReferenceConvertibleP",
-            "mangledName": "$s10Foundation20ReferenceConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ObjectiveCBridgeable",
-            "printedName": "_ObjectiveCBridgeable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "_ObjectiveCType",
-                "printedName": "_ObjectiveCType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSURL",
-                    "printedName": "Foundation.NSURL",
-                    "usr": "c:objc(cs)NSURL"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s21_ObjectiveCBridgeableP",
-            "mangledName": "$ss21_ObjectiveCBridgeableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_CustomPlaygroundQuickLookable",
-            "printedName": "_CustomPlaygroundQuickLookable",
-            "usr": "s:s30_CustomPlaygroundQuickLookableP",
-            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByFileReferenceLiteral",
-            "printedName": "_ExpressibleByFileReferenceLiteral",
-            "usr": "s:s34_ExpressibleByFileReferenceLiteralP",
-            "mangledName": "$ss34_ExpressibleByFileReferenceLiteralP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Transferable",
             "printedName": "Transferable",
             "children": [
@@ -2934,6 +3089,134 @@
             ],
             "usr": "s:16CoreTransferable0B0P",
             "mangledName": "$s16CoreTransferable0B0P"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURL",
+                    "printedName": "Foundation.NSURL",
+                    "usr": "c:objc(cs)NSURL"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByFileReferenceLiteral",
+            "printedName": "_ExpressibleByFileReferenceLiteral",
+            "usr": "s:s34_ExpressibleByFileReferenceLiteralP",
+            "mangledName": "$ss34_ExpressibleByFileReferenceLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURL",
+                    "printedName": "Foundation.NSURL",
+                    "usr": "c:objc(cs)NSURL"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
           }
         ]
       },
@@ -2966,38 +3249,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -3008,17 +3263,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -3029,6 +3284,34 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -3036,10 +3319,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -3047,6 +3330,13 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -3080,38 +3370,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -3122,17 +3384,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -3143,6 +3405,34 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -3150,10 +3440,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -3161,6 +3451,13 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       }
@@ -3169,581 +3466,588 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/HalfSection.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/HalfSection.swift",
       "kind": "IntegerLiteral",
       "offset": 1576,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Utils.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Utils.swift",
       "kind": "StringLiteral",
       "offset": 305,
       "length": 16,
       "value": "\"NetworkMonitor\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Utils.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Utils.swift",
       "kind": "Array",
       "offset": 343,
       "length": 12,
       "value": "[\"es\", \"pt\"]"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Utils.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Utils.swift",
       "kind": "BooleanLiteral",
       "offset": 401,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitalePieChartView.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/VitalePieChartView.swift",
       "kind": "BooleanLiteral",
       "offset": 212,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitalePieChartView.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/VitalePieChartView.swift",
       "kind": "FloatLiteral",
       "offset": 306,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitalePieChartView.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/VitalePieChartView.swift",
       "kind": "IntegerLiteral",
       "offset": 409,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitalePieChartView.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/VitalePieChartView.swift",
       "kind": "FloatLiteral",
       "offset": 445,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Models.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Models.swift",
       "kind": "IntegerLiteral",
       "offset": 154,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Models.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Models.swift",
       "kind": "IntegerLiteral",
       "offset": 160,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Models.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Models.swift",
       "kind": "IntegerLiteral",
       "offset": 1500,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Models.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Models.swift",
       "kind": "StringLiteral",
       "offset": 2616,
       "length": 15,
       "value": "\"timezone_type\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Models.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Models.swift",
       "kind": "StringLiteral",
       "offset": 2952,
       "length": 28,
       "value": "\"yyyy-MM-dd HH:mm:ss.SSSSSS\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Models.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Models.swift",
       "kind": "StringLiteral",
       "offset": 3027,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/StatSection.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/StatSection.swift",
       "kind": "IntegerLiteral",
       "offset": 117,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/Controllers\/SettingsViewController.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/Controllers\/SettingsViewController.swift",
       "kind": "Array",
       "offset": 571,
       "length": 19,
       "value": "[\"Perfil personal\"]"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 7251,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 7268,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 7283,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 7299,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 7317,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 7335,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 8064,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 8081,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 8096,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 8112,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 8130,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 8148,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
       "kind": "StringLiteral",
       "offset": 206,
       "length": 8,
       "value": "\"29cc81\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
       "kind": "StringLiteral",
       "offset": 249,
       "length": 8,
       "value": "\"29cc81\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
       "kind": "StringLiteral",
       "offset": 288,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
       "kind": "StringLiteral",
       "offset": 328,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
       "kind": "StringLiteral",
       "offset": 361,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
       "kind": "StringLiteral",
       "offset": 392,
       "length": 34,
       "value": "\"https:\/\/back-xplor.myvitale.com\/\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
       "kind": "StringLiteral",
       "offset": 454,
       "length": 54,
       "value": "\"4_43uq8rgou3y88ckkk0sgg8c408w4gwsssg8owg0ow4wcocgw0w\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
       "kind": "StringLiteral",
       "offset": 540,
       "length": 52,
       "value": "\"1uiljdab2misc4owsc0kg0cw0kgw0k0gkgk0k8k488w8sskk4s\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
       "kind": "StringLiteral",
       "offset": 619,
       "length": 8,
       "value": "\"cumaca\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
       "kind": "StringLiteral",
       "offset": 661,
       "length": 8,
       "value": "\"Cumaca\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
       "kind": "StringLiteral",
       "offset": 699,
       "length": 21,
       "value": "\"com.myvitale.Cumaca\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
       "kind": "StringLiteral",
       "offset": 754,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
       "kind": "StringLiteral",
       "offset": 783,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/Configs.swift",
       "kind": "StringLiteral",
       "offset": 816,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitaleUtils.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/VitaleUtils.swift",
       "kind": "StringLiteral",
       "offset": 289,
       "length": 10,
       "value": "\"workouts\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitaleUtils.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/VitaleUtils.swift",
       "kind": "StringLiteral",
       "offset": 325,
       "length": 16,
       "value": "\"staticWorkouts\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitaleUtils.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/VitaleUtils.swift",
       "kind": "StringLiteral",
       "offset": 363,
       "length": 11,
       "value": "\"wearables\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitaleUtils.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/VitaleUtils.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 15,
       "value": "\"customization\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitaleUtils.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/VitaleUtils.swift",
       "kind": "StringLiteral",
       "offset": 433,
       "length": 7,
       "value": "\"vimeo\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitaleUtils.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/VitaleUtils.swift",
       "kind": "StringLiteral",
       "offset": 459,
       "length": 8,
       "value": "\"avatar\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/WorkoutSection.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/WorkoutSection.swift",
       "kind": "IntegerLiteral",
       "offset": 75,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/CustomToggleButtonGroup.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/CustomToggleButtonGroup.swift",
       "kind": "StringLiteral",
       "offset": 427,
       "length": 5,
       "value": "\"Sí\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/CustomToggleButtonGroup.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/CustomToggleButtonGroup.swift",
       "kind": "StringLiteral",
       "offset": 464,
       "length": 4,
       "value": "\"No\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitaleSDKUtils.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/VitaleSDKUtils.swift",
       "kind": "StringLiteral",
       "offset": 364,
       "length": 8,
       "value": "\"60729B\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitaleSDKUtils.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/VitaleSDKUtils.swift",
       "kind": "StringLiteral",
       "offset": 424,
       "length": 8,
       "value": "\"60729B\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/SDKBack\/VitaleSDKUtils.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/VitaleSDKUtils.swift",
       "kind": "StringLiteral",
       "offset": 460,
       "length": 28,
       "value": "\"https:\/\/back.myvitale.com\/\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/Controllers\/HomeModels.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/SDKBack\/VitaleSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 564,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/Controllers\/HomeModels.swift",
       "kind": "StringLiteral",
       "offset": 1448,
       "length": 8,
       "value": "\"app_id\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/Controllers\/HomeModels.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/Controllers\/HomeModels.swift",
       "kind": "StringLiteral",
       "offset": 2486,
       "length": 11,
       "value": "\"channelId\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Documents\/SDKBACK\/Controllers\/HomeModels.swift",
+      "filePath": "\/Users\/miguel.munoz\/Documents\/SDKBACK\/Controllers\/HomeModels.swift",
       "kind": "StringLiteral",
       "offset": 2585,
       "length": 9,
       "value": "\"vimeoId\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 625,
       "length": 13,
       "value": "\"AccentColor\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 768,
       "length": 12,
       "value": "\"AccentText\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1021,
       "length": 15,
       "value": "\"StatsDistance\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1164,
       "length": 11,
       "value": "\"StatsKcal\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1301,
       "length": 10,
       "value": "\"StatsMin\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1441,
       "length": 12,
       "value": "\"StatsSteps\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1575,
       "length": 8,
       "value": "\"arrow1\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1705,
       "length": 8,
       "value": "\"arrow2\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1835,
       "length": 8,
       "value": "\"arrow3\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1965,
       "length": 8,
       "value": "\"arrow4\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2104,
       "length": 13,
       "value": "\"back-receta\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2242,
       "length": 10,
       "value": "\"bk-login\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2381,
       "length": 12,
       "value": "\"bt-profile\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2524,
       "length": 13,
       "value": "\"cumaca-logo\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2664,
       "length": 11,
       "value": "\"logo-home\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2804,
       "length": 12,
       "value": "\"logo-login\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2941,
       "length": 10,
       "value": "\"nav-logo\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3083,
       "length": 13,
       "value": "\"onboarding1\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3214,
       "length": 6,
       "value": "\"play\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3351,
       "length": 13,
       "value": "\"play-button\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3499,
       "length": 15,
       "value": "\"record-button\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3645,
       "length": 13,
       "value": "\"record-icon\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3789,
       "length": 13,
       "value": "\"save-button\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3933,
       "length": 13,
       "value": "\"stop-button\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4081,
       "length": 15,
       "value": "\"thrash-button\""
     },
     {
-      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-ffkhrohhqnrcydechrbzloaagutg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/VitaleHealthSDK-byvbwyaybrqhsoaezuzpfcvbkquk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VitaleHealthSDK\/IntermediateBuildFilesPath\/VitaleHealthSDK.build\/Release-iphonesimulator\/VitaleHealthSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4233,
       "length": 16,

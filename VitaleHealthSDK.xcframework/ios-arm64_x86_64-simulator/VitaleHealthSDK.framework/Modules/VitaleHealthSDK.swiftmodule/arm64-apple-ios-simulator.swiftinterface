@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name VitaleHealthSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name VitaleHealthSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
 import DeveloperToolsSupport
 import Foundation
 import Network
@@ -20,7 +20,8 @@ import os
   public static let shared: VitaleHealthSDK.VitaleSDK
   weak public var vitaleSDKDelegate: (any VitaleHealthSDK.VitaleSDKDelegate)?
   public func setDelegate(_ delegate: any VitaleHealthSDK.VitaleSDKDelegate)
-  public func startSDKWith(appID: Swift.String, password: Swift.String, userID: Swift.String, url: Swift.String? = nil, userCenter: Swift.String? = nil, name: Swift.String? = nil, lastname: Swift.String? = nil)
+  public func startSDKWith(appID: Swift.String, password: Swift.String, userID: Swift.String, url: Swift.String? = nil, userCenter: Swift.String? = nil, name: Swift.String? = nil, lastname: Swift.String? = nil, gender: Swift.Int? = nil, weight: Swift.Double? = nil, height: Swift.Int? = nil, birthDate: Foundation.Date? = nil)
+  public func startSDKAndWait(appID: Swift.String, password: Swift.String, userID: Swift.String, url: Swift.String? = nil, userCenter: Swift.String? = nil, name: Swift.String? = nil, lastname: Swift.String? = nil, gender: Swift.Int? = nil, weight: Swift.Double? = nil, height: Swift.Int? = nil, birthDate: Foundation.Date? = nil, _ completion: @escaping (Swift.Bool) -> ())
   public func setMainColor(color: Swift.String)
   public func setPrimaryButtonColor(_ color: Swift.String)
   public func setUserCenter(_ center: Swift.String)
@@ -35,6 +36,7 @@ import os
   public func showPersonalTrainer()
   public func showCustomWorkouts()
   public func showTimeBasedWorkouts()
+  public func setNavigationTitle(title: Swift.String)
   public func showProfile()
   public func showSettings()
   public func setSmallLogo(_ logo: UIKit.UIImage?)
