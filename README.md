@@ -121,11 +121,11 @@ extension AppDelegate: VitaleSDKDelegate {
 ---
 
 ## Configuration
-
-### `startSDKWith(appID:password:userID:url:userCenter:name:lastname:)`
-
-Initializes all internal SDK modules. Must be called before any `show*` method.
-
+ 
+### `startSDKWith(appID:password:userID:url:userCenter:name:lastname:gender:weight:height:birthDate:)`
+ 
+Initializes all internal SDK modules. Must be called before any `show*` method. When any of the optional profile parameters (`name`, `lastname`, `gender`, `weight`, `height`, `birthDate`) is provided, the SDK pre-populates or updates the user's profile on startup; parameters left `nil` keep whatever value the existing server profile already has.
+ 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | `appID` | `String` | ✅ | Application identifier provided by MyVitale |
@@ -135,13 +135,38 @@ Initializes all internal SDK modules. Must be called before any `show*` method.
 | `userCenter` | `String?` | ❌ | Center/clinic identifier for multi-center setups |
 | `name` | `String?` | ❌ | User's first name — pre-populates the profile on first launch |
 | `lastname` | `String?` | ❌ | User's last name — pre-populates the profile on first launch |
-
+| `gender` | `Int?` | ❌ | User's gender (`0` = male, `1` = female) |
+| `weight` | `Double?` | ❌ | User's weight in kilograms |
+| `height` | `Int?` | ❌ | User's height in centimeters |
+| `birthDate` | `Date?` | ❌ | User's date of birth |
+ 
+### `startSDKAndWait(appID:password:userID:url:userCenter:name:lastname:gender:weight:height:birthDate:_:)`
+ 
+Same initialization as `startSDKWith`, but runs asynchronously and reports completion once all modules and configuration have finished loading. Use this variant when you need to wait for the SDK to be fully ready before presenting any screen.
+ 
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `appID` | `String` | ✅ | Application identifier provided by MyVitale |
+| `password` | `String` | ✅ | Authentication secret |
+| `userID` | `String` | ✅ | Unique identifier for the current user |
+| `url` | `String?` | ❌ | Custom API base URL (uses default if `nil`) |
+| `userCenter` | `String?` | ❌ | Center/clinic identifier for multi-center setups |
+| `name` | `String?` | ❌ | User's first name — pre-populates the profile on first launch |
+| `lastname` | `String?` | ❌ | User's last name — pre-populates the profile on first launch |
+| `gender` | `Int?` | ❌ | User's gender (`0` = male, `1` = female) |
+| `weight` | `Double?` | ❌ | User's weight in kilograms |
+| `height` | `Int?` | ❌ | User's height in centimeters |
+| `birthDate` | `Date?` | ❌ | User's date of birth |
+| `completion` | `(Bool) -> Void` | ✅ | Called with `true` when initialization succeeds, `false` otherwise |
+ 
 ---
 
 ## Public API
-
+ 
 ### Initialization
-
+ 
+Minimal setup:
+ 
 ```swift
 VitaleSDK.shared.startSDKWith(
     appID: "app_id",
@@ -150,6 +175,41 @@ VitaleSDK.shared.startSDKWith(
     url: "https://custom.api.endpoint",   // optional
     userCenter: "center_456"              // optional
 )
+```
+ 
+Passing profile data on startup:
+ 
+```swift
+VitaleSDK.shared.startSDKWith(
+    appID: "app_id",
+    password: "secret",
+    userID: "user_123",
+    name: "John",
+    lastname: "Doe",
+    gender: 0,                 // 0 = male, 1 = female
+    weight: 75.5,              // kilograms
+    height: 180,               // centimeters
+    birthDate: Date()
+)
+```
+ 
+Waiting for the SDK to be ready:
+ 
+```swift
+VitaleSDK.shared.startSDKAndWait(
+    appID: "app_id",
+    password: "secret",
+    userID: "user_123",
+    name: "John",
+    lastname: "Doe"
+) { isSuccess in
+    if isSuccess {
+        // SDK fully initialized — safe to present any screen
+        VitaleSDK.shared.showVitale()
+    } else {
+        print("SDK initialization failed")
+    }
+}
 ```
 
 ### User Center
@@ -178,6 +238,9 @@ VitaleSDK.shared.setNavigationBarColor(color: "#FFFFFF")
 
 // Navigation bar tint color (back buttons, icons)
 VitaleSDK.shared.setNavigationTintColor(color: "#000000")
+
+// Navigation bar title text
+VitaleSDK.shared.setNavigationTitle(title: "My App")
 
 // Small logo shown inside SDK screens
 VitaleSDK.shared.setSmallLogo(UIImage(named: "my_logo"))
