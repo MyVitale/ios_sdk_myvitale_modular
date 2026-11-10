@@ -43,6 +43,7 @@ public protocol NutritionEventsDelegate : AnyObject {
   public func getUserYear() -> Swift.Int?
   public func getUserGender() -> NutritionIASDK.NutritionGender?
   public func setShoppingListEnabled(_ isEnabled: Swift.Bool)
+  public func setUserDishRegistrationEnabled(_ isEnabled: Swift.Bool)
   public func getUserHeight() -> Swift.Int?
   public func getUserWeight() -> Swift.Int?
   public func isProfileFilled() -> Swift.Bool
@@ -66,7 +67,7 @@ public protocol NutritionEventsDelegate : AnyObject {
   public func showNutritionModule()
   public func showDish(dish: NutritionIASDK.NutritionDish)
   public func showProfile()
-  public func getTodayMenu(_ completion: @escaping (NutritionIASDK.NutritionDay?) -> ())
+  public func getTodayMenu(_ completion: @escaping (NutritionIASDK.NutritionDay?, Foundation.NSError?) -> ())
   public func showIntake(day: Swift.Int, intake: Swift.Int)
   public func getProfile() -> NutritionIASDK.PublicProfile?
   public func getAyunoController(_ completion: @escaping (UIKit.UIViewController?) -> ())
@@ -162,8 +163,10 @@ public struct NutritionDish : Swift.Codable {
   public var difficulty: Swift.Int?
   public var ingredients: Swift.String?, recipe: Swift.String?
   public var binaryUrls: [Swift.String]?
-  public func encode(to encoder: any Swift.Encoder) throws
+  public var isAnalyzedDish: Swift.Bool?
+  public init(dishID: Swift.Int? = nil, name: Swift.String? = nil, dishOrderID: Swift.Int? = nil, typeName: Swift.String? = nil, carbs: Swift.Int? = nil, proteins: Swift.Int? = nil, fats: Swift.Int? = nil, kcal: Swift.Int? = nil, preferences: [Swift.Int]? = nil, difficulty: Swift.Int? = nil, ingredients: Swift.String? = nil, recipe: Swift.String? = nil, binaryUrls: [Swift.String]? = nil, isAnalyzedDish: Swift.Bool? = nil)
   public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct NutritionGroceryItem : Swift.Identifiable, Swift.Codable {
   public let id: Foundation.UUID

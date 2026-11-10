@@ -1,0 +1,44 @@
+[
+  {
+    "codigo": "0",
+    "lang": "eu",
+    "title": "Beroketa",
+    "type": "0",
+    "pond": "0.50"
+  },
+  {
+    "codigo": "1",
+    "lang": "eu",
+    "title": "Hastapena",
+    "type": "0",
+    "pond": "0.80"
+  },
+  {
+    "codigo": "2",
+    "lang": "eu",
+    "title": "Bitartekoa",
+    "type": "0",
+    "pond": "0.90"
+  },
+  {
+    "codigo": "3",
+    "lang": "eu",
+    "title": "Aurreratua",
+    "type": "0",
+    "pond": "1.00"
+  },
+  {
+    "codigo": "4",
+    "lang": "eu",
+    "title": "Osasuna",
+    "type": "0",
+    "pond": "0.8"
+  },
+    {
+    "codigo": "5",
+    "lang": "eu",
+    "title": "Seniorra",
+    "type": "0",
+    "pond": "0.8"
+  }
+]

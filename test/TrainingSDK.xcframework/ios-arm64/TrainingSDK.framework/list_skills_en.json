@@ -1,0 +1,42 @@
+[
+    {
+        "codigo": "1",
+        "lang": "en",
+        "title": "Strength"
+    },
+    {
+        "codigo": "2",
+        "lang": "en",
+        "title": "Kinesthesia"
+    },
+    {
+        "codigo": "3",
+        "lang": "en",
+        "title": "Flexibility"
+    },
+    {
+        "codigo": "4",
+        "lang": "en",
+        "title": "Mobility"
+    },
+    {
+        "codigo": "5",
+        "lang": "en",
+        "title": "Speed"
+    },
+    {
+        "codigo": "6",
+        "lang": "en",
+        "title": "Agility"
+    },
+    {
+        "codigo": "7",
+        "lang": "en",
+        "title": "Endurance"
+    },
+    {
+        "codigo": "8",
+        "lang": "en",
+        "title": "Power"
+    }
+]

@@ -1,0 +1,102 @@
+{
+    "objectives": {
+        "Hobekuntza funtzionala": {
+            "id": 1,
+            "subobjectives": [{
+                "id": 19,
+                "title": "Erabateko entrenamendua"
+            }, {
+                "id": 18,
+                "title": "Cross training"
+            }, {
+                "id": 16,
+                "title": "Kardio-osasungarria"
+            }, {
+                "id": 5,
+                "title": "Bizkar osasuntsua"
+            }, {
+                "id": 3,
+                "title": "Erresistentzia orokorra"
+            }]
+        },
+        "Muskulu mase areagotu": {
+            "id": 5,
+            "subobjectives": [{
+                "id": 15,
+                "title": "Kulturismoa"
+            }, {
+                "id": 41,
+                "title": "Tonifikazioa"
+            }, {
+                "id": 20,
+                "title": "GAP"
+            }, {
+                "id": 17,
+                "title": "Abdominalak"
+            }]
+        },
+        "Argaldu": {
+            "id": 4,
+            "subobjectives": [{
+                "id": 1,
+                "title": "Argaldu bakarrik"
+            }, {
+                "id": 2,
+                "title": "Argaldu eta definitu"
+            }]
+        },
+        "Txirrindularitza/korrika": {
+            "id": 2,
+            "subobjectives": [{
+                "id": 7,
+                "title": "Txirrindularitza"
+            }, {
+                "id": 42,
+                "title": "Ibilbide luzeko txirrindularitza"
+            }, {
+                "id": 24,
+                "title": "Maratoi erdia"
+            }, {
+                "id": 43,
+                "title": "Maratoia"
+            }, {
+                "id": 44,
+                "title": "Mendiko bizikleta"
+            }, {
+                "id": 45,
+                "title": "Duatloia 10-40-5"
+            }]
+        },
+        "Osasuna": {
+            "id": 3,
+            "subobjectives": [{
+                "id": 10,
+                "title": "Arterietako hipertentsioa"
+            }, {
+                "id": 11,
+                "title": "Osteoporosia"
+            }, {
+                "id": 12,
+                "title": "Diabetesa (II)"
+            }, {
+                "id": 14,
+                "title": "Biriketako gaixotasun buxatzaile kronikoa"
+            }, {
+                "id": 34,
+                "title": "Kolesterol eta triglizeridoak"
+            }, {
+                "id": 35,
+                "title": "Bizkarreko mina"
+            }, {
+                "id": 37,
+                "title": "Sindrome metabolikoa"
+            }, {
+                "id": 38,
+                "title": "Esklerosi anizkoitza"
+            }, {
+                "id": 39,
+                "title": "Fibromialgia"
+            }]
+        }
+    }
+}

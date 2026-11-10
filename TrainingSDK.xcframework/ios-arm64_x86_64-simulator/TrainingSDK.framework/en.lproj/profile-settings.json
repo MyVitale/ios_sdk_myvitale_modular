@@ -59,6 +59,13 @@
                 "info": "Let us know which days of the week you want to workout",
                 "identifier": "trainingDays",
                 "isMultipleSelection": true
+            },
+            {
+                "title": "Video clases",
+                "type": "list",
+                "info": "Las clases dirigidas son video-clases en streaming dirigidas por instructores. Si quieres que las incluyamos en tu programación semanal, dinos tus preferencias.",
+                "identifier": "classes",
+                "isMultipleSelection": true
             }
         ]
     }]

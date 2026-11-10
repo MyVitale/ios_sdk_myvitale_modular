@@ -1,0 +1,47 @@
+[
+    {
+        "codigo": "1",
+        "lang": "en",
+        "title": "Push"
+    },
+    {
+        "codigo": "2",
+        "lang": "en",
+        "title": "Stabilize"
+    },
+    {
+        "codigo": "3",
+        "lang": "en",
+        "title": "Rotate"
+    },
+    {
+        "codigo": "4",
+        "lang": "en",
+        "title": "Reach"
+    },
+    {
+        "codigo": "5",
+        "lang": "en",
+        "title": "Get up"
+    },
+    {
+        "codigo": "6",
+        "lang": "en",
+        "title": "Pull"
+    },
+    {
+        "codigo": "7",
+        "lang": "en",
+        "title": "Locomotion"
+    },
+    {
+        "codigo": "8",
+        "lang": "en",
+        "title": "Crouch"
+    },
+    {
+        "codigo": "9",
+        "lang": "en",
+        "title": "Lunge"
+    }
+]

@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TrainingSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TrainingSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
 import AVFoundation
 import AVKit
 import CoreMIDI
@@ -82,20 +82,26 @@ public enum HCVimeoVideoQuality : Swift.String {
   public func setPathologies(pathologies: [TrainingSDK.Pathologies])
   public func showWorkoutPlan(_ title: Swift.String? = nil)
   public func showPersonalWorkouts()
-  public func getWorkoutPlan(_ completion: @escaping ((UIKit.UIViewController) -> ()))
+  public func getWorkoutPlan(_ completion: @escaping (UIKit.UIViewController) -> ())
   public func showEcareController()
   public func getEcareController() -> UIKit.UIViewController
   public func launchWorkout(workout: [Swift.String : Any])
-  public func getStatsViewController(_ completion: @escaping ((UIKit.UIViewController) -> ()))
-  public func getTodayStats(_ completion: @escaping ((TrainingSDK.Stat?) -> ()))
-  public func getTrainingProfile(_ completion: @escaping ((UIKit.UIViewController?) -> ()))
-  public func getTodayWorkout(_ completion: @escaping ((TrainingSDK.WorkoutSummary?) -> ()))
+  public func getStatsViewController(_ completion: @escaping (UIKit.UIViewController) -> ())
+  public func getTodayStats(_ completion: @escaping (TrainingSDK.Stat?) -> ())
+  public func getTrainingProfile(_ completion: @escaping (UIKit.UIViewController?) -> ())
+  public func getTodayWorkout(_ completion: @escaping (TrainingSDK.WorkoutSummary?) -> ())
   public func showTodaytraining()
   public func showLibrary(_ title: Swift.String? = nil)
   public func showCustomWorkouts(_ title: Swift.String? = nil)
   public func showTimeBasedWorkouts(_ title: Swift.String? = nil)
-  public func getStatsBetween(startDate: Foundation.Date, endDate: Foundation.Date, _ completion: @escaping (([TrainingSDK.Stat]?) -> ()))
-  public func showWefitter(_ completion: @escaping ((UIKit.UIViewController) -> ()))
+  public func getStatsBetween(startDate: Foundation.Date, endDate: Foundation.Date, _ completion: @escaping ([TrainingSDK.Stat]?) -> ())
+  public func showWefitter(_ completion: @escaping (UIKit.UIViewController) -> ())
+  public func showTanita()
+  public func getTanitaViewController(_ completion: @escaping (UIKit.UIViewController) -> Swift.Void)
+  public var tanitaTestMode: Swift.Bool {
+    get
+    set
+  }
   @objc deinit
 }
 public protocol TrainingSDKDelegate : AnyObject {
@@ -178,8 +184,8 @@ public enum Pathologies : Swift.Int {
 public enum TrainingType : Swift.Codable {
   case diabetes, bariatrico
   public static func == (a: TrainingSDK.TrainingType, b: TrainingSDK.TrainingType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }

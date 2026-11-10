@@ -1,0 +1,44 @@
+[
+  {
+    "codigo": "0",
+    "lang": "en",
+    "title": "Warm up/Cool down",
+    "type": "0",
+    "pond": "0.50"
+  },
+  {
+    "codigo": "1",
+    "lang": "en",
+    "title": "Beginner",
+    "type": "0",
+    "pond": "0.80"
+  },
+  {
+    "codigo": "2",
+    "lang": "en",
+    "title": "Intermediate",
+    "type": "0",
+    "pond": "0.90"
+  },
+  {
+    "codigo": "3",
+    "lang": "en",
+    "title": "Advanced",
+    "type": "0",
+    "pond": "1.00"
+  },
+  {
+    "codigo": "4",
+    "lang": "en",
+    "title": "Health",
+    "type": "0",
+    "pond": "0.8"
+  },
+    {
+    "codigo": "5",
+    "lang": "en",
+    "title": "Senior",
+    "type": "0",
+    "pond": "0.8"
+  }
+]

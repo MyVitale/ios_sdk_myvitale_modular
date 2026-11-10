@@ -1,0 +1,42 @@
+[
+    {
+        "codigo": "1",
+        "lang": "fr",
+        "title": "La force"
+    },
+    {
+        "codigo": "2",
+        "lang": "fr",
+        "title": "Kinesthésie"
+    },
+    {
+        "codigo": "3",
+        "lang": "fr",
+        "title": "Flexibilité"
+    },
+    {
+        "codigo": "4",
+        "lang": "fr",
+        "title": "Mobilité"
+    },
+    {
+        "codigo": "5",
+        "lang": "fr",
+        "title": "Vitesse"
+    },
+    {
+        "codigo": "6",
+        "lang": "fr",
+        "title": "Agilité"
+    },
+    {
+        "codigo": "7",
+        "lang": "fr",
+        "title": "Endurance"
+    },
+    {
+        "codigo": "8",
+        "lang": "fr",
+        "title": "Puissance"
+    }
+]

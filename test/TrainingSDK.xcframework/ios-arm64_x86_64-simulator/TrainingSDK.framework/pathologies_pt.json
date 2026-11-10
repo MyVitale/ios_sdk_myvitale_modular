@@ -1,0 +1,74 @@
+{
+    "pathologies": [
+        {
+            "id": 1,
+            "nombre": "Hipertensión arterial",
+            "slug": "hta",
+            "orden": 8,
+            "restringida": false
+        },
+        {
+            "id": 2,
+            "nombre": "Osteoporosis",
+            "slug": "osteoporosis",
+            "orden": 3,
+            "restringida": false
+        },
+        {
+            "id": 3,
+            "nombre": "Diabetes tipo II",
+            "slug": "diabetestipoII",
+            "orden": 5,
+            "restringida": false
+        },
+        {
+            "id": 4,
+            "nombre": "Obesidad",
+            "slug": "obesidad",
+            "orden": 1,
+            "restringida": false
+        },
+        {
+            "id": 5,
+            "nombre": "Exceso de colesterol y/o triglicéridos",
+            "slug": "dislipemias",
+            "orden": 4,
+            "restringida": false
+        },
+        {
+            "id": 6,
+            "nombre": "Dolor de espalda",
+            "slug": "dolordeespalda",
+            "orden": 2,
+            "restringida": false
+        },
+        {
+            "id": 8,
+            "nombre": "Síndrome metabólico",
+            "slug": "sindromemetabolico",
+            "orden": 6,
+            "restringida": false
+        },
+        {
+            "id": 9,
+            "nombre": "EPOC",
+            "slug": "epoc",
+            "orden": 7,
+            "restringida": false
+        },
+        {
+            "id": 10,
+            "nombre": "Esclerosis múltiple",
+            "slug": "esclerosismultiple",
+            "orden": 9,
+            "restringida": false
+        },
+        {
+            "id": 11,
+            "nombre": "Fibromialgia",
+            "slug": "fibromialgia",
+            "orden": 10,
+            "restringida": false
+        }
+    ]
+}

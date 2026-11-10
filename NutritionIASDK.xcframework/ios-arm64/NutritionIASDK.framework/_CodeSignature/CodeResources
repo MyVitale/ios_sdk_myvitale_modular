@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		ycAD9rbJPMtWoh/S6QlwN9jK5MA=
+		J6v6oQGVX6z/t4bwKnWcdxoCyvM=
 		</data>
 		<key>AyunoCell.nib</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Base.lproj/NutritionStrings.strings</key>
 		<data>
-		0Bi6D+lQodLVD2T/BYKl6TPk2Jo=
+		/mlHazzqwBDpuOki0A9OnrxvI/I=
 		</data>
 		<key>CustomPageControl.nib</key>
 		<data>
@@ -82,11 +82,11 @@
 		</data>
 		<key>Modules/NutritionIASDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		sU1+3IIgoDgucjwl/H4sEVmGCsI=
+		VjLD2JpvgUW1GG3N3Bg4rBbczC8=
 		</data>
 		<key>Modules/NutritionIASDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		2yoYNqSNZSztvmgZ3JxSSS+E9No=
+		EWyUyDTjJMmMtacp1TIEuw3banE=
 		</data>
 		<key>Modules/NutritionIASDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -94,11 +94,11 @@
 		</data>
 		<key>Modules/NutritionIASDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		2yoYNqSNZSztvmgZ3JxSSS+E9No=
+		EWyUyDTjJMmMtacp1TIEuw3banE=
 		</data>
 		<key>Modules/NutritionIASDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		81aEPF5zbmEdSqVMMg5vxlsU8Q8=
+		a1+uPryvLbItbfUuPE2Qx+vl0J8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>NutricionHomeViewController.nib</key>
 		<data>
-		ySDRLV4MkoYRgIh09QWxW+cpwdk=
+		0R/VY4g9xFYVsReHPZwHvExC8Ys=
 		</data>
 		<key>NutricionRecetaViewController.nib</key>
 		<data>
@@ -180,7 +180,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			juU5Ktuh9Rzqzrt3wneNRbm8094=
+			qZMK9H7bh/FgWqJri6X54TyAWlI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -189,7 +189,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pF561b4qc2Ssom0d3RKU6tGOF+4=
+			pcX/sIMGoR5pRI57/SJcOm69qpg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -198,7 +198,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D+1BTKGMqPFoe40CsdZeWWHnVk8=
+			sOmhqMb7GyoNsGEtRtKJfPIVtpw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -207,7 +207,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8qt3uudZT9Cda0FSXPr89Q7zpEo=
+			V3ryiAfi4cl8pZWxAeivLGEEXXM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -225,7 +225,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KaTDmKV1yW9OxhJN3pOFZW8TX9M=
+			wEhP+4aSPdc6zO46p7GqMKCpubQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -247,7 +247,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xKE7HE9LLd53mkvlVPgRZ0GDL6Q=
+			xUWXSR7R1JJyXazQ49cYYMYz+vs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -256,7 +256,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OKLwNCW5ZTG54uYwRF43J0wEGYA=
+			/p8ccz0I1x7aicgjcqcOFTe2q3A=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -273,7 +273,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7CFHQYIEhCI4EjbAenIzeIKsQ3s=
+			b1JhhgOxR9/olVM+mYGIh+RtIG8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -282,7 +282,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3DebwpCJ7wDJKF2UIfNMBHX26h4=
+			ZLnSBz6mbtw5VItH3T/bcYVeoQE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -305,7 +305,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k9y+sDEQmy4tAm37pZ28T1nMKs/XCzpV0g7DQ+OYT1c=
+			H037BNHN0Pn19D9Y2R47VDnAeceVODkWCNGPmBI3x+U=
 			</data>
 		</dict>
 		<key>AyunoCell.nib</key>
@@ -361,7 +361,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VD5Kttv4HqA0mSa+IZKhY6pmkFkWuROTh9d0hE9hkek=
+			qAIv0FuOh8gn7qv2MQ4jnJg5+GhJLYzdB9HfuHm5TRc=
 			</data>
 		</dict>
 		<key>CustomPageControl.nib</key>
@@ -424,14 +424,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hrISJy4OVD+5wWojWmsuB6slq0cyIExf9ZG4T/IqnT8=
+			ZB2Ysj+ymhg5goxK5tLDF1Q81OxWET2c5VpNciiJIII=
 			</data>
 		</dict>
 		<key>Modules/NutritionIASDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hd747DhcBfX5MTVP3nu0P1X0PoAT9br2jpTP+3VPPm0=
+			Cl61zuvy76g3iTqgZW5tCuMNAGSGfkOkCNnKDkQlhp8=
 			</data>
 		</dict>
 		<key>Modules/NutritionIASDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -445,14 +445,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hd747DhcBfX5MTVP3nu0P1X0PoAT9br2jpTP+3VPPm0=
+			Cl61zuvy76g3iTqgZW5tCuMNAGSGfkOkCNnKDkQlhp8=
 			</data>
 		</dict>
 		<key>Modules/NutritionIASDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wjVhLK1Q9nsza8QKefhD+82fYFJva3W2NVHvsonPC9w=
+			l5bE2XGXiyK3RVatCt+au4uo+by0moRdI6bUzMFENaU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -473,7 +473,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vCqTNpQP2TQkVcJpZnFiMtJlgyFmAGjsSo0+0RkhTlI=
+			8zBsTttWk3YfR4mgNNv1yRUwGRMm2tOzbQoaICnpOSc=
 			</data>
 		</dict>
 		<key>NutricionRecetaViewController.nib</key>
@@ -592,7 +592,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aC2Bx7qR1OdjxCqNH/96w/pPRuS3zC972trAbIsIf0s=
+			Fsf+MT0EfAUht/Y91TiNN25LNuQlIM+qj3ERsj6mw8E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -601,7 +601,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F+sYEmTiJydrcvnRMHy1XhiA+knP1BntcC9SEffdlJ4=
+			TwT2s0jUsxdwznlPil7pdgnOAgn2H3q/0sLgvXP2qiY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -610,7 +610,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oScvIDLMBtR0s9sRDv35S28m/i2wXUGFOdp4v7casUE=
+			p69VdzT7m6PbyVWJCfwk7d5lPkVT3uSwmqz0V9Uhhuw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -619,7 +619,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HwhmDh8AqroBk9VOsKvFdoVBkVbCY+hs/FKJXX+Ghsw=
+			+P8tYuWUipp3k37yD3KFCqtL3zDbN0YG3s0BH0xpsgY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -637,7 +637,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ucGWP0AhqKktxBe03ab7QOgYIjwbMq8QSt5bt7nDfzE=
+			p9RS2lQ+jvCS0bIieAwYp+xzMgTKYCG2zDxm/8d3PTQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -662,7 +662,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PY4qkAQ/KjtMmFNpc2mw2NSnDE5JfWGaPhI+G8F5WkA=
+			v4nIOmKV/xwGnChazggApNl4gYNd9PfpVgNKYEmQpNw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -671,7 +671,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BMpni8pPn6HceUFSygnzvVPCWx8ZTBhXLCeZoSDmpVY=
+			3wDdwFdm+1689IOKz8RzvefNd4ZgL1C4B+ADR88CUyw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -694,7 +694,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KnRWq/SUTemUho+BiQUQsmrPGERoYjvZkqUUhyroGbI=
+			AA9F07tjUghhrJ+3MldPVMcOBCWOjA8SL4lO0LYTbuQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -703,7 +703,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yo6picppYA8jJ23Pa/dxV+0QTtF5kc6sIy4zH0G0dmM=
+			Ss58vgL+JYrLZwd4mgLJO6ALbZoTAsV/Sm9C5/zLIYY=
 			</data>
 			<key>optional</key>
 			<true/>

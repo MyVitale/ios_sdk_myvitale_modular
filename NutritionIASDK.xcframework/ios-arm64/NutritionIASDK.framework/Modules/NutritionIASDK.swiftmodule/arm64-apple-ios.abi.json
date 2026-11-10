@@ -507,6 +507,111 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "NutritionIASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NutritionIASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "NutritionIASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "NutritionIASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NutritionIASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "NutritionIASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NutritionIASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "NutritionIASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "NutritionIASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NutritionIASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "NutritionIASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "NutritionIASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "NutritionIASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "NutritionIASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NutritionIASDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1452,6 +1557,32 @@
           },
           {
             "kind": "Function",
+            "name": "setUserDishRegistrationEnabled",
+            "printedName": "setUserDishRegistrationEnabled(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14NutritionIASDK0A3SDKC30setUserDishRegistrationEnabledyySbF",
+            "mangledName": "$s14NutritionIASDK0A3SDKC30setUserDishRegistrationEnabledyySbF",
+            "moduleName": "NutritionIASDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getUserHeight",
             "printedName": "getUserHeight()",
             "children": [
@@ -2082,7 +2213,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(NutritionIASDK.NutritionDay?) -> ()",
+                "printedName": "(NutritionIASDK.NutritionDay?, Foundation.NSError?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2091,24 +2222,45 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "NutritionIASDK.NutritionDay?",
+                    "name": "Tuple",
+                    "printedName": "(NutritionIASDK.NutritionDay?, Foundation.NSError?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "NutritionDay",
-                        "printedName": "NutritionIASDK.NutritionDay",
-                        "usr": "s:14NutritionIASDK0A3DayV"
+                        "name": "Optional",
+                        "printedName": "NutritionIASDK.NutritionDay?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NutritionDay",
+                            "printedName": "NutritionIASDK.NutritionDay",
+                            "usr": "s:14NutritionIASDK0A3DayV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
-                    ],
-                    "usr": "s:Sq"
+                    ]
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:14NutritionIASDK0A3SDKC12getTodayMenuyyyAA0A3DayVSgcF",
-            "mangledName": "$s14NutritionIASDK0A3SDKC12getTodayMenuyyyAA0A3DayVSgcF",
+            "usr": "s:14NutritionIASDK0A3SDKC12getTodayMenuyyyAA0A3DayVSg_So7NSErrorCSgtcF",
+            "mangledName": "$s14NutritionIASDK0A3SDKC12getTodayMenuyyyAA0A3DayVSg_So7NSErrorCSgtcF",
             "moduleName": "NutritionIASDK",
             "declAttributes": [
               "AccessControl"
@@ -2596,13 +2748,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NutritionIASDK"
       },
       {
         "kind": "Import",
@@ -7625,6 +7770,363 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isAnalyzedDish",
+            "printedName": "isAnalyzedDish",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14NutritionIASDK0A4DishV010isAnalyzedC0SbSgvp",
+            "mangledName": "$s14NutritionIASDK0A4DishV010isAnalyzedC0SbSgvp",
+            "moduleName": "NutritionIASDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NutritionIASDK0A4DishV010isAnalyzedC0SbSgvg",
+                "mangledName": "$s14NutritionIASDK0A4DishV010isAnalyzedC0SbSgvg",
+                "moduleName": "NutritionIASDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NutritionIASDK0A4DishV010isAnalyzedC0SbSgvs",
+                "mangledName": "$s14NutritionIASDK0A4DishV010isAnalyzedC0SbSgvs",
+                "moduleName": "NutritionIASDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NutritionIASDK0A4DishV010isAnalyzedC0SbSgvM",
+                "mangledName": "$s14NutritionIASDK0A4DishV010isAnalyzedC0SbSgvM",
+                "moduleName": "NutritionIASDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(dishID:name:dishOrderID:typeName:carbs:proteins:fats:kcal:preferences:difficulty:ingredients:recipe:binaryUrls:isAnalyzedDish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NutritionDish",
+                "printedName": "NutritionIASDK.NutritionDish",
+                "usr": "s:14NutritionIASDK0A4DishV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Int]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14NutritionIASDK0A4DishV6dishID4name0d5OrderE08typeName5carbs8proteins4fats4kcal11preferences10difficulty11ingredients6recipe10binaryUrls010isAnalyzedC0ACSiSg_SSSgArs4RSaySiGSgAr2SSaySSGSgSbSgtcfc",
+            "mangledName": "$s14NutritionIASDK0A4DishV6dishID4name0d5OrderE08typeName5carbs8proteins4fats4kcal11preferences10difficulty11ingredients6recipe10binaryUrls010isAnalyzedC0ACSiSg_SSSgArs4RSaySiGSgAr2SSaySSGSgSbSgtcfc",
+            "moduleName": "NutritionIASDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -7646,7 +8148,9 @@
             "usr": "s:14NutritionIASDK0A4DishV4fromACs7Decoder_p_tKcfc",
             "mangledName": "$s14NutritionIASDK0A4DishV4fromACs7Decoder_p_tKcfc",
             "moduleName": "NutritionIASDK",
-            "implicit": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
             "throwing": true,
             "init_kind": "Designated"
           },
@@ -7671,7 +8175,9 @@
             "usr": "s:14NutritionIASDK0A4DishV6encode2toys7Encoder_p_tKF",
             "mangledName": "$s14NutritionIASDK0A4DishV6encode2toys7Encoder_p_tKF",
             "moduleName": "NutritionIASDK",
-            "implicit": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -8601,7 +9107,7 @@
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionControllers.swift",
       "kind": "BooleanLiteral",
-      "offset": 2349,
+      "offset": 3705,
       "length": 4,
       "value": "true"
     },
@@ -8893,6 +9399,146 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/weeklyMacros\/WeeklyMacrosViewModel.swift",
+      "kind": "Dictionary",
+      "offset": 195,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/weeklyMacros\/WeeklyMacrosViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 230,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/weeklyMacros\/WeeklyMacrosViewModel.swift",
+      "kind": "Array",
+      "offset": 321,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/weeklyMacros\/WeeklyMacrosView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 516,
+      "length": 2,
+      "value": "70"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/weeklyMacros\/WeeklyMacrosView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5329,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/weeklyMacros\/WeeklyMacrosView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5355,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/weeklyMacros\/WeeklyMacrosView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7804,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/weeklyMacros\/WeeklyMacrosView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8094,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/dishAnalysis\/DishAnalysisViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 440,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/dishAnalysis\/DishAnalysisViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 574,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/dishAnalysis\/DishAnalysisViewModel.swift",
+      "kind": "Array",
+      "offset": 691,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/dishAnalysis\/DishAnalysisViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 726,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/dishAnalysis\/DishAnalysisViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 761,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/dishAnalysis\/DishAnalysisViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 847,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/dishAnalysis\/DishAnalysisViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 891,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/dishAnalysis\/DishAnalysisViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 984,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/dishAnalysis\/DishAnalysisViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11552,
+      "length": 3,
+      "value": "720"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/dishAnalysis\/DishAnalysisViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11573,
+      "length": 7,
+      "value": "250000"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/dishAnalysis\/DishRegistrationView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 217,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/dishAnalysis\/CustomDishEditorView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 217,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutricionDayView.swift",
       "kind": "FloatLiteral",
       "offset": 533,
@@ -8984,58 +9630,100 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/Receta\/NutricionRecetaViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1399,
+      "length": 20,
+      "value": "\"person.crop.circle\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/Receta\/NutricionRecetaViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1625,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/Receta\/NutricionRecetaViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1684,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/Receta\/NutricionRecetaViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1747,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/Receta\/NutricionRecetaViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1929,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/Receta\/NutricionRecetaViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1956,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutricionHomeViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 517,
+      "offset": 586,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutricionHomeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 633,
+      "offset": 702,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutricionHomeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 690,
+      "offset": 759,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutricionHomeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 694,
+      "offset": 763,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutricionHomeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1072,
+      "offset": 1141,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutricionHomeViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 1206,
       "length": 10,
       "value": "\"sparkles\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutricionHomeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1387,
+      "offset": 1456,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutricionHomeViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1453,
+      "offset": 1522,
       "length": 5,
       "value": "false"
     },
@@ -9052,6 +9740,13 @@
       "offset": 719,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/Stuff\/WaitingScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 759,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/Nutrition.swift",
@@ -9101,6 +9796,41 @@
       "offset": 614,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/DataServiceNutrition.swift",
+      "kind": "StringLiteral",
+      "offset": 455,
+      "length": 13,
+      "value": "\"user_facing\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/DataServiceNutrition.swift",
+      "kind": "StringLiteral",
+      "offset": 491,
+      "length": 8,
+      "value": "\"Origin\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/DataServiceNutrition.swift",
+      "kind": "StringLiteral",
+      "offset": 2804,
+      "length": 23,
+      "value": "\"NutritionAPIErrorCode\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/DataServiceNutrition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2994,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/DataServiceNutrition.swift",
+      "kind": "StringLiteral",
+      "offset": 3252,
+      "length": 5,
+      "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/Stuff\/CustomPageControl.swift",
@@ -9294,9 +10024,23 @@
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 964,
+      "offset": 1040,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1257,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1303,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/DotsAnimationView.swift",
@@ -9546,875 +10290,1113 @@
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 2194,
+      "offset": 3234,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 2224,
+      "offset": 3264,
       "length": 10,
       "value": "\"ClientId\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 2257,
+      "offset": 3297,
       "length": 8,
       "value": "\"UserId\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 2289,
+      "offset": 3329,
       "length": 9,
       "value": "\"Current\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 2327,
+      "offset": 3367,
       "length": 14,
       "value": "\"SerialNumber\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 2367,
+      "offset": 3407,
       "length": 11,
       "value": "\"Processed\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 2405,
+      "offset": 3445,
       "length": 12,
       "value": "\"ViableKcal\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 2438,
+      "offset": 3478,
       "length": 6,
       "value": "\"Days\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 2468,
+      "offset": 3508,
       "length": 9,
       "value": "\"Enabled\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 2503,
+      "offset": 3543,
       "length": 11,
       "value": "\"ChangedAt\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 2540,
+      "offset": 3580,
       "length": 11,
       "value": "\"CreatedAt\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 2577,
+      "offset": 3617,
       "length": 11,
       "value": "\"KcalMedia\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 2883,
+      "offset": 3659,
+      "length": 16,
+      "value": "\"FiltersRelaxed\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3710,
+      "length": 20,
+      "value": "\"RelaxationsApplied\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3764,
+      "length": 19,
+      "value": "\"RelaxationMessage\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3818,
+      "length": 20,
+      "value": "\"MacroErrorResolved\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3873,
+      "length": 20,
+      "value": "\"FinalMacroErrorPct\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4188,
       "length": 8,
       "value": "\"DayNum\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 2915,
+      "offset": 4220,
       "length": 9,
       "value": "\"Intakes\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 2948,
+      "offset": 4253,
       "length": 9,
       "value": "\"KcalDay\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 3711,
+      "offset": 5016,
       "length": 10,
       "value": "\"IntakeId\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 3742,
+      "offset": 5047,
       "length": 12,
       "value": "\"IntakeName\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 3774,
+      "offset": 5079,
       "length": 8,
       "value": "\"DayNum\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 3805,
+      "offset": 5110,
       "length": 8,
       "value": "\"Dishes\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 4195,
+      "offset": 5500,
       "length": 6,
       "value": "\"Dish\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 4224,
+      "offset": 5529,
       "length": 8,
       "value": "\"UserId\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 4411,
+      "offset": 5716,
       "length": 8,
       "value": "\"Dishes\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 4442,
+      "offset": 5747,
       "length": 8,
       "value": "\"UserId\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 4887,
+      "offset": 6229,
       "length": 8,
       "value": "\"DishId\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 4916,
+      "offset": 6258,
       "length": 10,
       "value": "\"DishName\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 4954,
+      "offset": 6296,
       "length": 13,
       "value": "\"DishOrderId\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 4992,
+      "offset": 6334,
       "length": 15,
       "value": "\"DishOrderName\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 5029,
+      "offset": 6371,
       "length": 7,
       "value": "\"Carbs\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 5061,
+      "offset": 6403,
       "length": 10,
       "value": "\"Proteins\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 5092,
+      "offset": 6434,
       "length": 6,
       "value": "\"Fats\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 5119,
+      "offset": 6461,
       "length": 6,
       "value": "\"Kcal\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 5153,
+      "offset": 6495,
       "length": 13,
       "value": "\"Preferences\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 5193,
+      "offset": 6535,
       "length": 12,
       "value": "\"Difficulty\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 5233,
+      "offset": 6575,
       "length": 13,
       "value": "\"Ingredients\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 5269,
+      "offset": 6611,
       "length": 8,
       "value": "\"Recipe\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 5304,
+      "offset": 6646,
       "length": 11,
       "value": "\"BinaryUrl\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 5381,
-      "length": 8,
-      "value": "\"Postre\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 5409,
-      "length": 9,
-      "value": "\"Primero\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 5438,
-      "length": 9,
-      "value": "\"Segundo\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 5646,
-      "length": 10,
-      "value": "\"ClientId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 5684,
-      "length": 13,
-      "value": "\"ClientAlias\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 5724,
-      "length": 12,
-      "value": "\"ClientName\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 5760,
-      "length": 9,
-      "value": "\"Enabled\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 6013,
-      "length": 14,
-      "value": "\"PreferenceId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 6058,
+      "offset": 6688,
       "length": 16,
-      "value": "\"PreferenceName\""
+      "value": "\"IsAnalyzedDish\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 6105,
-      "length": 16,
-      "value": "\"PreferenceType\""
+      "offset": 11377,
+      "length": 6,
+      "value": "\"Name\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 6148,
-      "length": 12,
-      "value": "\"AlimentIds\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 6229,
+      "offset": 11408,
       "length": 10,
-      "value": "\"Allergen\""
+      "value": "\"Quantity\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 6264,
-      "length": 14,
-      "value": "\"Intollerance\""
+      "offset": 11439,
+      "length": 6,
+      "value": "\"Unit\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 6301,
-      "length": 12,
-      "value": "\"Principles\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 6493,
-      "length": 18,
-      "value": "\"DesiredBalanceId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 6546,
-      "length": 20,
-      "value": "\"DesiredBalanceName\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 6733,
-      "length": 13,
-      "value": "\"CountryName\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 6772,
-      "length": 11,
-      "value": "\"CountryId\""
+      "kind": "Array",
+      "offset": 14196,
+      "length": 349,
+      "value": "[\"g\", \"gr\", \"grs\", \"gram\", \"grams\", \"gramo\", \"gramos\", \"kg\", \"ml\", \"cl\", \"l\", \"lt\", \"litro\", \"litros\", \"ud\", \"uds\", \"u\", \"unidad\", \"unidades\", \"unit\", \"units\", \"oz\", \"lb\", \"mg\", \"cucharada\", \"cucharadas\", \"cucharadita\", \"cucharaditas\", \"taza\", \"tazas\", \"cup\", \"cups\", \"pizca\", \"puñado\"]"
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "BooleanLiteral",
-      "offset": 6932,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 7016,
-      "length": 23,
-      "value": "\"IntermittentFastingId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 7079,
-      "length": 25,
-      "value": "\"IntermittentFastingName\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 7128,
-      "length": 9,
-      "value": "\"Enabled\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7354,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 7783,
+      "offset": 15851,
       "length": 5,
-      "value": "\"_id\""
+      "value": "false"
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 7811,
-      "length": 8,
-      "value": "\"UserId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 7844,
+      "offset": 16137,
       "length": 10,
-      "value": "\"MemberId\""
+      "value": "\"DishName\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 7879,
-      "length": 10,
-      "value": "\"ClientId\""
+      "offset": 16168,
+      "length": 6,
+      "value": "\"Kcal\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 7917,
-      "length": 13,
-      "value": "\"DateOfBirth\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 7957,
-      "length": 12,
-      "value": "\"Difficulty\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 7992,
-      "length": 8,
-      "value": "\"Gender\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8036,
-      "length": 21,
-      "value": "\"PhysicalIntensityId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8083,
-      "length": 11,
-      "value": "\"DailyKcal\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8123,
-      "length": 14,
-      "value": "\"TargetWeight\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8160,
-      "length": 8,
-      "value": "\"Weight\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8191,
-      "length": 8,
-      "value": "\"Height\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8232,
-      "length": 18,
-      "value": "\"DesiredBalanceId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8277,
-      "length": 12,
-      "value": "\"TrainingId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8312,
-      "length": 8,
-      "value": "\"DietId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8359,
-      "length": 24,
-      "value": "\"DistributionByIntakeId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8411,
-      "length": 13,
-      "value": "\"ClientAlias\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8459,
-      "length": 20,
-      "value": "\"ExcludedAlimentIds\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8509,
-      "length": 15,
-      "value": "\"PreferenceIds\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8551,
-      "length": 12,
-      "value": "\"CountryIds\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8595,
-      "length": 17,
-      "value": "\"SelectedIntakes\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 8650,
-      "length": 23,
-      "value": "\"IntermittentFastingId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9754,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9783,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10044,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10133,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10301,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 10406,
-      "length": 8,
-      "value": "\"UserId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 10439,
-      "length": 10,
-      "value": "\"MemberId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 10474,
-      "length": 10,
-      "value": "\"ClientId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 10509,
-      "length": 10,
-      "value": "\"UserName\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 10548,
-      "length": 14,
-      "value": "\"UserSurnames\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 10587,
-      "length": 10,
-      "value": "\"Password\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 10625,
-      "length": 13,
-      "value": "\"DateOfBirth\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 10661,
-      "length": 8,
-      "value": "\"Gender\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 10705,
-      "length": 21,
-      "value": "\"PhysicalIntensityId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 10752,
-      "length": 11,
-      "value": "\"DailyKcal\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 10792,
-      "length": 14,
-      "value": "\"TargetWeight\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 10829,
-      "length": 8,
-      "value": "\"Weight\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 10860,
-      "length": 8,
-      "value": "\"Height\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 10901,
-      "length": 18,
-      "value": "\"DesiredBalanceId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 10946,
-      "length": 12,
-      "value": "\"TrainingId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 10984,
-      "length": 11,
-      "value": "\"Countries\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 11023,
-      "length": 15,
-      "value": "\"PreferenceIds\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 11061,
-      "length": 8,
-      "value": "\"DietId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 11108,
-      "length": 24,
-      "value": "\"DistributionByIntakeId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 11164,
-      "length": 17,
-      "value": "\"SelectedIntakes\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 11214,
-      "length": 20,
-      "value": "\"ExcludedAlimentIds\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 11260,
-      "length": 11,
-      "value": "\"Algorithm\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 11302,
-      "length": 16,
-      "value": "\"RegenerateMenu\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 11356,
-      "length": 23,
-      "value": "\"IntermittentFastingId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 11406,
-      "length": 12,
-      "value": "\"Difficulty\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 15115,
-      "length": 8,
-      "value": "\"Intake\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 15146,
-      "length": 8,
-      "value": "\"Dishes\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 15406,
-      "length": 24,
-      "value": "\"DistributionByIntakeId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 15471,
-      "length": 26,
-      "value": "\"DistributionByIntakeName\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 15528,
-      "length": 16,
-      "value": "\"IPDistribution\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 16209,
-      "length": 10,
-      "value": "\"IntakeId\""
-    },
-    {
-      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
-      "kind": "StringLiteral",
-      "offset": 16241,
+      "offset": 16196,
       "length": 7,
       "value": "\"Carbs\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 16273,
+      "offset": 16228,
       "length": 10,
       "value": "\"Proteins\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 16304,
+      "offset": 16259,
       "length": 6,
       "value": "\"Fats\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 16503,
+      "offset": 16293,
+      "length": 13,
+      "value": "\"Ingredients\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 16512,
+      "length": 8,
+      "value": "\"Postre\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 16540,
+      "length": 9,
+      "value": "\"Primero\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 16569,
+      "length": 9,
+      "value": "\"Segundo\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 16777,
+      "length": 10,
+      "value": "\"ClientId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 16815,
+      "length": 13,
+      "value": "\"ClientAlias\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 16855,
+      "length": 12,
+      "value": "\"ClientName\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 16891,
+      "length": 9,
+      "value": "\"Enabled\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 17144,
+      "length": 14,
+      "value": "\"PreferenceId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 17189,
+      "length": 16,
+      "value": "\"PreferenceName\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 17236,
+      "length": 16,
+      "value": "\"PreferenceType\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 17279,
+      "length": 12,
+      "value": "\"AlimentIds\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 17360,
+      "length": 10,
+      "value": "\"Allergen\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 17395,
+      "length": 14,
+      "value": "\"Intollerance\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 17432,
+      "length": 12,
+      "value": "\"Principles\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 17624,
+      "length": 18,
+      "value": "\"DesiredBalanceId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 17677,
+      "length": 20,
+      "value": "\"DesiredBalanceName\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 17864,
+      "length": 13,
+      "value": "\"CountryName\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 17903,
+      "length": 11,
+      "value": "\"CountryId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18063,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 18147,
+      "length": 23,
+      "value": "\"IntermittentFastingId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 18210,
+      "length": 25,
+      "value": "\"IntermittentFastingName\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 18259,
+      "length": 9,
+      "value": "\"Enabled\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18485,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 18914,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 16546,
-      "length": 23,
-      "value": "\"PhysicalIntensityName\""
+      "offset": 18942,
+      "length": 8,
+      "value": "\"UserId\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 16605,
+      "offset": 18975,
+      "length": 10,
+      "value": "\"MemberId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 19010,
+      "length": 10,
+      "value": "\"ClientId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 19048,
+      "length": 13,
+      "value": "\"DateOfBirth\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 19088,
+      "length": 12,
+      "value": "\"Difficulty\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 19123,
+      "length": 8,
+      "value": "\"Gender\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 19167,
       "length": 21,
       "value": "\"PhysicalIntensityId\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 16799,
+      "offset": 19214,
+      "length": 11,
+      "value": "\"DailyKcal\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 19254,
+      "length": 14,
+      "value": "\"TargetWeight\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 19291,
+      "length": 8,
+      "value": "\"Weight\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 19322,
+      "length": 8,
+      "value": "\"Height\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 19363,
+      "length": 18,
+      "value": "\"DesiredBalanceId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 19408,
+      "length": 12,
+      "value": "\"TrainingId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 19443,
+      "length": 8,
+      "value": "\"DietId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 19490,
+      "length": 24,
+      "value": "\"DistributionByIntakeId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 19542,
+      "length": 13,
+      "value": "\"ClientAlias\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 19590,
+      "length": 20,
+      "value": "\"ExcludedAlimentIds\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 19640,
+      "length": 15,
+      "value": "\"PreferenceIds\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 19682,
+      "length": 12,
+      "value": "\"CountryIds\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 19726,
+      "length": 17,
+      "value": "\"SelectedIntakes\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 19781,
+      "length": 23,
+      "value": "\"IntermittentFastingId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20885,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20914,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21175,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21264,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21432,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 21537,
+      "length": 8,
+      "value": "\"UserId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 21570,
+      "length": 10,
+      "value": "\"MemberId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 21605,
+      "length": 10,
+      "value": "\"ClientId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 21640,
+      "length": 10,
+      "value": "\"UserName\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 21679,
+      "length": 14,
+      "value": "\"UserSurnames\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 21718,
+      "length": 10,
+      "value": "\"Password\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 21756,
+      "length": 13,
+      "value": "\"DateOfBirth\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 21792,
+      "length": 8,
+      "value": "\"Gender\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 21836,
+      "length": 21,
+      "value": "\"PhysicalIntensityId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 21883,
+      "length": 11,
+      "value": "\"DailyKcal\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 21923,
+      "length": 14,
+      "value": "\"TargetWeight\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 21960,
+      "length": 8,
+      "value": "\"Weight\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 21991,
+      "length": 8,
+      "value": "\"Height\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 22032,
+      "length": 18,
+      "value": "\"DesiredBalanceId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 22077,
+      "length": 12,
+      "value": "\"TrainingId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 22115,
+      "length": 11,
+      "value": "\"Countries\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 22154,
+      "length": 13,
+      "value": "\"Preferences\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 22190,
+      "length": 8,
+      "value": "\"DietId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 22237,
+      "length": 24,
+      "value": "\"DistributionByIntakeId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 22293,
+      "length": 17,
+      "value": "\"SelectedIntakes\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 22343,
+      "length": 18,
+      "value": "\"ExcludedAliments\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 22387,
+      "length": 11,
+      "value": "\"Algorithm\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 22429,
+      "length": 16,
+      "value": "\"RegenerateMenu\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 22483,
+      "length": 23,
+      "value": "\"IntermittentFastingId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 22533,
+      "length": 12,
+      "value": "\"Difficulty\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 26242,
+      "length": 8,
+      "value": "\"Intake\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 26273,
+      "length": 8,
+      "value": "\"Dishes\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 26533,
+      "length": 24,
+      "value": "\"DistributionByIntakeId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 26598,
+      "length": 26,
+      "value": "\"DistributionByIntakeName\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 26655,
+      "length": 16,
+      "value": "\"IPDistribution\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 27336,
+      "length": 10,
+      "value": "\"IntakeId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 27368,
+      "length": 7,
+      "value": "\"Carbs\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 27400,
+      "length": 10,
+      "value": "\"Proteins\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 27431,
+      "length": 6,
+      "value": "\"Fats\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 27739,
+      "length": 15,
+      "value": "\"DailyKcalGoal\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 27787,
+      "length": 18,
+      "value": "\"DailyProteinGoal\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 27844,
+      "length": 24,
+      "value": "\"DailyCarbohydratesGoal\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 27898,
+      "length": 15,
+      "value": "\"DailyFatsGoal\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 27934,
+      "length": 6,
+      "value": "\"Days\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 28766,
+      "length": 8,
+      "value": "\"DayNum\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 28798,
+      "length": 9,
+      "value": "\"DayKcal\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 28832,
+      "length": 10,
+      "value": "\"DayCarbs\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 28869,
+      "length": 12,
+      "value": "\"DayProtein\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 28905,
+      "length": 9,
+      "value": "\"DayFats\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 28938,
+      "length": 9,
+      "value": "\"Intakes\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 29993,
+      "length": 10,
+      "value": "\"IntakeId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 30030,
+      "length": 12,
+      "value": "\"IntakeName\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 30069,
+      "length": 12,
+      "value": "\"IntakeKcal\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 30109,
+      "length": 13,
+      "value": "\"IntakeCarbs\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 30152,
+      "length": 15,
+      "value": "\"IntakeProtein\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 30194,
+      "length": 12,
+      "value": "\"IntakeFats\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 31578,
+      "length": 5,
+      "value": "\"_id\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 31621,
+      "length": 23,
+      "value": "\"PhysicalIntensityName\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 31680,
+      "length": 21,
+      "value": "\"PhysicalIntensityId\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
+      "kind": "StringLiteral",
+      "offset": 31874,
       "length": 13,
       "value": "\"DishOrderId\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/NutritionIARModels.swift",
       "kind": "StringLiteral",
-      "offset": 16842,
+      "offset": 31917,
       "length": 15,
       "value": "\"DishOrderName\""
     },
@@ -10533,6 +11515,13 @@
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/Stuff\/HealthAlertViewController.swift",
       "kind": "BooleanLiteral",
+      "offset": 634,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/Stuff\/HealthAlertViewController.swift",
+      "kind": "BooleanLiteral",
       "offset": 980,
       "length": 4,
       "value": "true"
@@ -10568,28 +11557,28 @@
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/TrainingAuth\/NutritionAuth.swift",
       "kind": "BooleanLiteral",
-      "offset": 4200,
+      "offset": 4277,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/TrainingAuth\/NutritionAuth.swift",
       "kind": "BooleanLiteral",
-      "offset": 4235,
+      "offset": 4312,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/TrainingAuth\/NutritionAuth.swift",
       "kind": "BooleanLiteral",
-      "offset": 5770,
+      "offset": 6111,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Documents\/NutritionSDKIAV2SPM\/NutritionIASDK\/Nutricion\/TrainingAuth\/NutritionAuth.swift",
       "kind": "BooleanLiteral",
-      "offset": 5805,
+      "offset": 6146,
       "length": 4,
       "value": "true"
     },
@@ -11177,266 +12166,273 @@
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12946,
+      "offset": 12943,
+      "length": 12,
+      "value": "\"macro-icon\""
+    },
+    {
+      "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 13087,
       "length": 13,
       "value": "\"mediamanana\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13085,
+      "offset": 13226,
       "length": 10,
       "value": "\"merienda\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13221,
+      "offset": 13362,
       "length": 10,
       "value": "\"nofodmap\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13360,
+      "offset": 13501,
       "length": 12,
       "value": "\"open-arrow\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13523,
+      "offset": 13664,
       "length": 23,
       "value": "\"physicalIntensityID_1\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13697,
+      "offset": 13838,
       "length": 23,
       "value": "\"physicalIntensityID_2\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13871,
+      "offset": 14012,
       "length": 23,
       "value": "\"physicalIntensityID_3\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14045,
+      "offset": 14186,
       "length": 23,
       "value": "\"physicalIntensityID_4\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14219,
+      "offset": 14360,
       "length": 23,
       "value": "\"physicalIntensityID_5\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14383,
+      "offset": 14524,
       "length": 18,
       "value": "\"placeholder_menu\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14521,
+      "offset": 14662,
       "length": 7,
       "value": "\"pollo\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14654,
+      "offset": 14795,
       "length": 10,
       "value": "\"porridge\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14806,
+      "offset": 14947,
       "length": 19,
       "value": "\"potaje-de-vigilia\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14960,
+      "offset": 15101,
       "length": 15,
       "value": "\"preferences_1\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15112,
+      "offset": 15253,
       "length": 16,
       "value": "\"preferences_18\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15265,
+      "offset": 15406,
       "length": 16,
       "value": "\"preferences_19\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15416,
+      "offset": 15557,
       "length": 15,
       "value": "\"preferences_2\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15566,
+      "offset": 15707,
       "length": 15,
       "value": "\"preferences_3\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15716,
+      "offset": 15857,
       "length": 15,
       "value": "\"preferences_4\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15866,
+      "offset": 16007,
       "length": 15,
       "value": "\"preferences_5\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16011,
+      "offset": 16152,
       "length": 12,
       "value": "\"preparando\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16155,
+      "offset": 16296,
       "length": 13,
       "value": "\"preparando2\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16288,
+      "offset": 16429,
       "length": 7,
       "value": "\"quema\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16427,
+      "offset": 16568,
       "length": 13,
       "value": "\"quemagrasas\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16566,
+      "offset": 16707,
       "length": 10,
       "value": "\"sandwich\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16719,
+      "offset": 16860,
       "length": 19,
       "value": "\"selectedIntakes_1\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16881,
+      "offset": 17022,
       "length": 19,
       "value": "\"selectedIntakes_2\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17043,
+      "offset": 17184,
       "length": 19,
       "value": "\"selectedIntakes_3\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17205,
+      "offset": 17346,
       "length": 19,
       "value": "\"selectedIntakes_4\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17367,
+      "offset": 17508,
       "length": 19,
       "value": "\"selectedIntakes_5\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17525,
+      "offset": 17666,
       "length": 17,
       "value": "\"settings-button\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17671,
+      "offset": 17812,
       "length": 12,
       "value": "\"test-check\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17805,
+      "offset": 17946,
       "length": 8,
       "value": "\"vegano\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17934,
+      "offset": 18075,
       "length": 8,
       "value": "\"wait_1\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18063,
+      "offset": 18204,
       "length": 8,
       "value": "\"wait_2\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18192,
+      "offset": 18333,
       "length": 8,
       "value": "\"wait_3\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18321,
+      "offset": 18462,
       "length": 8,
       "value": "\"wait_4\""
     },
     {
       "filePath": "\/Users\/miguel.munoz\/Library\/Developer\/Xcode\/DerivedData\/NutritionIASDK-acrrbcxtedgdmzfrooadlvdrgmiy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NutritionIASDK\/IntermediateBuildFilesPath\/NutritionIASDK.build\/Release-iphoneos\/NutritionIASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18464,
+      "offset": 18605,
       "length": 15,
       "value": "\"waiting-nutri\""
     }

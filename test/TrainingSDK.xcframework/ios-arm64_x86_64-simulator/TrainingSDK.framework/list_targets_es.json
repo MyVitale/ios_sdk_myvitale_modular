@@ -1,0 +1,87 @@
+[
+    {
+        "codigo": "1",
+        "lang": "es",
+        "title": "Core"
+    },
+    {
+        "codigo": "2",
+        "lang": "es",
+        "title": "Hombro"
+    },
+    {
+        "codigo": "3",
+        "lang": "es",
+        "title": "Flexores cadera"
+    },
+    {
+        "codigo": "4",
+        "lang": "es",
+        "title": "Adductor"
+    },
+    {
+        "codigo": "5",
+        "lang": "es",
+        "title": "Adductores"
+    },
+    {
+        "codigo": "6",
+        "lang": "es",
+        "title": "Pectoral"
+    },
+    {
+        "codigo": "7",
+        "lang": "es",
+        "title": "Triceps"
+    },
+    {
+        "codigo": "8",
+        "lang": "es",
+        "title": "Cuadriceps"
+    },
+    {
+        "codigo": "9",
+        "lang": "es",
+        "title": "Glúteo"
+    },
+    {
+        "codigo": "10",
+        "lang": "es",
+        "title": "Espalda baja"
+    },
+    {
+        "codigo": "11",
+        "lang": "es",
+        "title": "Espalda"
+    },
+    {
+        "codigo": "12",
+        "lang": "es",
+        "title": "Biceps"
+    },
+    {
+        "codigo": "13",
+        "lang": "es",
+        "title": "Gemelo / Soleo"
+    },
+    {
+        "codigo": "14",
+        "lang": "es",
+        "title": "Isquios"
+    },
+    {
+        "codigo": "15",
+        "lang": "es",
+        "title": "Flexores de cadera"
+    },
+    {
+        "codigo": "16",
+        "lang": "es",
+        "title": "Dorsal"
+    },
+    {
+        "codigo": "17",
+        "lang": "es",
+        "title": "Soleo"
+    }
+]

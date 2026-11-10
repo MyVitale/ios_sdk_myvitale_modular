@@ -1,0 +1,87 @@
+[
+    {
+        "codigo": "1",
+        "lang": "fr",
+        "title": "Cœur de métier"
+    },
+    {
+        "codigo": "2",
+        "lang": "fr",
+        "title": "Epaule"
+    },
+    {
+        "codigo": "3",
+        "lang": "fr",
+        "title": "Fléchisseurs de la hanche"
+    },
+    {
+        "codigo": "4",
+        "lang": "fr",
+        "title": "Adducteur"
+    },
+    {
+        "codigo": "5",
+        "lang": "fr",
+        "title": "Adducteurs"
+    },
+    {
+        "codigo": "6",
+        "lang": "fr",
+        "title": "Coffre"
+    },
+    {
+        "codigo": "7",
+        "lang": "fr",
+        "title": "Triceps"
+    },
+    {
+        "codigo": "8",
+        "lang": "fr",
+        "title": "Quads"
+    },
+    {
+        "codigo": "9",
+        "lang": "fr",
+        "title": "Glute"
+    },
+    {
+        "codigo": "10",
+        "lang": "fr",
+        "title": "Bas du dos"
+    },
+    {
+        "codigo": "11",
+        "lang": "fr",
+        "title": "Retour"
+    },
+    {
+        "codigo": "12",
+        "lang": "fr",
+        "title": "Biceps"
+    },
+    {
+        "codigo": "13",
+        "lang": "fr",
+        "title": "Mollets / Soléaire"
+    },
+    {
+        "codigo": "14",
+        "lang": "fr",
+        "title": "Ischio-jambiers"
+    },
+    {
+        "codigo": "15",
+        "lang": "fr",
+        "title": "Fléchisseurs de la hanche"
+    },
+    {
+        "codigo": "16",
+        "lang": "fr",
+        "title": "Dorsale"
+    },
+    {
+        "codigo": "17",
+        "lang": "fr",
+        "title": "Soleus"
+    }
+]

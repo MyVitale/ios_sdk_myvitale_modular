@@ -1,0 +1,72 @@
+[{
+    "page": 0,
+    "panels": [{
+        "questions": [
+            {
+                "title": "¿Cúal es tu objetivo?",
+                "type": "list",
+                "identifier": "goal",
+                "info": "Podemos ofrecerte programas para adelgazar, aumentar tu masa muscular, mejorar tu rendimiento en un maratón… Dinos qué objetivo persigues y te ayudaremos a conseguirlo.",
+                "isMultipleSelection": false
+            },
+            {
+                "title": "¿Tienes algún problema de salud?",
+                "identifier": "healthProblems",
+                "type": "list",
+                "info": "Indícanos si sufres alguno de estos problemas y lo tendremos en cuenta para adaptar tu programa de ejercicio y ayudarte a mejorar tu estado de forma y tu calidad de vida.",
+                "isMultipleSelection": true
+            },
+            {
+                "title": "Estado de forma actual",
+                "type": "list",
+                "info": "Dinos cuál consideras que es tu estado de forma en este momento, para adaptar mejor tu programa a tus capacidades reales.",
+                "identifier": "trainingLevel",
+                "isMultipleSelection": false
+            },
+            {
+                "title": "Dificultad de ejercicios deseada",
+                "type": "list",
+                "info": "Podemos ofrecerte ejercicios más fáciles o más difíciles de ejecutar, en función de tus preferencias. Dinos cuál es tu opción elegida.",
+                "identifier": "exerciseDifficulty",
+                "isMultipleSelection": false
+            },
+            {
+                "title": "¿Dónde quieres entrenar?",
+                "identifier": "trainingPlace",
+                "type": "list",
+                "info": "¿Vas a entrenar en un espacio cerrado, como un gimnasio o tu casa, o puedes realizar el ejercicio al aire libre?. Si eliges esta última opción, en ocasiones te propondremos ejercicios que requieran más espacio para realizarlos.",
+                "isMultipleSelection": false
+
+            },
+            {
+                "title": "¿Dispones de algún material de entrenamiento?",
+                "type": "list",
+                "identifier": "equipment",
+                "info": "Indícanos que equipo tienes disponible, para que podamos sugerir ejercicios utilizando solo ese equipo. Si no tienes ningún equipo, está bien. No marques ninguna opción y sugeriremos ejercicios que no requieren de ningún equipo, ya que usarás el peso de tu cuerpo",
+                "isMultipleSelection": true
+            },
+            {
+                "title": "Duración de entrenamiento deseada",
+                "type": "list",
+                "identifier": "trainingDuration",
+                "info": "Indícanos el material que tienes disponible, para proponerte ejercicios sólo con ese material. Si no tienes ningún material, no pasa nada. No escojas ninguna opción y te propondremos ejercicios que no requieren material, ya que los realizas con tu propio cuerpo.",
+                "isMultipleSelection": false
+            },
+            {
+                "title": "Días de entrenamiento",
+                "type": "list",
+                "size": "medium",
+                "info": "Indica qué días de la semana quieres entrenar",
+                "identifier": "trainingDays",
+                "isMultipleSelection": true
+            },
+            {
+                "title": "Video clases",
+                "type": "list",
+                "info": "Las clases dirigidas son video-clases en streaming dirigidas por instructores. Si quieres que las incluyamos en tu programación semanal, dinos tus preferencias.",
+                "identifier": "classes",
+                "isMultipleSelection": true
+            }
+        ]
+    }]
+}]

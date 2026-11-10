@@ -1,0 +1,42 @@
+[
+    {
+        "codigo": "1",
+        "lang": "pt",
+        "title": "Força"
+    },
+    {
+        "codigo": "2",
+        "lang": "pt",
+        "title": "Propriocepção/Cinestesia"
+    },
+    {
+        "codigo": "3",
+        "lang": "pt",
+        "title": "Flexibilidade"
+    },
+    {
+        "codigo": "4",
+        "lang": "pt",
+        "title": "Mobilidade"
+    },
+    {
+        "codigo": "5",
+        "lang": "pt",
+        "title": "Velocidade"
+    },
+    {
+        "codigo": "6",
+        "lang": "pt",
+        "title": "Agilidade"
+    },
+    {
+        "codigo": "7",
+        "lang": "pt",
+        "title": "Resistência"
+    },
+    {
+        "codigo": "8",
+        "lang": "pt",
+        "title": "Potência"
+    }
+]
